@@ -46,3 +46,91 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*grid-------------------------------------------*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
+
+/*typography--------------------------------------*/
+
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+
+/*buttons------------------------------------------*/
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+}
+
+.btn-alt {
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+
+/*home--------------------------------------------*/
+
+.hero{
+  padding: 22px 80px 66px 80px;
+}
+
+
+/*clearfix------------------------*/
+  
+ .group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+/*primary header----------------------------*/
+
+.logo {
+  float: left;
+}
+
+.logo {
+  border-top: 4px solid #648880;
+  padding: 40px 0 22px 0;
+  float: left;
+}
+
+/*primary footer---------------------------------*/
+
+
+.primary-footer small {
+  float: left;
+}
+
+.primary-footer {
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+
+
+
+
+
+
+
