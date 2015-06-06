@@ -190,6 +190,7 @@ aside{
   float:left;
 /*  background:blue; */
   margin-left:162;
+  float:left;
   
 }
 
@@ -212,35 +213,91 @@ aside{
 
 /*sign up----------------------------------*/
 
-
-
-
-
 .sign-up{
     height:162px;
 /*    width:310px;*/
     background: green;
     margin-top: 32px;
-    
 }
 
-.other-people{
-height:304px;
+.signup-btn{
+/*    height:43px;*/
+    width:278px;
+    background:yellow;
+    border-radius: 5px;
+    margin:0 auto;
+}
+
+.signup-btn p{
+    text-align: center;
+    padding:14px;
+}
+
+
+/*also like  CHANGE LATER-----------------------------------*/
+
+aside h3 {
+    display: inline-block;
+    float:left;
+}
+
+.also-like img{
+    display:block;
+    float:left;
+}
+
+.also-like div div{
+  width:250px;
+    float:left;
+    margin-top:8px;
+    margin-left:10
+}
+
+.also-like{
+/*height:304px;*/
 /*width:310px;*/
 background: yellow;
 margin-top:10px;
 }
 
-.trends{
-    height:316px;
-    background: purple;
-    margin-top:10px;
+.also-like:before,
+.also-like:after {
+  content: "";
+  display: table;
+}
+.also-like:after {
+  clear: both;
+}
+.also-like {
+  clear: both;
+  *zoom: 1;
+}  
+
+.also-like{
+    clear:both;
 }
 
 
 
+/*trends--------------------------------------*/
+.trends{
+/*    height:316px;*/
+    background: purple;
+    margin-top:10px;
+}
+.trend-list{
+    margin-left:22px;
+}
+.trends a{
+    display: block;
+}
 
 
+/*footer--------------------------------------*/
+
+footer{
+    margin-top:10px;
+}
 
 
 
@@ -259,6 +316,24 @@ section{
     height:2000px;
     float:right;
     margin-right:161px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top{
+    height:50px;
+    background: yellow;
+    float:left;
     
 }
 
