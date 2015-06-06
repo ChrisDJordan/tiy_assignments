@@ -1,7 +1,7 @@
 .container{
 	width:1280px;
 	overflow: hidden;
-	background: red;
+	background:#f5f8fa;
 	margin:0 auto;
 }
 /*header----------------------------*/
@@ -9,13 +9,14 @@
 header{
 /*    height:836px;*/
     width:1280px;
-/*    background:blue;*/
+   background:white;
     float:left;
+    position:relative;
 }
 
 /*header clearfix------------------ */
 header:before,
-heade:after {
+header:after {
   content: "";
   display: table;
 }
@@ -68,52 +69,95 @@ input{
      margin-top:49px;
 }
 
-
-.header-bottom{
-    height:65px;
-    background: yellow;
-    position:relative;
-}
-
-
-
-
-
-.logo-outline{
+.logo-background{
    width:217px;
    height:227px;
    background: white;
    position: absolute;
-   left:172px;
-   bottom:-50;
+   left:162px;
+   bottom:-30;
    border-radius:15px
-   
-    
 }
-.logo-outline img{
+
+.logo-background img{
    width:200px;
     margin:14px 9px 0 9px;
 }
 
-
 header nav{
-   float:right;
+    float:right;
     
 }
 
-ul li{
-  list-style-type:none;
-  background:red;
-  width:70px;
-  text-align:center;
+header nav div{
+    float:left;
+    padding:14px 0 15px 0;
+    margin-left:32
+}
 
+header div p{
+    text-align: center;
+}
+
+.follow-btn{
+    background: green;
+    height:38px;
+    width:104px;
+    float:right;
+    border-radius: 5px;
+    margin-right:161px;
+    margin-top:12px;
+    
 }
 
 
-ul{
-  float:left;
-  
+.margin-right{
+    margin-right:91px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*main clearfix---------------------*/
@@ -141,13 +185,70 @@ ul{
 
 
 aside{
-  background:blue; 
+/*  height:2000px;*/
+  width:310px;
   float:left;
-  height:2000px;
-  width:310;
+/*  background:blue; */
   margin-left:162;
   
 }
+
+.main-info{
+    height:430px;
+/*    width:310px;*/
+    background: red;
+    margin-top:44px;
+}
+
+.icon-down{
+    width:22px;
+}
+
+.iron-photos{
+    width:90px;
+    display:block;
+    float:left;
+}
+
+/*sign up----------------------------------*/
+
+
+
+
+
+.sign-up{
+    height:162px;
+/*    width:310px;*/
+    background: green;
+    margin-top: 32px;
+    
+}
+
+.other-people{
+height:304px;
+/*width:310px;*/
+background: yellow;
+margin-top:10px;
+}
+
+.trends{
+    height:316px;
+    background: purple;
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 /*section--------------------------------*/
 
