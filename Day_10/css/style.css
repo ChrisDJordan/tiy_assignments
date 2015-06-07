@@ -206,7 +206,7 @@ aside{
 }
 
 .icon-down{
-    width:22px;
+    width:24px;
 }
 
 .iron-photos{
@@ -312,6 +312,7 @@ section{
 
 .tweets{
     float:left;
+    
 /*    outline:1px solid black;*/
 }
 
@@ -346,22 +347,51 @@ padding:18px 0 18px 0;
 
 
 .rig-side{
-    width:572px;
+    width:562px;
     background: tan;
     float:left;
+    padding-left:10px;
 }
+
 
 .tiny-logo{
     width:21px;
 }
 
+.block-text{
+    display:block;
+}
+ 
+.logo-align{
+    float:left;
+    
+}
 
+.rig-side a:nth-child(8){
+    padding-top:10px;
+}
 
+.rig-side p{
+    width:389px;
+    float:left;
+    margin-top:12px;
+        
+}
+.small-team {
+    width:118px;
+    float:left;
+    margin-left:50px;
+    margin-bottom:-10px;
+}
 
+.tweets-nav{
+    margin-top:10px;
+}
 
-
-
-
+.tweets-nav .icon-margin{
+    margin-left: 15px;
+    
+}
 
 
 
