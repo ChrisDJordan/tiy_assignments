@@ -310,6 +310,7 @@ section{
     margin-top:10px;
 }
 
+/*tweet one--------------------------------------*/
 .tweets{
     float:left;
     
@@ -375,24 +376,61 @@ padding:18px 0 18px 0;
     width:389px;
     float:left;
     margin-top:12px;
-        
 }
 .small-team {
     width:118px;
     float:left;
-    margin-left:50px;
+    margin-left:40px;
     margin-bottom:-10px;
 }
 
 .tweets-nav{
-    margin-top:10px;
+    margin-top:20px;
+    padding-bottom:10px;
+    
 }
 
 .tweets-nav .icon-margin{
     margin-left: 15px;
-    
 }
 
+.photo-enlarge{
+    float:right;
+    margin-top:-40px;
+    margin-right:12px;
+    
+   
+}
+
+/*tweet two----------------------------------*/
+
+.fix-photo{
+    background: url("../images/keep-calm.jpg");
+    background-position: -10px -30px;
+    height:270px;
+    width:468px;
+/*    display:block;*/
+}
+
+/*tweet three-------------------------------*/
+
+.fix-photo2{
+    background:url("../images/big-photo1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:0px -43px;
+    width:544px;
+    height:273px;
+}
+
+.fix-photo3{
+    background:url("../images/big-photo2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:0px -43px;
+    width:544px;
+    height:273px;
+}
 
 
 
