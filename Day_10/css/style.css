@@ -15,6 +15,7 @@ header{
 }
 
 /*header clearfix------------------ */
+/*
 header:before,
 header:after {
   content: "";
@@ -27,6 +28,7 @@ header {
   clear: both;
   *zoom: 1;
 }  
+*/
 
 .top-menus{
     position:fixed;
@@ -162,6 +164,7 @@ header div p{
 
 /*main clearfix---------------------*/
  
+/*
 .main-section:before,
 .main-section:after {
   content: "";
@@ -174,6 +177,7 @@ header div p{
   clear: both;
   *zoom: 1;
 }  
+*/
 
 
 
@@ -258,20 +262,8 @@ aside h3 {
 /*width:310px;*/
 background: yellow;
 margin-top:10px;
+    overflow: hidden;
 }
-
-.also-like:before,
-.also-like:after {
-  content: "";
-  display: table;
-}
-.also-like:after {
-  clear: both;
-}
-.also-like {
-  clear: both;
-  *zoom: 1;
-}  
 
 .tweeter{
     clear:both;
@@ -313,29 +305,90 @@ footer{
 section{
     background: orange;
     width:634px;
-    height:2000px;
     float:right;
     margin-right:161px;
+    margin-top:10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.top{
-    height:50px;
-    background: yellow;
+.tweets{
     float:left;
-    
+/*    outline:1px solid black;*/
 }
+
+.top div{
+background: yellow;
+padding:18px 0 18px 0;
+}
+
+.top p{
+    display:inline;
+    margin-left:20px;
+}
+
+.lef-side{
+    height:390px;
+    width:62px;
+    background: green;
+    float:left;
+}
+
+.lef-side img {
+    width:50px;
+    margin-left:12px;
+    margin-top:7px;
+}
+
+.lef-side .little-icon {
+    width:15px;
+    float:right;
+    margin-top:12px;
+}
+
+
+.rig-side{
+    width:572px;
+    background: tan;
+    float:left;
+}
+
+.tiny-logo{
+    width:21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
