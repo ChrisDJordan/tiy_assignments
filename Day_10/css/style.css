@@ -4,6 +4,7 @@ body{
 
 body a{
     text-decoration: none;
+    color:black;
 }
 
 .border{
@@ -38,9 +39,21 @@ h3{
 }
 
 .text-change2{
-    font-size:13px;
+    font-size:14px;
     line-height:16px;
 }
+
+.text-color0{
+    color:#465865;
+}
+.text-color{
+    color:#8496a3;
+}
+.text-color1{
+    color:#0094d3;
+}
+
+
 
 b{
   font-weight: bold;  
@@ -63,22 +76,6 @@ header{
     float:left;
     position:relative;
 }
-
-/*header clearfix------------------ */
-/*
-header:before,
-header:after {
-  content: "";
-  display: table;
-}
-heade:after {
-  clear: both;
-}
-header {
-  clear: both;
-  *zoom: 1;
-}  
-*/
 
 .top-menus{
     position:fixed;
@@ -138,7 +135,14 @@ input{
 
 header nav{
     float:right;
-    
+}
+header nav p:first-of-type{
+    font-size:12px;
+}
+
+header nav p:last-of-type{
+    font-size:18px;
+    font-weight: bold;
 }
 
 header nav div{
@@ -241,8 +245,7 @@ header div p{
 aside{
 /*  height:2000px;*/
   width:310px;
-  float:left;
-/*  background:blue; */
+  float:left; 
   margin-left:162;
   float:left;
   
@@ -251,7 +254,7 @@ aside{
 .main-info{
 /*    height:430px;*/
     width:288px;
-    margin:44px auto 0 auto;
+    margin:44px 2px 0 14px;
     overflow:hidden;
 }
 
@@ -358,16 +361,35 @@ aside h3 {
 
 
 /*trends--------------------------------------*/
+
 .trends{
-/*    height:316px;*/
-    background: purple;
+    background:white;
     margin-top:10px;
+    padding-top:15px;
+    padding-bottom: 13px;
+}
+
+.trends h3{
+    margin-left:-1px;
+}
+
+.trends img{
+   width:16px;
+   margin-right:8px;
+}
+
+
+.trends a:nth-child(4){
+    margin-bottom:10px;
 }
 .trend-list{
     margin-left:22px;
+    
 }
 .trends a{
     display: block;
+    margin-top:5px;
+    width:250px;
 }
 
 
@@ -375,6 +397,7 @@ aside h3 {
 
 footer{
     margin-top:10px;
+    margin-left:15px;
 }
 
 
