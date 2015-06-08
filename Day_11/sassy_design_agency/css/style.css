@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*thanks for the brain workout!!!!!*/
+body {
+  font-family: helvetica; }
+
+.container {
+  width: 1280px;
+  /*height:1840px;*/
+  margin: 0 auto;
+  /*border:1px solid black;*/
+  overflow: hidden; }
+
+/*header section-----------------------------------*/
+header {
+  width: 1280px;
+  height: 50px;
+  position: fixed;
+  background: white; }
+  header h1 {
+    float: left;
+    margin-left: 50px;
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 20px; }
+
+nav {
+  float: right;
+  margin-top: 20px; }
+  nav li {
+    float: left;
+    margin-right: 40px;
+    font-weight: bold; }
+
+/*pretty photo-------------------------------------*/
+.main-photo {
+  background: url("../images/main-photo.jpg");
+  height: 580px;
+  width: 1280px;
+  margin-top: 50px;
+  margin-bottom: 60px; }
+
+/*actor bios---------------------------------------*/
+.company-text {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 30px; }
+
+.actors {
+  max-width: 200px;
+  float: left;
+  margin-bottom: 110px; }
+
+.han {
+  margin-left: 100px;
+  margin-right: 240px; }
+
+.chewy {
+  margin-right: 240px; }
+
+.han-photo {
+  background: url("../images/han.jpg");
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  border-radius: 100px; }
+
+.chewy-photo {
+  background: url("../images/chewbacca.jpg");
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  border-radius: 100px; }
+
+.darth-photo {
+  background: url("../images/darth.jpg");
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  border-radius: 100px; }
+
+.names {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 18px; }
+
+.actor_text {
+  width: 200px;
+  text-align: center;
+  font-size: 11px; }
+
+/*company address----------------------------------*/
+.maps {
+  width: 640px;
+  height: 500px;
+  background: url("../images/map.png");
+  float: left; }
+
+.address-col {
+  width: 640px;
+  height: 500px;
+  background: #f2ede5;
+  float: left; }
+
+.office-text {
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 180px;
+  margin-left: 130px;
+  margin-bottom: 35px; }
+
+.address-text h3 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 130px; }
+
+/*footer content-------------------------------------*/
+footer {
+  height: 130px;
+  width: 1280px;
+  float: left;
+  display: block; }
+
+.footer-text {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 58px; }
+
+/*# sourceMappingURL=style.css.map */

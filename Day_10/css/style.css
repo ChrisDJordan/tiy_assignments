@@ -9,6 +9,7 @@ body a{
 
 .border{
     border-radius:5px;
+    
 }
 
 h1{
@@ -52,6 +53,7 @@ h3{
 .text-color1{
     color:#0094d3;
 }
+
 
 
 
@@ -417,7 +419,7 @@ section{
     float:right;
     margin-right:161px;
     margin-top:10px;
-    border:1px solid black;
+    
 }
 
 .block-text{
@@ -432,6 +434,8 @@ section{
 .top div{
 background:white;
 padding:18px 0 18px 0;
+border-bottom:1px solid #e2e9ee;
+
 }
 
 .top p{
@@ -450,7 +454,7 @@ padding:18px 0 18px 0;
 .tweets{
     float:left;
     background:white;
-    border-top:1px solid black;
+    border-bottom:1px solid #e2e9ee;
 }
 
 .lef-side{
