@@ -1,3 +1,53 @@
+body{
+    font-family:helvetica neue;
+}
+
+body a{
+    text-decoration: none;
+}
+
+.border{
+    border-radius:5px;
+}
+
+h1{
+ font-size:24px;
+ font-weight:bold;
+}
+
+h2{
+   font-size:24px;
+   margin-left:18px;
+   padding-top:22px;
+    display:block;
+}
+
+h3{
+   font-size:20px;
+   margin-bottom:10px;
+  
+}
+.para-change{
+    font-size: 16px;
+    line-height:22px;
+}
+
+.text-change1{
+    font-size:14px;
+    line-height:24px;
+}
+
+.text-change2{
+    font-size:13px;
+    line-height:16px;
+}
+
+b{
+  font-weight: bold;  
+}
+
+
+
 .container{
 	width:1280px;
 	overflow: hidden;
@@ -199,10 +249,24 @@ aside{
 }
 
 .main-info{
-    height:430px;
-/*    width:310px;*/
-    background: red;
-    margin-top:44px;
+/*    height:430px;*/
+    width:288px;
+    margin:44px auto 0 auto;
+    overflow:hidden;
+}
+
+
+.main-info a:nth-child(2){
+    font-size:14px;
+}
+
+.main-info p:nth-child(3){
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.main-info p:nth-child(7){
+    margin-bottom:20px;
 }
 
 .icon-down{
@@ -213,57 +277,79 @@ aside{
     width:90px;
     display:block;
     float:left;
+    margin-top:6px;
+    margin-right:6px;
+    
+    
 }
 
 /*sign up----------------------------------*/
 
 .sign-up{
-    height:162px;
+/*    height:162px;*/
 /*    width:310px;*/
-    background: green;
+    background:#e1e8ed;
     margin-top: 32px;
+    padding-bottom:18px;
+}
+
+.sign-up>p{
+    margin: 8px 0px 15px 18px;
+    line-height:19px;
 }
 
 .signup-btn{
 /*    height:43px;*/
     width:278px;
-    background:yellow;
+    background:#55acee;
     border-radius: 5px;
     margin:0 auto;
 }
 
 .signup-btn p{
     text-align: center;
-    padding:14px;
+    padding:12px;
 }
 
 
 /*also like  CHANGE LATER-----------------------------------*/
 
+.also-contain{
+    margin-top:14px;
+    padding-bottom:3px;
+    background: white;
+}
+.also-like{
+/*height:304px;*/
+/*width:310px;*/
+margin-top:10px;
+overflow: hidden;
+padding-top:15px;
+}
+
+
+
 aside h3 {
     display: inline-block;
     float:left;
+    margin-left:15px;
+    
 }
 
 .also-like img{
     display:block;
     float:left;
+    width:40px;
+    margin-left:15px;
+    margin-bottom:10px;
 }
 
 .also-like div div{
-  width:250px;
     float:left;
-    margin-top:8px;
-    margin-left:10
+    margin-top:2px;
+    margin-left:15px;
 }
 
-.also-like{
-/*height:304px;*/
-/*width:310px;*/
-background: yellow;
-margin-top:10px;
-    overflow: hidden;
-}
 
 .tweeter{
     clear:both;
@@ -308,13 +394,15 @@ section{
     float:right;
     margin-right:161px;
     margin-top:10px;
+    border:1px solid black;
 }
 
 /*tweet one--------------------------------------*/
 .tweets{
     float:left;
-    
-/*    outline:1px solid black;*/
+    background:white;
+    border-top:1px solid black;
+
 }
 
 .top div{
@@ -328,8 +416,8 @@ padding:18px 0 18px 0;
 }
 
 .lef-side{
-    height:390px;
-    width:62px;
+/*    height:390px;*/
+    width:61px;
     background: green;
     float:left;
 }
@@ -348,7 +436,7 @@ padding:18px 0 18px 0;
 
 
 .rig-side{
-    width:562px;
+    width:563px;
     background: tan;
     float:left;
     padding-left:10px;
@@ -369,13 +457,19 @@ padding:18px 0 18px 0;
 }
 
 .rig-side a:nth-child(8){
-    padding-top:10px;
+    padding-top:6px;
 }
 
 .rig-side p{
-    width:389px;
+    width:382px;
     float:left;
-    margin-top:12px;
+    margin-top:5px;
+    margin-bottom:10px;
+    
+}
+
+.clear{
+    clear:left;
 }
 .small-team {
     width:118px;
@@ -387,7 +481,7 @@ padding:18px 0 18px 0;
 .tweets-nav{
     margin-top:20px;
     padding-bottom:10px;
-    
+    display:inline-block;
 }
 
 .tweets-nav .icon-margin{
@@ -396,13 +490,10 @@ padding:18px 0 18px 0;
 
 .photo-enlarge{
     float:right;
-    margin-top:-40px;
     margin-right:12px;
-    
-   
 }
 
-/*tweet two----------------------------------*/
+/*photo fix----------------------------------*/
 
 .fix-photo{
     background: url("../images/keep-calm.jpg");
@@ -411,8 +502,6 @@ padding:18px 0 18px 0;
     width:468px;
 /*    display:block;*/
 }
-
-/*tweet three-------------------------------*/
 
 .fix-photo2{
     background:url("../images/big-photo1.jpg");
