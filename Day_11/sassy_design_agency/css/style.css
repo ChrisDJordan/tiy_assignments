@@ -51,9 +51,7 @@ body {
 
 .container {
   width: 1280px;
-  /*height:1840px;*/
   margin: 0 auto;
-  /*border:1px solid black;*/
   overflow: hidden; }
 
 /*header section-----------------------------------*/
@@ -130,11 +128,13 @@ section div {
   background: #f2ede5;
   overflow: hidden; }
   .location .address-text {
-    float: right; }
+    float: right;
+    margin: 184px 138px 0 0; }
     .location .address-text h2 {
       text-align: left;
       font-weight: bold;
-      font-size: 30px; }
+      font-size: 30px;
+      margin-bottom: 38px; }
     .location .address-text h3 {
       text-align: left;
       font-weight: bold;
@@ -146,10 +146,9 @@ footer {
   width: 1280px;
   float: left;
   display: block; }
-
-.footer-text {
-  font-size: 20px;
-  text-align: center;
-  margin-top: 58px; }
+  footer p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 58px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,21 +1,18 @@
 @import 'reset';
-@import 'color';
 @import 'font';
 
 
 
 /*thanks for the brain workout!!!!!*/
+// This not a brain workout compared to twitter
 
 body{
   font-family: helvetica;
-  
-}
+  }
 
 .container{
   width:1280px;
-  /*height:1840px;*/
   margin:0 auto;
-  /*border:1px solid black;*/
   overflow: hidden;
 }
 
@@ -30,8 +27,8 @@ header{
       float:left;
       margin-left:50px;
       margin-top:16px;
-      font-weight:bold;
-      font-size:20px;
+      font-weight:$font-bold;
+      font-size:$font-size;
       }
 
     nav{
@@ -42,7 +39,7 @@ header{
     li{
     float:left;
     margin-right:40px;
-    font-weight:bold;
+    font-weight:$font-bold;
    }
 }
 /*pretty photo-------------------------------------*/
@@ -59,19 +56,17 @@ header{
 section{
 
     h2{
-      font-weight: bold;
+      font-weight:$font-bold;
       text-align: center;
       margin-bottom:60px;
-      font-size:30px;
+      font-size:$font-size2;
     }
      
     div{
       max-width:200px;
       float:left;
       
-      
-      
-        .photo-style{
+      .photo-style{
           width:200px;
           height:200px;
           background-repeat:no-repeat;
@@ -122,63 +117,63 @@ section{
     background:#f2ede5;
     overflow: hidden;
 
-
-            .address-text{
+              .address-text{
                 float:right;
+                margin:184px 138px 0 0;
 
-            
-                h2{
+                  h2{
                   text-align:left;
-                  font-weight:bold;
-                  font-size:30px;
+                  font-weight:$font-bold;
+                  font-size:$font-size2;
+                  margin-bottom:38px;
+
                   }
 
-                h3{
+                 h3{
                  text-align:left;
-                 font-weight:bold;
-                 font-size:20px; 
+                 font-weight:$font-bold;
+                 font-size:$font-size; 
                  } 
-
               }
             }
              
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*footer content-------------------------------------*/
+
+
 footer{
-  height:130px;
-  width:1280px;
-  float:left;
-  display:block;
+   height:130px;
+   width:1280px;
+   float:left;
+   display:block;
+         
+         p{
+         font-size:$font-size; 
+         text-align: center;
+         margin-top:58px;
+         }
 }
 
-.footer-text{
-  font-size:20px; 
-  text-align: center;
-  margin-top:58px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
