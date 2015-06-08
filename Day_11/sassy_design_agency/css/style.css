@@ -68,11 +68,10 @@ header {
     margin-top: 16px;
     font-weight: bold;
     font-size: 20px; }
-
-nav {
-  float: right;
-  margin-top: 20px; }
-  nav li {
+  header nav {
+    float: right;
+    margin-top: 20px; }
+  header li {
     float: left;
     margin-right: 40px;
     font-weight: bold; }
@@ -85,83 +84,61 @@ nav {
   margin-top: 50px;
   margin-bottom: 60px; }
 
-/*actor bios---------------------------------------*/
-.company-text {
+section h2 {
   font-weight: bold;
   text-align: center;
   margin-bottom: 60px;
   font-size: 30px; }
-
-.actors {
+section div {
   max-width: 200px;
-  float: left;
-  margin-bottom: 110px; }
+  float: left; }
+  section div .photo-style {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    margin-bottom: 34px; }
+  section div h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px; }
+  section div p {
+    width: 200px;
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 110px; }
 
-.han {
+.han-align {
   margin-left: 100px;
   margin-right: 240px; }
 
-.chewy {
-  margin-right: 240px; }
+.darth-align {
+  margin-left: 240px; }
 
 .han-photo {
-  background: url("../images/han.jpg");
-  width: 200px;
-  height: 200px;
-  background-repeat: no-repeat;
-  border-radius: 100px; }
+  background: url("../images/han.jpg"); }
 
 .chewy-photo {
-  background: url("../images/chewbacca.jpg");
-  width: 200px;
-  height: 200px;
-  background-repeat: no-repeat;
-  border-radius: 100px; }
+  background: url("../images/chewbacca.jpg"); }
 
 .darth-photo {
-  background: url("../images/darth.jpg");
-  width: 200px;
-  height: 200px;
-  background-repeat: no-repeat;
-  border-radius: 100px; }
-
-.names {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 30px;
-  font-size: 18px; }
-
-.actor_text {
-  width: 200px;
-  text-align: center;
-  font-size: 11px; }
+  background: url("../images/darth.jpg"); }
 
 /*company address----------------------------------*/
-.maps {
-  width: 640px;
-  height: 500px;
-  background: url("../images/map.png");
-  float: left; }
-
-.address-col {
-  width: 640px;
-  height: 500px;
+.location {
+  width: 1282px;
   background: #f2ede5;
-  float: left; }
-
-.office-text {
-  text-align: left;
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: 180px;
-  margin-left: 130px;
-  margin-bottom: 35px; }
-
-.address-text h3 {
-  text-align: left;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 130px; }
+  overflow: hidden; }
+  .location .address-text {
+    float: right; }
+    .location .address-text h2 {
+      text-align: left;
+      font-weight: bold;
+      font-size: 30px; }
+    .location .address-text h3 {
+      text-align: left;
+      font-weight: bold;
+      font-size: 20px; }
 
 /*footer content-------------------------------------*/
 footer {

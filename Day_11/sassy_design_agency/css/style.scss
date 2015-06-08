@@ -26,24 +26,24 @@ header{
   position:fixed;
   background:white;
     
-  h1{
-    float:left;
-    margin-left:50px;
-    margin-top:16px;
-    font-weight:bold;
-    font-size:20px;
-  }
-}
-nav{
-  float:right;
-  margin-top: 20px;    
+    h1{
+      float:left;
+      margin-left:50px;
+      margin-top:16px;
+      font-weight:bold;
+      font-size:20px;
+      }
 
+    nav{
+      float:right;
+      margin-top: 20px; 
+      }   
 
-   li{
+    li{
     float:left;
     margin-right:40px;
     font-weight:bold;
-  }
+   }
 }
 /*pretty photo-------------------------------------*/
 .main-photo{
@@ -53,95 +53,120 @@ nav{
   margin-top: 50px;
   margin-bottom:60px;
  }
-/*actor bios---------------------------------------*/
-.company-text{
-  font-weight: bold;
-  text-align: center;
-  margin-bottom:60px;
-  font-size:30px;
-}
 
-.actors{
-  max-width:200px;
-  float:left;
-  margin-bottom: 110px;
-}
+ // section
 
-.han{
+section{
+
+    h2{
+      font-weight: bold;
+      text-align: center;
+      margin-bottom:60px;
+      font-size:30px;
+    }
+     
+    div{
+      max-width:200px;
+      float:left;
+      
+      
+      
+        .photo-style{
+          width:200px;
+          height:200px;
+          background-repeat:no-repeat;
+          border-radius:100px;
+          margin-bottom:34px;
+          }
+
+        h3{
+          font-weight:bold;
+          text-align:center;
+          font-size:18px;
+          }
+
+        p{
+          width:200px;
+          text-align:center;
+          font-size:11px;
+          margin-bottom:110px;
+          }
+       }
+    }
+
+.han-align{
   margin-left:100px;
   margin-right:240px;
 }
 
-.chewy{
-  margin-right:240px;
+.darth-align{
+  margin-left:240px;
 }
+
 
 .han-photo{
   background:url("../images/han.jpg" );
-  width:200px;
-  height:200px;
-  background-repeat: no-repeat;
-  border-radius: 100px;
 }
 
 .chewy-photo{
   background: url("../images/chewbacca.jpg");
-  width:200px;
-  height:200px;
-  background-repeat: no-repeat;
-  border-radius: 100px;
 }
 
 .darth-photo{
   background: url("../images/darth.jpg");
-  width:200px;
-  height:200px;
-  background-repeat: no-repeat;
-  border-radius: 100px;
 }
 
-.names{
-  text-align: center;
-  font-weight: bold;
-  margin-top:30px;
-  font-size:18px;
-}
-
-.actor_text{
-  width:200px;
-  text-align:center;
-  font-size:11px;
-}
 /*company address----------------------------------*/
-  .maps{
-  width:640px;
-  height:500px;
-  background: url("../images/map.png");
-  float:left;
-}
+.location{
+    width:1282px;
+    background:#f2ede5;
+    overflow: hidden;
 
-.address-col{
-  width:640px;
-  height:500px;
-  background:#f2ede5;
-  float:left;
-}
 
-.office-text{
-  text-align: left;
-  font-weight: bold;
-  font-size:30px;
-  margin-top:180px;
-  margin-left:130px;
-  margin-bottom:35px;
-}
+            .address-text{
+                float:right;
 
-.address-text h3{
-  text-align:left;
-  font-weight:bold;
-  font-size: 20px;
-  margin-left:130px;
-}
+            
+                h2{
+                  text-align:left;
+                  font-weight:bold;
+                  font-size:30px;
+                  }
+
+                h3{
+                 text-align:left;
+                 font-weight:bold;
+                 font-size:20px; 
+                 } 
+
+              }
+            }
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*footer content-------------------------------------*/
 footer{
   height:130px;
