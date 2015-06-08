@@ -420,28 +420,41 @@ section{
     border:1px solid black;
 }
 
-/*tweet one--------------------------------------*/
-.tweets{
-    float:left;
-    background:white;
-    border-top:1px solid black;
+.block-text{
+    display:block;
+}
 
+.inline-text{
+    float:left;
+    clear:left;
 }
 
 .top div{
-background: yellow;
+background:white;
 padding:18px 0 18px 0;
 }
 
 .top p{
     display:inline;
-    margin-left:20px;
+    margin-left:18px;
+    margin-right:30px;
+    font-size:20px;
+}
+
+.top a{
+    margin-right:30px;
+    font-size:20px;
+}
+
+/*tweet one--------------------------------------*/
+.tweets{
+    float:left;
+    background:white;
+    border-top:1px solid black;
 }
 
 .lef-side{
-/*    height:390px;*/
     width:61px;
-    background: green;
     float:left;
 }
 
@@ -460,35 +473,38 @@ padding:18px 0 18px 0;
 
 .rig-side{
     width:563px;
-    background: tan;
     float:left;
     padding-left:10px;
+    padding-top:10px;
 }
 
+.rig-side .nth a:nth-child(4){
+    font-size: 28px;
+}
+
+.rig-side .nth a:nth-child(5){
+    font-size: 28px;
+    margin-bottom:10px;
+}
 
 .tiny-logo{
     width:21px;
 }
 
-.block-text{
-    display:block;
-}
- 
 .logo-align{
     float:left;
     
 }
 
 .rig-side a:nth-child(8){
-    padding-top:6px;
+    padding-top:15px;
 }
 
 .rig-side p{
-    width:382px;
+    width:405px;
     float:left;
     margin-top:5px;
     margin-bottom:10px;
-    
 }
 
 .clear{
@@ -497,7 +513,7 @@ padding:18px 0 18px 0;
 .small-team {
     width:118px;
     float:left;
-    margin-left:40px;
+    margin-left:30px;
     margin-bottom:-10px;
 }
 
