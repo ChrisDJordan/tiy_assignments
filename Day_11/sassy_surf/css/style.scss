@@ -111,14 +111,14 @@ section{
     p:nth-child(1){
       margin-top:76px;
      }
+  }
 
-}
-
-.article-one{
+article{
   max-width:621px;
   margin-left:162px;
   text-align:left;
   float:left;
+
 
     h1{
       font-size:50px;
@@ -162,19 +162,7 @@ section{
   padding:18px 0 6px 16px;
   margin-bottom:20px;
 }
-
-/* article_part2----------------------------------------------------------------   */
-.article-two{
-   max-width:621px;
-  margin-left:162px;
-  text-align:left;
-  float:left;
-
-}
-
-
-
-
+// article two--------------------------------------------------------------------
 .article-two a{
   color:#106db3;
 }
@@ -183,46 +171,48 @@ section{
 /* article nav---------------------------------------------------------------------*/
   
 
-#article_nav .nav{
-  width:162px;
-  height:30px;
-  float:left;
-  margin-top:22px;
-  margin-right:10px;
-  position:relative;
-  left:165px;
-}
+.article-nav{
 
-
-
-.baby_nav{
-  max-width:32px;
-  height:30px;
-  background:#5e686f;
-}
-
-.big_nav{
-  max-width:124px;
-  height:30px;
-  background:#a3b3bf;
-  position:relative;
-  left:32px;
-  bottom:30px;
-  color:white;
-  text-align: center;
-  line-height: 30px;
-  font-family: helvetica;
-  font-size:14px;
-}
-
-#article_nav div .baby_change{
-  background:#083452;
-}
+    .nav{
+      width:162px;
+      height:30px;
+      float:left;
+      margin-top:22px;
+      margin-right:10px;
+      position:relative;
+      left:165px;
+      }
     
-#article_nav div .big_change{
-  background:#106db3;
-  text-decoration:none;
-}
+    .baby_nav{
+      max-width:32px;
+      height:30px;
+      background:#5e686f;
+      }
+
+    .big_nav{
+      max-width:124px;
+      height:30px;
+      background:#a3b3bf;
+      position:relative;
+      left:32px;
+      bottom:30px;
+      color:white;
+      text-align: center;
+      line-height: 30px;
+      font-family: helvetica;
+      font-size:14px;
+      }
+
+    .baby_change{
+      background:#083452;
+      }
+
+    .big_change{
+      background:#106db3;
+      text-decoration:none;
+      }
+    
+ }
 
 
 /*aside----------------------------------------------*/
@@ -232,8 +222,8 @@ aside{
   margin-top:5px;
   margin-right:160px;
   float:right;
-}
 
+}
 aside img{
   display:block;
   margin:0 auto;

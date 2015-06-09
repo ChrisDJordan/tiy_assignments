@@ -122,27 +122,27 @@ section {
   section p:nth-child(1) {
     margin-top: 76px; }
 
-.article-one {
+article {
   max-width: 621px;
   margin-left: 162px;
   text-align: left;
   float: left; }
-  .article-one h1 {
+  article h1 {
     font-size: 50px;
     line-height: 58px;
     color: #083452;
     margin-bottom: 14px; }
-  .article-one div img {
+  article div img {
     max-width: 23px;
     margin-left: 4px;
     margin-bottom: 26px; }
-  .article-one div p {
+  article div p {
     display: inline;
     position: relative;
     left: 085px;
     bottom: 30px;
     color: #5e686f; }
-  .article-one div span {
+  article div span {
     color: #a3b3bf; }
 
 /*WOAH--------------------------------------------------------------------------*/
@@ -157,18 +157,11 @@ section {
   padding: 18px 0 6px 16px;
   margin-bottom: 20px; }
 
-/* article_part2----------------------------------------------------------------   */
-.article-two {
-  max-width: 621px;
-  margin-left: 162px;
-  text-align: left;
-  float: left; }
-
 .article-two a {
   color: #106db3; }
 
 /* article nav---------------------------------------------------------------------*/
-#article_nav .nav {
+.article-nav .nav {
   width: 162px;
   height: 30px;
   float: left;
@@ -176,13 +169,11 @@ section {
   margin-right: 10px;
   position: relative;
   left: 165px; }
-
-.baby_nav {
+.article-nav .baby_nav {
   max-width: 32px;
   height: 30px;
   background: #5e686f; }
-
-.big_nav {
+.article-nav .big_nav {
   max-width: 124px;
   height: 30px;
   background: #a3b3bf;
@@ -194,11 +185,9 @@ section {
   line-height: 30px;
   font-family: helvetica;
   font-size: 14px; }
-
-#article_nav div .baby_change {
+.article-nav .baby_change {
   background: #083452; }
-
-#article_nav div .big_change {
+.article-nav .big_change {
   background: #106db3;
   text-decoration: none; }
 
