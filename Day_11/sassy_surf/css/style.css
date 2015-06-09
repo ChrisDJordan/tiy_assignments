@@ -142,8 +142,9 @@ article {
     left: 085px;
     bottom: 30px;
     color: #5e686f; }
-  article div span {
-    color: #a3b3bf; }
+    article div p span {
+      color: #a3b3bf;
+      font-size: 13px; }
 
 /*WOAH--------------------------------------------------------------------------*/
 #padding_left {
