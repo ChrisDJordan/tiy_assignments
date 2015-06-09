@@ -284,68 +284,67 @@ hr{
     
 }
 
-#popular_h2{
-  width:1300px;
-  font-size:80px;
-  margin-top:110px;
-  margin-bottom:40px;
-  text-align:center;
+div{
+
+    h2{
+      width:1300px;
+      font-size:80px;
+      margin-top:110px;
+      margin-bottom:40px;
+      text-align:center;
+      }
+
+    .post_photos{
+      width:325px;
+      height:330px;
+      float:left;
     
-}
+    p{
+      display:inline-block;
+      position:relative;
+      top:285px;
+      left:8px;
+      font-size:30px;
+      color:#083452;
+      }
+    }
 
-.post_photos{
-  width:325px;
-  height:330px;
-  float:left;
-}
+    span{
+      font-size:30px;
+      font-family:helvetica;
+      color:white;
+      position:relative;
+      display:inline-block;
+      }
 
-.post_photos p{
-  display:inline-block;
-  position:relative;
-  top:285px;
-  left:8px;
-  font-size:30px;
-  color:#083452;
-}
 
-#brew_text{
-  font-size:30px;
-  font-family:helvetica;
-  color:white;
-  position:relative;
-  display:inline-block;
-  top:285px;
-  left:8px;
-}
+    #brew_text{
+      top:285px;
+      left:8px;
+      }
 
-#zack_text{
-  font-size:30px;
-  font-family:helvetica;
-  line-height:34px;
-  position:relative;
-  display: inline-block;
-  top:250px;
-  left:8px;  
-  color:#083452;
-}
+    #zack_text{
+      top:250px;
+      left:8px;  
+      color:#083452;
+      }
 
-#surfer_photo{
-  background:url("../images/surfer.jpg");
-}
+    .surfer_photo{
+      background:url("../images/surfer.jpg");
+      }
 
-#beer_photo{
-  background:url("../images/beer.jpg");;
-}
+    .beer_photo{
+      background:url("../images/beer.jpg");
+      }
 
-#zack_photo{
-  background:url("../images/zack.jpg");;
-    
-}
+    .zack_photo{
+      background:url("../images/zack.jpg");
+      }
 
-#booze_photo{
-  background:url("../images/booze.jpg");;
-}
-
+    .booze_photo{
+      background:url("../images/booze.jpg");
+      }
+   }
 /*footer-------------------------------------------------------------------*/
 
 footer {
@@ -353,35 +352,35 @@ footer {
   height:96px;
   width:1300px;
   clear:both;
+
+
+    img {
+      position:relative;
+      left:165px;
+      top:30;
+      }
+
+    p {
+      display:inline;
+      position:relative;
+      font-size:14px;
+      left:172px;
+      top:18px;
+      color:#a3b3bf;
+      }
+
+    nav {
+      float:right;
+      margin:44px 130px 0 0;
+      }
+
+
+    a {
+      float: left;
+      text-decoration: none;
+      font-size: 14px;
+      }
 }
-
-footer img {
-  position:relative;
-  left:165px;
-  top:30;
-}
-
-footer p {
-  display:inline;
-  position:relative;
-  font-size:14px;
-  left:172px;
-  top:18px;
-  color:#a3b3bf;
-}
-
-footer nav {
-   float:right;
-   margin:44px 130px 0 0;
-}
-
-
-footer nav a {
-    float: left;
-    text-decoration: none;
-    font-size: 14px;
-}
-
 
 
 
