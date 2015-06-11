@@ -8,7 +8,8 @@ body a{
 }
 
 .border{
-    border-radius:5px;
+    border-radius:5px solid red;
+    
     
 }
 
@@ -30,17 +31,23 @@ h3{
   
 }
 .para-change{
-    font-size: 16px;
+    font-size: 1.0003rem;
+    font-size:16px;
+    line-height:1.375rem;
     line-height:22px;
 }
 
 .text-change1{
+    font-size:0.875rem;
     font-size:14px;
+    line-height:1.500em;
     line-height:24px;
 }
 
 .text-change2{
+    font-size:0.875rem;
     font-size:14px;
+    line-height:1.0003rem;;
     line-height:16px;
 }
 
@@ -158,14 +165,25 @@ header div p{
 }
 
 .follow-btn{
-    background: green;
-    height:38px;
+    background:#f7fafb;
+    
     width:104px;
     float:right;
     border-radius: 5px;
-    margin-right:161px;
-    margin-top:12px;
-    
+    margin: 12px 161px 0 0;
+}
+
+.follow-btn img{
+    width:25px;
+    float:left;
+    margin: 7px 0 0 10px;
+
+}
+
+.follow-btn p{
+     float:left;
+     padding:12px 5px 12px 10px ;
+     
 }
 
 
@@ -217,23 +235,6 @@ header div p{
 
 
 
-
-/*main clearfix---------------------*/
- 
-/*
-.main-section:before,
-.main-section:after {
-  content: "";
-  display: table;
-}
-.main-section:after {
-  clear: both;
-}
-.main-section {
-  clear: both;
-  *zoom: 1;
-}  
-*/
 
 
 
@@ -310,6 +311,8 @@ aside{
     border-radius: 5px;
     margin:0 auto;
 }
+
+
 
 .signup-btn p{
     text-align: center;
@@ -414,7 +417,6 @@ footer{
 
 
 section{
-    background: orange;
     width:634px;
     float:right;
     margin-right:161px;
