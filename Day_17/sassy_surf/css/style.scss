@@ -1,24 +1,7 @@
 @import "reset";
 @import "mediaqueries";
 
-p, a, h1, h2, h3 {
-    font-family: helvetica;
-}
 
-a {
-    color: #a3b3bf;
-}
-
-p {
-    color: #5e686f;
-}
-
-.container {
-     // max-width: 1300px;
-
-    margin: 0 auto;
-    overflow: hidden;
-}
 
 @media screen and (min-width: 500px) {
 
@@ -26,67 +9,70 @@ p {
 header {
  
     .company_name {
-        font-size: 110px;
-        font-weight: bold;
-        text-align: center;
-        // margin-top: 200px;
-        color: white;
+        font-size: 5.625em;
+        // font-weight: bold;
+        // text-align: center;
+         margin-top: 200px;
+        // color: white;
     }
-    .project_name {
-        text-align: center;
-        color: white;
-    }
+    // .project_name {
+    //     text-align: center;
+    //     color: white;
+    //     margin-right: 18px;
+    // }
 }
 
 .left-nav {
     float: left;
     width: 300px;
     clear: left;
-    margin-left: 105px;
+    margin-left: 35px;
     margin-top: 10px;
-    font-size: 18px;
-    text-decoration: none;
-    img {
-        float: left;
-        margin-right: 10px;
-    }
-    p {
-        margin-top: 15px;
-        color: #083452;
-    }
+    // font-size: 18px;
+    // text-decoration: none;
+    // img {
+    //     float: left;
+    //     margin-right: 10px;
+    // }
+    // p {
+    //     margin-top: 15px;
+    //     color: #083452;
+    // }
 }
 
 .right-nav {
-    margin-right: 150px;
+    margin-right: 50px;
     margin-top: 25px;
     float: right;
-    li {
-        float: left;
-    }
-    a {
-        text-decoration: none;
-        color: #083452;
-        font-size: 18px;
-    }
+    // li {
+    //     float: left;
+    // }
+    // a {
+    //     text-decoration: none;
+    //     color: #083452;
+    //     font-size: 18px;
+    // }
 }
 
-.left-margins {
-    margin-left: 25px;
-}
+// .left-margins {
+//     margin-left: 25px;
+// }
 
-.icon-margin {
-    margin-left: 14px;
-}
+// .icon-margin {
+//     margin-left: 14px;
+// }
 
-#icon-align {
-    position: relative;
-    bottom: 5px;
-}
+// #icon-align {
+//     position: relative;
+//     bottom: 5px;
+// }
 
 /*article_part1----------------------------------------------*/
 
 section {
-    max-width: 780px;
+    // max-width: 780px;
+    // background:red;
+    margin-left:100px;
     float: left;
     p {
         line-height: 25px;
@@ -97,26 +83,26 @@ section {
 }
 
 article {
-    max-width: 621px;
-     margin-left: 162px;
-    text-align: left;
-    float: left;
+    // max-width: 621px;
+     // margin-left: 62px;
+    // text-align: left;
+    // float: left;
     h1 {
         font-size: 50px;
         line-height: 58px;
-        color: #083452;
+        // color: #083452;
         margin-bottom: 14px;
     }
     div {
         img {
-            max-width: 23px;
-            margin-left: 4px;
+            // max-width: 23px;
+            margin-left: 34px;
             margin-bottom: 26px;
         }
         p {
             display: inline;
             position: relative;
-            left: 085px;
+            left: 50px;
             bottom: 30px;
             color: #5e686f;
             span {
@@ -130,65 +116,76 @@ article {
 /*WOAH--------------------------------------------------------------------------*/
 
 #padding_left {
-    display: inline;
-    position: relative;
-    left: 168px;
-    top: 42px;
-    font-size: 30px;
-    color: #106db3;
-    border-left: 2px solid #a3b3bf;
-    padding: 18px 0 6px 16px;
-    margin-bottom: 20px;
+    // display: inline;
+
+    // position: relative;
+    left: 28px;
+    // top: 42px;
+    // font-size: 30px;
+    // color: #106db3;
+    // border-left: 2px solid #a3b3bf;
+    // padding: 18px 0 6px 16px;
+    // margin-bottom: 20px;
 }
 
 // article two--------------------------------------------------------------------
-.article-two a {
-    color: #106db3;
-}
+// .article-two a {
+//     color: #106db3;
+// }
 
 /* article nav---------------------------------------------------------------------*/
 
 .article-nav {
     .nav {
-        width: 162px;
-        height: 30px;
-        float: left;
-        margin-top: 22px;
-        margin-right: 10px;
+        // width: 162px;
+        float:left;
+
+
+    //     background:red;
+    //     height: 30px;
+    //      float: left;
+    //    margin-top: 22px;
+         // margin-right: 0px;
         position: relative;
-        left: 165px;
-    }
+        top:30px;
+       left:70px;
+     }
     .baby_nav {
-        max-width: 32px;
-        height: 30px;
-        background: #5e686f;
+        margin:0px 15px 0px 0px;
+        // margin-right:0px;
+        // max-width: 32px;
+        // height: 30px;
+        // background: #5e686f;
     }
     .big_nav {
         display: inline-block;
         max-width: 174px;
         height: 30px;
         background: #a3b3bf;
-        position: relative;
-        left: 32px;
-        bottom: 30px;
-        color: white;
+
+         position: relative;
+         right: 15px;
+          // top: 0px;
+         color: white;
         text-align: center;
         line-height: 30px;
         font-family: helvetica;
         font-size: 14px;
+        padding:0 5px 0 5px; 
     }
-    .baby_change {
-        background: #083452;
-    }
-    .big_change {
-        background: #106db3;
-        text-decoration: none;
+    // .baby_change {
+    //     background: #083452;
+    // }
+     .big_change {
+       background: #106db3;
+         text-decoration: none;
     }
 }
 
 /*aside----------------------------------------------*/
 
 aside {
+    display:none;
     max-width: 278px;
     margin-top: 5px;
     margin-right: 160px;
@@ -254,16 +251,21 @@ hr {
 
 div {
     h2 {
-        width: 1300px;
-        font-size: 80px;
+        width: 100%;
+        // font-size:
+        font-size: 50px;
         margin-top: 110px;
         margin-bottom: 40px;
-        text-align: center;
+        // text-align: center;
     }
     .post_photos {
-        width: 325px;
+        background-repeat:no-repeat;
+        background-size:cover;
+        min-width: 50%;
+        float:left;
+        // width: 325px;
         height: 330px;
-        float: left;
+         // float: left;
         p {
             display: inline-block;
             position: relative;
@@ -291,12 +293,13 @@ div {
     }
     .surfer_photo {
         background: url("../images/surfer.jpg");
-    }
+        }
     .beer_photo {
         background: url("../images/beer.jpg");
-    }
+      }
     .zack_photo {
         background: url("../images/zack.jpg");
+            
     }
     .booze_photo {
         background: url("../images/booze.jpg");

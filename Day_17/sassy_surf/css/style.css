@@ -45,6 +45,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+p, a, h1, h2, h3 {
+  font-family: helvetica; }
+
+a {
+  color: #a3b3bf; }
+
+p {
+  color: #5e686f; }
+
 header {
   max-width: 100%;
   height: 528px;
@@ -55,10 +64,11 @@ header {
   position: relative;
   overflow: hidden; }
   header .company_name {
-    font-size: 80px;
+    font-size: 5em;
     font-weight: bold;
     text-align: center;
     margin-top: 65px;
+    margin: 65px auto 0 auto;
     color: white; }
   header .project_name {
     text-align: center;
@@ -66,7 +76,7 @@ header {
     margin-top: 5px; }
 
 .left-nav {
-  width: 300px;
+  width: 80%;
   clear: left;
   display: inline-block;
   margin-left: 48px;
@@ -102,16 +112,13 @@ header {
   position: relative;
   bottom: 5px; }
 
-section {
-  min-width: 35%;
-  float: left; }
-  section p {
-    line-height: 1.4em;
-    font-size: 1.25em;
-    max-width: 90%;
-    margin-left: 30px; }
-  section p:nth-child(1) {
-    margin-top: 76px; }
+section p {
+  line-height: 1.4em;
+  font-size: 1.25em;
+  max-width: 90%;
+  margin-left: 30px; }
+section p:nth-child(1) {
+  margin-top: 76px; }
 
 article {
   max-width: 621px;
@@ -138,7 +145,7 @@ article {
 #padding_left {
   display: inline;
   position: relative;
-  left: 10px;
+  left: 15px;
   top: 42px;
   font-size: 30px;
   color: #106db3;
@@ -155,18 +162,11 @@ article {
   height: 30px;
   background: #5e686f;
   float: left;
-  margin: 20px 15px 20px 65px; }
+  margin: 20px 15px 95px 68px; }
 .article-nav .big_nav {
   display: none; }
 .article-nav .baby_change {
   background: #083452; }
-
-aside {
-  width: 278px;
-  margin-top: 15px;
-  margin-right: 160px;
-  margin-left: 50px;
-  clear: left; }
 
 aside img {
   display: block;
@@ -183,13 +183,14 @@ aside nav a {
   margin-right: 10px; }
 
 .float-right {
-  float: right; }
+  float: right;
+  margin-right: 60px; }
 
 aside p {
   float: left;
   margin-left: 22px;
   margin-top: 35px;
-  margin-bottom: 54px; }
+  margin-bottom: 14px; }
 
 aside h3 {
   text-align: left;
@@ -197,6 +198,7 @@ aside h3 {
   color: #083452;
   clear: right;
   margin-top: 80px;
+  margin-left: 60px;
   font-size: 18; }
 
 aside #left_align {
@@ -206,25 +208,26 @@ aside #left_align {
   float: left;
   width: 278px;
   position: relative;
-  right: 22px;
   bottom: 26px;
+  left: 37px;
   color: #a3b3bf; }
 
 /*posts------------------------------------------------------------*/
 hr {
   clear: both;
   position: relative;
-  top: 68px; }
+  top: 68px;
+  margin-bottom: 90px; }
 
 div h2 {
-  width: 30%;
-  font-size: 80px;
+  width: 300px;
+  font-size: 60px;
   margin-top: 110px;
   margin-bottom: 40px;
-  text-align: center; }
+  text-align: center;
+  margin: 0 auto; }
 div .post_photos {
-  height: 330px;
-  background-repeat: no-repeat; }
+  height: 330px; }
   div .post_photos p {
     display: inline-block;
     position: relative;
@@ -246,13 +249,25 @@ div #zack_text {
   left: 8px;
   color: #083452; }
 div .surfer_photo {
-  background: url("../images/surfer.jpg"); }
+  background: url("../images/surfer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%; }
 div .beer_photo {
-  background: url("../images/beer.jpg"); }
+  background: url("../images/beer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%; }
 div .zack_photo {
-  background: url("../images/zack.jpg"); }
+  background: url("../images/zack.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%; }
 div .booze_photo {
-  background: url("../images/booze.jpg"); }
+  background: url("../images/booze.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%; }
 
 footer {
   background: #083452;
@@ -264,7 +279,7 @@ footer {
     left: 165px;
     top: 30; }
   footer p {
-    display: inline;
+    display: none;
     position: relative;
     font-size: 14px;
     left: 172px;
@@ -278,148 +293,82 @@ footer {
     text-decoration: none;
     font-size: 14px; }
 
-p, a, h1, h2, h3 {
-  font-family: helvetica; }
-
-a {
-  color: #a3b3bf; }
-
-p {
-  color: #5e686f; }
-
-.container {
-  margin: 0 auto;
-  overflow: hidden; }
-
 @media screen and (min-width: 500px) {
   /*banner content--------------------------------------*/
   header .company_name {
-    font-size: 110px;
-    font-weight: bold;
-    text-align: center;
-    color: white; }
-  header .project_name {
-    text-align: center;
-    color: white; }
+    font-size: 5.625em;
+    margin-top: 200px; }
 
   .left-nav {
     float: left;
     width: 300px;
     clear: left;
-    margin-left: 105px;
-    margin-top: 10px;
-    font-size: 18px;
-    text-decoration: none; }
-    .left-nav img {
-      float: left;
-      margin-right: 10px; }
-    .left-nav p {
-      margin-top: 15px;
-      color: #083452; }
+    margin-left: 35px;
+    margin-top: 10px; }
 
   .right-nav {
-    margin-right: 150px;
+    margin-right: 50px;
     margin-top: 25px;
     float: right; }
-    .right-nav li {
-      float: left; }
-    .right-nav a {
-      text-decoration: none;
-      color: #083452;
-      font-size: 18px; }
-
-  .left-margins {
-    margin-left: 25px; }
-
-  .icon-margin {
-    margin-left: 14px; }
-
-  #icon-align {
-    position: relative;
-    bottom: 5px; }
 
   /*article_part1----------------------------------------------*/
   section {
-    max-width: 780px;
+    margin-left: 100px;
     float: left; }
     section p {
       line-height: 25px; }
     section p:nth-child(1) {
       margin-top: 76px; }
 
-  article {
-    max-width: 621px;
-    margin-left: 162px;
-    text-align: left;
-    float: left; }
-    article h1 {
-      font-size: 50px;
-      line-height: 58px;
-      color: #083452;
-      margin-bottom: 14px; }
-    article div img {
-      max-width: 23px;
-      margin-left: 4px;
-      margin-bottom: 26px; }
-    article div p {
-      display: inline;
-      position: relative;
-      left: 085px;
-      bottom: 30px;
-      color: #5e686f; }
-      article div p span {
-        color: #a3b3bf;
-        font-size: 13px; }
+  article h1 {
+    font-size: 50px;
+    line-height: 58px;
+    margin-bottom: 14px; }
+  article div img {
+    margin-left: 34px;
+    margin-bottom: 26px; }
+  article div p {
+    display: inline;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+    color: #5e686f; }
+    article div p span {
+      color: #a3b3bf;
+      font-size: 13px; }
 
   /*WOAH--------------------------------------------------------------------------*/
   #padding_left {
-    display: inline;
-    position: relative;
-    left: 168px;
-    top: 42px;
-    font-size: 30px;
-    color: #106db3;
-    border-left: 2px solid #a3b3bf;
-    padding: 18px 0 6px 16px;
-    margin-bottom: 20px; }
-
-  .article-two a {
-    color: #106db3; }
+    left: 28px; }
 
   /* article nav---------------------------------------------------------------------*/
   .article-nav .nav {
-    width: 162px;
-    height: 30px;
     float: left;
-    margin-top: 22px;
-    margin-right: 10px;
     position: relative;
-    left: 165px; }
+    top: 30px;
+    left: 70px; }
   .article-nav .baby_nav {
-    max-width: 32px;
-    height: 30px;
-    background: #5e686f; }
+    margin: 0px 15px 0px 0px; }
   .article-nav .big_nav {
     display: inline-block;
     max-width: 174px;
     height: 30px;
     background: #a3b3bf;
     position: relative;
-    left: 32px;
-    bottom: 30px;
+    right: 15px;
     color: white;
     text-align: center;
     line-height: 30px;
     font-family: helvetica;
-    font-size: 14px; }
-  .article-nav .baby_change {
-    background: #083452; }
+    font-size: 14px;
+    padding: 0 5px 0 5px; }
   .article-nav .big_change {
     background: #106db3;
     text-decoration: none; }
 
   /*aside----------------------------------------------*/
   aside {
+    display: none;
     max-width: 278px;
     margin-top: 5px;
     margin-right: 160px;
@@ -474,15 +423,12 @@ p {
     top: 68px; }
 
   div h2 {
-    width: 1300px;
-    font-size: 80px;
+    width: 100%;
+    font-size: 50px;
     margin-top: 110px;
-    margin-bottom: 40px;
-    text-align: center; }
+    margin-bottom: 40px; }
   div .post_photos {
-    width: 325px;
-    height: 330px;
-    float: left; }
+    height: 330px; }
     div .post_photos p {
       display: inline-block;
       position: relative;
@@ -504,13 +450,29 @@ p {
     left: 8px;
     color: #083452; }
   div .surfer_photo {
-    background: url("../images/surfer.jpg"); }
+    background: url("../images/surfer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 50%;
+    float: left; }
   div .beer_photo {
-    background: url("../images/beer.jpg"); }
+    background: url("../images/beer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 50%;
+    float: left; }
   div .zack_photo {
-    background: url("../images/zack.jpg"); }
+    background: url("../images/zack.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 50%;
+    float: left; }
   div .booze_photo {
-    background: url("../images/booze.jpg"); }
+    background: url("../images/booze.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 50%;
+    float: left; }
 
   /*footer-------------------------------------------------------------------*/
   footer {

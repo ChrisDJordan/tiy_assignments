@@ -1,4 +1,20 @@
+p, a, h1, h2, h3 {
+    font-family: helvetica;
+}
 
+a {
+    color: #a3b3bf;
+}
+
+p {
+    color: #5e686f;
+}
+
+.container {
+
+    // margin: 0 auto;
+    // overflow: hidden;
+}
 
 
 
@@ -16,10 +32,11 @@ header {
     position: relative;
     overflow: hidden;
     .company_name {
-        font-size: 80px;
+        font-size: 5em;
         font-weight: bold;
         text-align: center;
         margin-top: 65px;
+        margin:65px auto 0 auto;
         color: white;
     }
     .project_name {
@@ -30,7 +47,7 @@ header {
 }
 
 .left-nav {
-    width: 300px;
+    width: 80%;
     clear: left;
     display: inline-block;
     margin-left: 48px;
@@ -79,8 +96,9 @@ header {
 // article_part1----------------------------------------------
 
 section {
-    min-width: 35%;
-    float: left;
+    // min-width: 35%;
+    // background:red;
+    // float: left;
     // background:red;
     p {
         line-height: 1.4em;
@@ -132,7 +150,7 @@ article {
 #padding_left {
     display: inline;
     position: relative;
-    left: 10px;
+    left: 15px;
     top: 42px;
     font-size: 30px;
     color: #106db3;
@@ -167,7 +185,7 @@ article {
         height: 30px;
         background: #5e686f;
         float: left;
-        margin:20px 15px 20px 65px;
+         margin:20px 15px 95px 68px;
 
     }
     .big_nav {
@@ -176,24 +194,18 @@ article {
     .baby_change {
         background: #083452;
     }
-    .big_change {
+    // .big_change {
       
-         // background: #106db3;
-         // text-decoration: none;
-     }
+    //      // background: #106db3;
+    //      // text-decoration: none;
+    //  }
 }
 
 // aside--------------------------------
 
-aside {
-     // width: 278px;
-    // margin-top: 15px;
-    // margin-right: 160px;
-    // // margin-left:60px;
-     // float: right;
-    clear:left;
 
-}
+
+
 
 aside img {
     display: block;
@@ -214,13 +226,14 @@ aside nav a {
 
 .float-right {
     float: right;
+    margin-right: 60px;
 }
 
 aside p {
     float: left;
     margin-left: 22px;
     margin-top: 35px;
-    margin-bottom: 54px;
+    margin-bottom: 14px;
 }
 
 aside h3 {
@@ -229,6 +242,7 @@ aside h3 {
     color: #083452;
     clear: right;
     margin-top: 80px;
+    margin-left: 60px;
     font-size: 18;
 }
 
@@ -239,35 +253,33 @@ aside #left_align {
     float: left;
     width: 278px;
     position: relative;
-    right: 22px;
+    // right: 22px;
     bottom: 26px;
+     left:37px;
     color: #a3b3bf;
 }
 
 
 /*posts------------------------------------------------------------*/
-
 hr {
     clear: both;
     position: relative;
     top: 68px;
+    margin-bottom:90px;
 }
 
 div {
     h2 {
-        width: 30%;
-        font-size: 80px;
+        width: 300px;
+        font-size: 60px;
         margin-top: 110px;
         margin-bottom: 40px;
         text-align: center;
+        margin: 0 auto;
     }
     .post_photos {
-        // width: 100%;
         height: 330px;
-         background-repeat:no-repeat;
-        // background-size:cover;
 
-        // float: left;
         p {
             display: inline-block;
             position: relative;
@@ -295,17 +307,32 @@ div {
     }
     .surfer_photo {
         background: url("../images/surfer.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        max-width: 100%;
+        
     }
     .beer_photo {
         background: url("../images/beer.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        max-width: 100%;
     }
     .zack_photo {
         background: url("../images/zack.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        max-width: 100%;
     }
     .booze_photo {
         background: url("../images/booze.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        max-width: 100%;
     }
 }
+
+
 
 footer {
     background: #083452;
@@ -318,7 +345,7 @@ footer {
         top: 30;
     }
     p {
-        display: inline;
+        display: none;
         position: relative;
         font-size: 14px;
         left: 172px;
