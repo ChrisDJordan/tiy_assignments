@@ -6,24 +6,39 @@
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
   padding-top: 1.5em;
+  margin:0 auto;
+  margin-top: 10px;
+  // outline:1px solid blue;
+
+
 }
 .nav-collapse ul {
   margin: 0;
   padding: 0;
-  width: 100%;
-  display: block;
+  // width: 100%;
   list-style: none;
   overflow: hidden;
-  float:right;
+  // float:right;
+    margin-left:24px;
+
+
+
+
 
 
 }
 
 .nav-collapse li {
   margin-bottom: .5em;
-  margin-right: 3%;
+  margin-right: 4%;
+  display:block;
   float:left;
+ 
 }
+
+// .nav-collapse li:first-of-type{
+//   margin-left:10px;
+// }
 
 .nav-collapse li:last-child{
   margin-right: 0px;
@@ -67,9 +82,10 @@
   font-size: 2em;
   margin-top: -25px;
   float:right;
+  // outline: 1px solid blue;
   }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 55em) {
   .js .nav-collapse {
     position: relative;
   }
@@ -80,10 +96,18 @@
     display: none;
   }
 
+.nav-collapse{
+  width:40%;
+}
 .nav-collapse ul{
   float:right;
+
 }
 
+.nav-collapse  li{
+margin:0;
+
+}
 
 
 }

@@ -60,7 +60,8 @@ p {
   font-size: 16px; }
 
 a {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  text-decoration: none; }
 
 h1, h2, h3, h4, h5 {
   font-family: "tablet-gothic-compressed",sans-serif;
@@ -90,20 +91,21 @@ h5 {
 
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
-  padding-top: 1.5em; }
+  padding-top: 1.5em;
+  margin: 0 auto;
+  margin-top: 10px; }
 
 .nav-collapse ul {
   margin: 0;
   padding: 0;
-  width: 100%;
-  display: block;
   list-style: none;
   overflow: hidden;
-  float: right; }
+  margin-left: 24px; }
 
 .nav-collapse li {
   margin-bottom: .5em;
-  margin-right: 3%;
+  margin-right: 4%;
+  display: block;
   float: left; }
 
 .nav-collapse li:last-child {
@@ -143,7 +145,7 @@ h5 {
   margin-top: -25px;
   float: right; }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 55em) {
   .js .nav-collapse {
     position: relative; }
 
@@ -153,8 +155,14 @@ h5 {
   .nav-toggle {
     display: none; }
 
+  .nav-collapse {
+    width: 40%; }
+
   .nav-collapse ul {
-    float: right; } }
+    float: right; }
+
+  .nav-collapse li {
+    margin: 0; } }
 p, a {
   font-family: "fira-sans-2", sans-serif;
   color: #4b4d48; }
@@ -164,7 +172,8 @@ p {
   font-size: 16px; }
 
 a {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  text-decoration: none; }
 
 h1, h2, h3, h4, h5 {
   font-family: "tablet-gothic-compressed",sans-serif;
@@ -196,32 +205,57 @@ header {
   background: #7edde1;
   padding: 1em 2%; }
 
-section .col11 h1 {
-  margin-top: 62px; }
-section .col11 p {
+section p, section h1 {
+  margin-left: 5%;
   width: 80%; }
+section .col11 h1 {
+  margin-top: 50px; }
+section .col11 p {
+  margin-bottom: 50px; }
 section .col11 img {
   max-width: 100%; }
 section .col5 {
   display: none; }
-  section .col5 img {
-    max-width: 100%; }
-  section .col5 .arrow-icon {
-    background: url("../images/arrow-icon.png");
-    background-repeat: no-repeat;
-    min-height: 20px;
-    width: 9%;
-    display: inline-block;
-    border: 1px solid black; }
 
-@media screen and (min-width: 600px) {
+.links .col16 {
+  margin: 60px 0 60px 0; }
+  .links .col16 li {
+    margin-left: 5%;
+    margin-bottom: 28px; }
+    .links .col16 li:last-child {
+      margin-bottom: 0px; }
+
+.menu h2, .menu h3, .menu h4, .menu h5 {
+  margin-left: 5%; }
+.menu h4 {
+  margin-top: 40px; }
+.menu h5 {
+  margin-top: 30px; }
+
+@media screen and (min-width: 40em) {
   section {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto; }
+    section .col11 h1 {
+      margin-left: 55px; }
     section .col11 p {
-      max-width: 55%; }
+      max-width: 55%;
+      margin-left: 55px; }
     section .col5 {
       display: block; }
+      section .col5 h5 {
+        color: #b25b62;
+        margin: 106px auto 5px auto;
+        max-width: 54%; }
+      section .col5 .arrow-icon {
+        background: url("../images/arrow-icon.png");
+        background-repeat: no-repeat;
+        min-height: 20px;
+        width: 18%;
+        display: block;
+        margin: 15px auto; }
+      section .col5 img {
+        max-width: 100%; }
 
   .col2 {
     width: 12.5%;
@@ -240,9 +274,7 @@ section .col5 {
 
   .col5 {
     width: 31.25%;
-    margin-right: 0%;
-    background: red;
-    min-height: 200px; }
+    margin-right: 0%; }
 
   .col6 {
     width: 37.5%;
@@ -254,7 +286,8 @@ section .col5 {
 
   .col8 {
     width: 50%;
-    margin-right: 0%; }
+    margin-right: 0%;
+    background: lightblue; }
 
   .col9 {
     width: 56.25%;
@@ -266,9 +299,7 @@ section .col5 {
 
   .col11 {
     width: 68.75%;
-    margin-right: 0%;
-    background: pink;
-    min-height: 200px; }
+    margin-right: 0%; }
 
   .col12 {
     width: 75%;
@@ -277,13 +308,14 @@ section .col5 {
   .col16 {
     width: 100%;
     margin-right: 0%;
-    background: green;
-    min-height: 100px; }
+    background: orange; }
 
   div:last-of-type {
     margin-right: 0; } }
 @media screen and (min-width: 900px) {
-  section .col11 p {
-    max-width: 35%; } }
+  section {
+    max-width: 1200px; }
+    section .col11 p {
+      max-width: 35%; } }
 
 /*# sourceMappingURL=style.css.map */

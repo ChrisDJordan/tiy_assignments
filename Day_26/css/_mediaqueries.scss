@@ -1,20 +1,44 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 40em) {
 
   section{
-  	 max-width:1200px;
+  	 max-width:900px;
      margin:0 auto;
 
           .col11{
-      
+              h1{
+                margin-left:55px;
+              }
+
               p{
               max-width:55%;
+              margin-left:55px;
               }
           }
 
           .col5{
             display:block;
-            }
-        }
+
+              h5{
+                color:#b25b62;
+                margin:106px auto 5px auto;
+                max-width: 54%;
+                }
+
+              .arrow-icon{
+                  background: url("../images/arrow-icon.png");
+                  background-repeat:no-repeat;
+                  min-height:20px;
+                  width:18%;
+                  display:block;
+                  margin:15px auto;
+              }
+
+
+              img{
+                  max-width: 100%;
+              }
+          }
+  }
 
 
 
@@ -36,8 +60,8 @@
   }
   .col5 {
   @include grid(5);
-  background:red;
-  min-height:200px;
+  // background:red;
+  // min-height:200px;
   }
     
    .col6 {
@@ -49,6 +73,7 @@
   }
   .col8 {
   @include grid(8);
+  background:lightblue;
   }
   .col9 {
   @include grid(9);
@@ -60,8 +85,8 @@
   
    .col11 {
   @include grid(11);
-  background:pink;
-  min-height: 200px;
+  // background:pink;
+  // min-height: 200px;
   }
     
   .col12 {
@@ -71,8 +96,8 @@
     
    .col16 {
   @include grid(16);
-  background:green;
-  min-height:100px;
+  background:orange;
+
   }
 
   div:last-of-type {
@@ -82,12 +107,15 @@
 
 @media screen and (min-width: 900px) {
     section{
+      max-width:1200px;
 
      .col11{
       
               p{
               max-width:35%;
               }
+
+
           }
 
 
