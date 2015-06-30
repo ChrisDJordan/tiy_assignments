@@ -1,0 +1,89 @@
+@import 'fontandcolor';
+
+
+
+
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse {
+  padding-top: 1.5em;
+}
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+  overflow: hidden;
+  float:right;
+
+
+}
+
+.nav-collapse li {
+  margin-bottom: .5em;
+  margin-right: 3%;
+  float:left;
+}
+
+.nav-collapse li:last-child{
+  margin-right: 0px;
+}
+
+.nav-collapse a {
+  color: white;
+  text-decoration: none;
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: white;
+
+  padding: 20px 2%;
+  display: block;
+  text-decoration: none;
+}
+
+.nav-toggle span {
+  color: $darkred;
+  font-size: 2em;
+  margin-top: -25px;
+  float:right;
+  }
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+
+.nav-collapse ul{
+  float:right;
+}
+
+
+
+}

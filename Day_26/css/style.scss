@@ -1,0 +1,68 @@
+@import 'reset';
+@import 'mixin';
+@import 'responsive-nav';
+@import 'fontandcolor';
+
+
+// global----------------------------------
+       
+header {
+	background: $lightblue; 
+	padding: 1em 2%;
+    }
+
+
+section{
+
+	.col11{
+		h1{
+			margin-top:62px;
+		}
+      
+      	p{
+      	  width:80%;
+          }
+
+
+        img{
+ 	        max-width:100%;
+            }
+    }
+
+    .col5{
+        display:none;
+
+    	img{
+    	max-width: 100%;
+        }
+    
+		.arrow-icon{
+		  background: url("../images/arrow-icon.png");
+		  background-repeat:no-repeat;
+		  min-height:20px;
+		  width:9%;
+		  display:inline-block;
+		  border:1px solid black;
+	      }
+	}
+	
+}
+
+
+
+@import 'mediaqueries';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
