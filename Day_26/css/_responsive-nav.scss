@@ -71,7 +71,6 @@
   -o-user-select: none;
   user-select: none;
   color: white;
-
   padding: 20px 2%;
   display: block;
   text-decoration: none;
@@ -80,9 +79,9 @@
 .nav-toggle span {
   color: $darkred;
   font-size: 2em;
-  margin-top: -25px;
+  margin-top: -5px;
+  margin-right:2%;
   float:right;
-  // outline: 1px solid blue;
   }
 
 @media screen and (min-width: 55em) {
@@ -96,18 +95,17 @@
     display: none;
   }
 
-.nav-collapse{
+  .nav-collapse{
   width:40%;
-}
-.nav-collapse ul{
+  }
+
+  .nav-collapse ul{
   float:right;
+  }
 
-}
-
-.nav-collapse  li{
-margin:0;
-
-}
+  .nav-collapse  li{
+  margin:0;
+  }
 
 
 }

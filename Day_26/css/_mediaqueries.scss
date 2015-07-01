@@ -1,26 +1,56 @@
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
+
+
+// main section----------------------------------------------------------
+
+header{
+
+      &:after {
+          display: block;
+          background: red;
+          width: 380px;
+          min-height: 30px;
+          content: '';
+          position: absolute;
+           top: 120px;
+           left:0px;
+           
+          }
+
+                p{
+                  font-size:4em; 
+                }
+}
+
+
 
   section{
   	 max-width:900px;
      margin:0 auto;
+          p{
+            margin-left:5%;
+            max-width: 80%;
+         
+            
+          }
 
-          .col11{
+          .col10{
               h1{
                 margin-left:55px;
               }
 
               p{
-              max-width:55%;
+            
               margin-left:55px;
               }
           }
 
-          .col5{
+          .col6{
             display:block;
 
               h5{
                 color:#b25b62;
-                margin:106px auto 5px auto;
+                margin:108px 0 5px 36%;
                 max-width: 54%;
                 }
 
@@ -30,7 +60,7 @@
                   min-height:20px;
                   width:18%;
                   display:block;
-                  margin:15px auto;
+                  margin:15px 0 5px 48%;
               }
 
 
@@ -40,10 +70,62 @@
           }
   }
 
+// menu links--------------------------------------------------------------
+
+
+.col16{
+  float:left;
+
+      h2{
+        position:relative;
+        left:115px;;
+        }
+
+      h3{
+        position:relative;
+        top:65px;
+        
+      }
+      ul{
+        display:block;
+        margin:0 auto;
+        overflow: hidden;
+        margin:0 auto;
+        width:100%;
+        // border:1px solid green;
+      }
+
+      .link-left{
+        // outline:1px solid red;
+        width:33.3%;
+        float:left;
+
+             
+           
+            
+
+     
+            li{
+              // outline:1px solid blue;
+              display:block;
+              width:68%;
+              margin:0  auto 15px auto;
+              }
+
+
+           
+      }
+}
+
+
+
+
 
 
 
   
+// grid----------------------------------------------------------------------
+
 
   .col2 {
   @include grid(2);
@@ -96,7 +178,7 @@
     
    .col16 {
   @include grid(16);
-  background:orange;
+   // background:orange;
 
   }
 

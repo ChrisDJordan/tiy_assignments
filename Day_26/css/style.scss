@@ -10,6 +10,21 @@
 header {
 	background: $lightblue; 
 	padding: 1em 2%;
+	min-height: 50px;
+    width: 100%;
+    overflow: hidden;
+
+         p{
+         	color: #bf544b;
+         	font-size: 3em;
+         	font-family: "tablet-gothic-compressed",sans-serif;
+         	float:left;
+         	
+         }
+
+
+
+
     }
 
 // main section-------------------------------
@@ -17,12 +32,14 @@ header {
 section{
     p,h1,{
        margin-left:5%;
-	   width:80%;
+       max-width:85%;
+
+	  
 
     }
-	.col11{
+	.col10{
 		h1{
-			margin-top:50px;
+			margin-top:90px;
 	    }
       
       	p{
@@ -35,7 +52,7 @@ section{
         }
     }
 
-    .col5{
+    .col6{
         display:none;
     }
 }
@@ -44,7 +61,16 @@ section{
 
 .links{
 	.col16{
-    	margin:60px 0 60px 0;
+    	margin:65px 0 45px 0px;
+    	
+
+    	.link-left{
+    		margin-bottom:28px;
+
+    		&:last-child{
+    			margin-bottom: 0px;
+    		}
+    	}
 
     	li{
     	    margin-left:5%;
@@ -53,6 +79,11 @@ section{
             &:last-child{
     			margin-bottom: 0px;
     		}
+    	}
+
+
+    	.standard{
+    		color:#bf544b;
     	} 
     }
 }
@@ -73,6 +104,16 @@ section{
 		margin-top:30px;
 	}
 
+	p{
+		max-width:75%;
+	}
+
+    .price{
+    	float:right;
+    	font-size:1.5em;
+    	margin-right:4%;
+    	font-family: "tablet-gothic-compressed",sans-serif;
+    }
 }
 
 @import 'mediaqueries';
