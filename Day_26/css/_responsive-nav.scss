@@ -5,21 +5,21 @@
 
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
-  padding-top: 1.5em;
-  margin:0 auto;
-  margin-top: 10px;
-  // outline:1px solid blue;
+  // padding-top: 1.5em;
+  // // margin:0 auto;
+  // // margin-top: 10px;
+  //  outline:1px solid blue;
+  // overflow: hidden;
 
 
-}
+ }
 .nav-collapse ul {
-  margin: 0;
+   margin-top:15px;
+
   padding: 0;
-  // width: 100%;
   list-style: none;
   overflow: hidden;
-  // float:right;
-    margin-left:24px;
+   margin-left:24px;
 
 
 
@@ -30,9 +30,9 @@
 
 .nav-collapse li {
   margin-bottom: .5em;
-  margin-right: 4%;
+  // margin-right: 4%;
   display:block;
-  float:left;
+   // float:left;
  
 }
 
@@ -100,12 +100,17 @@
   }
 
   .nav-collapse ul{
-  float:right;
+   float:right;
+   border:1px solid black;
+   display:none;
   }
 
   .nav-collapse  li{
   margin:0;
+  float:left;
   }
 
 
 }
+
+

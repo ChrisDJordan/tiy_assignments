@@ -1,3 +1,13 @@
+@media screen and (min-width: 35em) {
+    section{
+      p{
+        max-width:60%;
+      }
+    }
+}
+
+
+
 @media screen and (min-width: 45em) {
 
 
@@ -7,18 +17,17 @@ header{
 
       &:after {
           display: block;
-          background: red;
-          width: 380px;
+          background: #7edde1;
+          width:53%;
           min-height: 30px;
           content: '';
           position: absolute;
-           top: 120px;
-           left:0px;
-           
-          }
-
+          top: 120px;
+          left:0px;
+      }
                 p{
-                  font-size:4em; 
+                  font-size:4em;
+                   margin-left:.5% 
                 }
 }
 
@@ -30,13 +39,12 @@ header{
           p{
             margin-left:5%;
             max-width: 80%;
-         
-            
-          }
+            }
 
           .col10{
               h1{
                 margin-left:55px;
+                margin-top:90px;
               }
 
               p{
@@ -47,12 +55,16 @@ header{
 
           .col6{
             display:block;
+            margin-top:108px; 
+              .check-out{
+                display:inline-block;
+                margin-left:40%;
+              }
 
-              h5{
+              a{
                 color:#b25b62;
-                margin:108px 0 5px 36%;
-                max-width: 54%;
-                }
+                font-family: "tablet-gothic-compressed",sans-serif;
+               }
 
               .arrow-icon{
                   background: url("../images/arrow-icon.png");
@@ -60,7 +72,7 @@ header{
                   min-height:20px;
                   width:18%;
                   display:block;
-                  margin:15px 0 5px 48%;
+                  margin:10px 0 2px 48%;
               }
 
 
@@ -70,11 +82,14 @@ header{
           }
   }
 
+
 // menu links--------------------------------------------------------------
 
 
-.col16{
+.links{
+  .col16{
   float:left;
+    margin:65px 0 10px 0px;
 
       h2{
         position:relative;
@@ -91,8 +106,8 @@ header{
         margin:0 auto;
         overflow: hidden;
         margin:0 auto;
-        width:100%;
-        // border:1px solid green;
+        // width:100%;
+         // border:1px solid green;
       }
 
       .link-left{
@@ -108,17 +123,35 @@ header{
             li{
               // outline:1px solid blue;
               display:block;
-              width:68%;
+              width:75%;
               margin:0  auto 15px auto;
+              text-align: center;
               }
-
-
-           
-      }
+          }
+    }
 }
 
+footer{
+
+.col16{
+  &:after {
+          display: block;
+          background: #7edde1;
+          width: 395px;
+          min-height: 30px;
+          content: '';
+          float:right;
+          position:relative;
+          bottom: 115px;
+  }
 
 
+  li{
+    padding:45px 0 16px 5%;
+  }
+
+}
+}
 
 
 
@@ -142,8 +175,6 @@ header{
   }
   .col5 {
   @include grid(5);
-  // background:red;
-  // min-height:200px;
   }
     
    .col6 {
@@ -155,7 +186,6 @@ header{
   }
   .col8 {
   @include grid(8);
-  background:lightblue;
   }
   .col9 {
   @include grid(9);
@@ -167,8 +197,6 @@ header{
   
    .col11 {
   @include grid(11);
-  // background:pink;
-  // min-height: 200px;
   }
     
   .col12 {
@@ -178,8 +206,6 @@ header{
     
    .col16 {
   @include grid(16);
-   // background:orange;
-
   }
 
   div:last-of-type {
@@ -187,26 +213,58 @@ header{
   }
 }
 
+// media querie------------------------------------------------
+
+
 @media screen and (min-width: 900px) {
-    section{
-      max-width:1200px;
-
-     .col11{
-      
-              p{
-              max-width:35%;
-              }
-
-
-          }
-
-
-
-
+   
+    header{
+      &:after {
+           max-width:29.5%;
+      }
     }
 
 
+    section{
+      max-width:1150px;
+
+          .col10{
+              h1{
+                margin-top:120px;
+              }
+              p{
+              max-width:50%;
+              }
+          }
+
+          .col6{
+             .check-out{
+                margin-left:42%;
+              }
+          }
+    }
 
 
+  .links{
+    .col16{
+        ul{
+          max-width:75%;
+        }
+     
+
+    }
+}
+    footer{
+      .col16{
+        &:after {
+          width: 425px;
+          top:-30px;
+          }
+      
+        li{
+            padding:45px 0 40px 5%;
+            }
+      }
+    }
 
 }
