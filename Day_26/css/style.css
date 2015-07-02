@@ -92,15 +92,17 @@ h5 {
 
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse ul {
-  margin-top: 15px;
   padding: 0;
   list-style: none;
   overflow: hidden;
-  margin-left: 24px; }
+  width: 70px;
+  float: right;
+  margin-right: 8%; }
 
 .nav-collapse li {
   margin-bottom: .5em;
-  display: block; }
+  display: block;
+  text-align: right; }
 
 .nav-collapse li:last-child {
   margin-right: 0px; }
@@ -131,13 +133,14 @@ h5 {
   color: white;
   padding: 20px 2%;
   display: block;
-  text-decoration: none; }
+  text-decoration: none;
+  overflow: hidden; }
 
 .nav-toggle span {
   color: #bf544b;
   font-size: 2em;
   margin-top: -5px;
-  margin-right: 2%;
+  margin-right: 8%;
   float: right; }
 
 @media screen and (min-width: 55em) {
@@ -264,6 +267,8 @@ footer {
   footer li {
     float: left;
     padding: 35px 0 35px 5%; }
+  footer a {
+    color: #bf544b; }
 
 @media screen and (min-width: 35em) {
   section p {

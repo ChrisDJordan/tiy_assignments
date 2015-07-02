@@ -4,22 +4,25 @@
 
 
 /*! responsive-nav.js 1.0.39 by @viljamis */
-.nav-collapse {
-  // padding-top: 1.5em;
-  // // margin:0 auto;
-  // // margin-top: 10px;
-  //  outline:1px solid blue;
-  // overflow: hidden;
+// .nav-collapse {
+//   // padding-top: 1.5em;
+//   // // margin:0 auto;
+//   // // margin-top: 10px;
+//   //  outline:1px solid blue;
+//   // overflow: hidden;
 
 
- }
+//  }
 .nav-collapse ul {
-   margin-top:15px;
+   // margin-top:15px;
 
   padding: 0;
   list-style: none;
   overflow: hidden;
-   margin-left:24px;
+  width:70px;
+  float:right;
+  margin-right:8%;
+   // margin-left:24px;
 
 
 
@@ -32,6 +35,7 @@
   margin-bottom: .5em;
   // margin-right: 4%;
   display:block;
+  text-align: right;
    // float:left;
  
 }
@@ -74,13 +78,14 @@
   padding: 20px 2%;
   display: block;
   text-decoration: none;
+  overflow: hidden;
 }
 
 .nav-toggle span {
   color: $darkred;
   font-size: 2em;
   margin-top: -5px;
-  margin-right:2%;
+  margin-right:8%;
   float:right;
   }
 
