@@ -61,6 +61,7 @@ p {
   line-height: 1.4; }
 
 a {
+  font-size: 24px;
   font-size: 1.5em;
   text-decoration: none; }
 
@@ -71,22 +72,27 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 12px; }
 
 h1 {
+  font-sixe: 76px;
   font-size: 4.75rem;
   color: #0597f2; }
 
 h2 {
+  font-size: 56px;
   font-size: 3.5rem;
   color: #dac48f; }
 
 h3 {
+  font-size: 34px;
   font-size: 2.15rem;
   color: #88bb28; }
 
 h4 {
+  font-size: 44px;
   font-size: 2.75rem;
   color: #b25b62; }
 
 h5 {
+  font-size: 28px;
   font-size: 1.75rem;
   color: #cc6806; }
 
@@ -174,6 +180,7 @@ p {
   line-height: 1.4; }
 
 a {
+  font-size: 24px;
   font-size: 1.5em;
   text-decoration: none; }
 
@@ -184,28 +191,33 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 12px; }
 
 h1 {
+  font-sixe: 76px;
   font-size: 4.75rem;
   color: #0597f2; }
 
 h2 {
+  font-size: 56px;
   font-size: 3.5rem;
   color: #dac48f; }
 
 h3 {
+  font-size: 34px;
   font-size: 2.15rem;
   color: #88bb28; }
 
 h4 {
+  font-size: 44px;
   font-size: 2.75rem;
   color: #b25b62; }
 
 h5 {
+  font-size: 28px;
   font-size: 1.75rem;
   color: #cc6806; }
 
 header {
   background: #7edde1;
-  padding: 1em 2%;
+  padding: 5px 0 5px 0;
   min-height: 50px;
   width: 100%;
   overflow: hidden; }
@@ -214,7 +226,7 @@ header {
     font-size: 3em;
     font-family: "tablet-gothic-compressed",sans-serif;
     float: left;
-    margin-left: 1%; }
+    margin-left: 3%; }
 
 section p, section h1 {
   margin-left: 5%;
@@ -281,11 +293,11 @@ footer {
     min-height: 30px;
     content: '';
     position: absolute;
-    top: 120px;
+    top: 99px;
     left: 0px; }
   header p {
-    font-size: 4em;
-    margin-left: 0.5%; }
+    font-size: 64px;
+    font-size: 4em; }
 
   section {
     max-width: 900px;
