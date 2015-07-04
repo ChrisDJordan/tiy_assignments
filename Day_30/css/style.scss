@@ -1,0 +1,14 @@
+@import "reset";
+@import "fontandcolor";
+
+body {
+    background: #F2E0C9;
+    position: relative;
+}
+
+
+h2 {
+    margin-top: 150px;
+}
+
+@import "mediaqueries";

@@ -1,0 +1,59 @@
+@media screen and (min-width: 35em) {}
+
+@media screen and (min-width: 900px) {
+    header {
+    	// background:#C33C1F;
+        padding-top:300px;
+        // margin-left: 120px;
+        z-index: 10;
+        
+        // background:url(../images/2015.png),url(../images/newline.png);
+        // background-attachment: absolute;
+        // background-repeat: no-repeat;
+        // background-position: 50px 25px,1250px -228px;
+        h1 {
+            transform: rotate(15deg);
+        	background:white;
+             z-index: 2;
+            text-transform: uppercase;
+            width:80%;
+            margin:0 auto;
+            position: relative;
+            font-size: 140px;
+            font-family: "futura-pt",sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            min-height: 500px;
+            background: url(../images/2015.png);
+            background-repeat: no-repeat;
+            background-position: 530px 300px;
+
+            &:before {
+                display: block;
+                position: absolute;
+          
+                left: 412px;
+                background: #F2811D;
+                height: 600px;
+                width: 100px;
+                content: "";
+                z-index: -2;
+                border-right: 12px solid black;
+            }
+            &:after {
+                display: block;
+                content: "";
+                width: 0px;
+                height: 0px;
+                border-left: 55px solid transparent;
+                border-right: 55px solid transparent;
+                border-top: 120px solid #0477BF;
+                position: absolute;
+                bottom: 376px;
+                left: 645px;
+                z-index: -2;
+                transform: rotate(-180deg);
+            }
+        }
+    }
+}

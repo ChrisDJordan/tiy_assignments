@@ -1,0 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 12px; }
+
+body {
+  background: #F2E0C9;
+  position: relative; }
+
+h2 {
+  margin-top: 150px; }
+
+@media screen and (min-width: 900px) {
+  header {
+    padding-top: 300px;
+    z-index: 10; }
+    header h1 {
+      transform: rotate(15deg);
+      background: white;
+      z-index: 2;
+      text-transform: uppercase;
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+      font-size: 140px;
+      font-family: "futura-pt",sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      min-height: 500px;
+      background: url(../images/2015.png);
+      background-repeat: no-repeat;
+      background-position: 530px 300px; }
+      header h1:before {
+        display: block;
+        position: absolute;
+        left: 412px;
+        background: #F2811D;
+        height: 600px;
+        width: 100px;
+        content: "";
+        z-index: -2;
+        border-right: 12px solid black; }
+      header h1:after {
+        display: block;
+        content: "";
+        width: 0px;
+        height: 0px;
+        border-left: 55px solid transparent;
+        border-right: 55px solid transparent;
+        border-top: 120px solid #0477BF;
+        position: absolute;
+        bottom: 376px;
+        left: 645px;
+        z-index: -2;
+        transform: rotate(-180deg); } }
+
+/*# sourceMappingURL=style.css.map */
