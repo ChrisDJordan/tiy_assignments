@@ -6,7 +6,7 @@ body {
     position: relative;
     .page-wrapper {
         // max-width: 650px;
-        margin: 0 auto;
+        // margin: 0 auto;
         header {
         	
             padding-top: 100px;
@@ -18,7 +18,7 @@ body {
                 -ms-transform: rotate(15deg);
                 -o-transform: rotate(15deg);
                 transform: rotate(15deg);
-                max-width: 77%;
+                max-width: 70%;
                 margin: 0 auto;
                 text-align: right;
                 position: relative;
@@ -27,20 +27,20 @@ body {
                 font-style: normal;
                 font-weight: 500;
                 min-height: 300px;
-                background: url(../images/newline1.png);
+                background: url(../images/2015.png);
                 background-repeat: no-repeat;
-                background-position: 100% 170px;
+                background-position: 100% 150px;
                 &:after {
                     display: block;
                     content: "";
                     width: 0px;
                     height: 0px;
-                    border-left: 30px solid transparent;
-                    border-right: 30px solid transparent;
-                    border-top: 65px solid #0477BF;
+                    border-left: 28px solid transparent;
+                    border-right: 28px solid transparent;
+                    border-top: 60px solid #0477BF;
                     position: absolute;
-                    bottom: 150px;
-                    left: 18.75%;
+                    bottom: 165px;
+                    left: 21.3%;
                     z-index: -2;
                     -webkit-transform: rotate(-180deg);
                     -moz-transform: rotate(-180deg);
@@ -52,7 +52,7 @@ body {
             h2 {
                 font-size: 25px;
                 width: 80%;
-                margin: -50px 0px 50px 40px;
+                margin: -70px 0px 50px 48px;
                 -webkit-transform: rotate(15deg);
                 -moz-transform: rotate(15deg);
                 -ms-transform: rotate(15deg);
