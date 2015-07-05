@@ -12,6 +12,20 @@
 
             background: url(../images/newline.png);
             transform: rotate(15deg);
+				            /* Safari */
+				-webkit-transform: rotate(15 deg);
+
+				/* Firefox */
+				-moz-transform: rotate(15 deg);
+
+				/* IE */
+				-ms-transform: rotate(15 deg);
+
+				/* Opera */
+				-o-transform: rotate(15 deg);
+
+				/* Internet Explorer */
+				filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
             content: "";
             height: 400px;
             width: 2.1%;
@@ -31,6 +45,20 @@
         }
         h1 {
             transform: rotate(15deg);
+            		            /* Safari */
+				-webkit-transform: rotate(15 deg);
+
+				/* Firefox */
+				-moz-transform: rotate(15 deg);
+
+				/* IE */
+				-ms-transform: rotate(15 deg);
+
+				/* Opera */
+				-o-transform: rotate(15 deg);
+
+				/* Internet Explorer */
+				filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
             background: white;
             z-index: 2;
             text-transform: uppercase;
@@ -46,12 +74,14 @@
             background-repeat: no-repeat;
             background-position: 56% 180px;
             &:before {
- //               width: 100px;
-	// height: 100px;
-	// background: red;
-	// -moz-border-radius: 50px;
-	// -webkit-border-radius: 50px;
-	// border-radius: 50px;
+
+               width: 100px;
+			   height: 100px;
+			   background: red;
+			   -moz-border-radius: 50px;
+			   -webkit-border-radius: 50px;
+			   border-radius: 50px;
+
             }
             &:after {
                 display: block;
