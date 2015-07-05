@@ -70,7 +70,6 @@ body {
   body .page-wrapper {
     margin: 0 auto; }
     body .page-wrapper header {
-      width: 100%;
       padding-top: 100px; }
       body .page-wrapper header h1 {
         background: white;
@@ -121,10 +120,10 @@ body {
         width: 77%; }
 
 .summary {
-  background: url(../images/layer4.png);
-  max-height: 200px;
+  background: url(../images/triangles.png);
   margin-top: 110px;
   margin-bottom: 150px;
+  background-position: 50% 0;
   height: 90px; }
   .summary p:first-child {
     z-index: 10;

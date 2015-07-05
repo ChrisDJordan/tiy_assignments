@@ -8,7 +8,7 @@ body {
         // max-width: 650px;
         margin: 0 auto;
         header {
-        	width:100%;
+        	
             padding-top: 100px;
             h1 {
                 background: white;
@@ -67,11 +67,10 @@ body {
 
 
 .summary {
-    background: url(../images/layer4.png);
-    max-height: 200px;
+    background: url(../images/triangles.png);
     margin-top: 110px;
     margin-bottom: 150px;
-    // background-position: 50% 0;
+    background-position: 50% 0;
     height: 90px;
 
     p {
