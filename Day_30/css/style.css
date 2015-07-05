@@ -70,6 +70,7 @@ body {
   body .page-wrapper {
     margin: 0 auto; }
     body .page-wrapper header {
+      width: 100%;
       padding-top: 100px; }
       body .page-wrapper header h1 {
         background: white;
