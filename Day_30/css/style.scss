@@ -17,7 +17,7 @@ body {
                 -ms-transform: rotate(15deg);
                 -o-transform: rotate(15deg);
                 transform: rotate(15deg);
-                width: 77%;
+                max-width: 77%;
                 margin: 0 auto;
                 text-align: right;
                 position: relative;
@@ -26,7 +26,7 @@ body {
                 font-style: normal;
                 font-weight: 500;
                 min-height: 300px;
-                background: url(../images/newline1.png);
+                // background: url(../images/newline1.png);
                 background-repeat: no-repeat;
                 background-position: 100% 170px;
                 &:after {
