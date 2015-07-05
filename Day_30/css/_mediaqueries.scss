@@ -1,68 +1,79 @@
+
+section{
+	max-width:1440px;
+	margin:0 auto;
+
 header {
-    padding-top: 200px;
-    z-index: 10;
-    margin-bottom: 100px;
+      padding-top: 100px;
+    z-index: 1;
+    // background:white;
+   
+    
+    // margin-bottom: 100px;
     // background:#BE5841;
-    &:before {
-        display: block;
-        position: absolute;
-        left: 95.123%;
-        top: -68px;
-        background: url(../images/newline.png);
-        -webkit-transform: rotate(15deg);
-        -moz-transform: rotate(15deg);
-        -ms-transform: rotate(15deg);
-        -o-transform: rotate(15deg);
-        transform: rotate(15deg);
-        content: "";
-        height: 400px;
-        width: 2.1%;
-    }
-    &:after {
-        display: block;
-        position: absolute;
-        left: 94.5%;
-        top: -104px;
-        background: url(../images/newline.png);
-        -webkit-transform: rotate(15deg);
-        -moz-transform: rotate(15deg);
-        -ms-transform: rotate(15deg);
-        -o-transform: rotate(15deg);
-        transform: rotate(15deg);
-        content: "";
-        height: 400px;
-        width: 2.1%;
-    }
+    // &:before {
+    //     display: block;
+    //     position: relative;
+    //     left: 97.5%;
+    //     top:51px;
+    //     background: url(../images/newline.png);
+    //     -webkit-transform: rotate(15deg);
+    //     -moz-transform: rotate(15deg);
+    //     -ms-transform: rotate(15deg);
+    //     -o-transform: rotate(15deg);
+    //     transform: rotate(15deg);
+    //     content: "";
+    //     height: 400px;
+    //     width: 2.1%;
+    //     z-index:10;
+
+    // }
+    // &:after {
+    //     display: block;
+    //     position: absolute;
+    //     left: 94.5%;
+    //     top:101px;
+    //     background: url(../images/newline.png);
+    //     -webkit-transform: rotate(15deg);
+    //     -moz-transform: rotate(15deg);
+    //     -ms-transform: rotate(15deg);
+    //     -o-transform: rotate(15deg);
+    //     transform: rotate(15deg);
+    //     content: "";
+    //     height: 400px;
+    //     width: 2.1%;
+    // }
     h1 {
         background: white;
-        z-index: 2;
+        // z-index: 2;
         text-transform: uppercase;
         -webkit-transform: rotate(15deg);
         -moz-transform: rotate(15deg);
         -ms-transform: rotate(15deg);
         -o-transform: rotate(15deg);
         transform: rotate(15deg);
+        width:80%;
         margin: 0 auto;
         position: relative;
         font-size: 80px;
         font-family: "futura-pt",sans-serif;
         font-style: normal;
         font-weight: 500;
-        min-height: 500px;
+        min-height: 300px;
         background: url(../images/2015.png);
         background-repeat: no-repeat;
-        background-position: 56% 180px;
+        background-position: 90% 160px;
         &:after {
             display: block;
             content: "";
             width: 0px;
             height: 0px;
-            border-left: 38px solid transparent;
-            border-right: 38px solid transparent;
-            border-top: 85px solid #0477BF;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            border-top: 65px solid #0477BF;
             position: absolute;
-            bottom: 340px;
-            left: 11.9%;
+            bottom:150px;
+            left: 17.55%;
             z-index: -2;
             -webkit-transform: rotate(-180deg);
             -moz-transform: rotate(-180deg);
@@ -70,30 +81,32 @@ header {
             -o-transform: rotate(-180deg);
             transform: rotate(-180deg);
         }
-        h2 {
-            font-size: 30px;
-            position: absolute;
-            -webkit-transform: rotate(-75deg);
-            -moz-transform: rotate(-75deg);
-            -ms-transform: rotate(-75deg);
-            -o-transform: rotate(-75deg);
-            transform: rotate(-75deg);
-            bottom: 1150px;
-            left: 24%;
-        }
+        // h2 {
+        //     font-size: 30px;
+        //     position: absolute;
+        //     -webkit-transform: rotate(-75deg);
+        //     -moz-transform: rotate(-75deg);
+        //     -ms-transform: rotate(-75deg);
+        //     -o-transform: rotate(-75deg);
+        //     transform: rotate(-75deg);
+        //     bottom: 1150px;
+        //     left: 24%;
+        // }
     }
 }
 
 @media screen and (min-width: 550px) {
     header {
-        padding-top: 200px;
+        padding-top:0px;
+        margin-top: -280px;
         z-index: 10;
-        margin-bottom: 100px;
+         margin-bottom: 200px;
+        height:900px;
         &:before {
-            display: block;
-            position: absolute;
-            left: 89.1%;
-            top: 16px;
+            display: inline-block;
+            position: relative;
+             left: 90.8%;
+              top: 175px;
             background: url(../images/newline.png);
             -webkit-transform: rotate(15deg);
             -moz-transform: rotate(15deg);
@@ -101,7 +114,7 @@ header {
             -o-transform: rotate(15deg);
             transform: rotate(15deg);
             content: "";
-            height: 400px;
+            height: 500px;
             width: 1%;
         }
         &:after {
@@ -132,10 +145,10 @@ header {
                 position: absolute;
                 left: 35.70%;
                 background: #F2811D;
-                height: 600px;
+                height: 2200px;
                 width: 9%;
                 content: "";
-                z-index: -2;
+                 z-index: -10;
                 border-right: 12px solid black;
             }
             &:after {
@@ -159,14 +172,16 @@ header {
         }
         h2 {
             font-size: 30px;
-            position: absolute;
+            position: relative;
             -webkit-transform: rotate(-75deg);
             -moz-transform: rotate(-75deg);
             -ms-transform: rotate(-75deg);
             -o-transform: rotate(-75deg);
             transform: rotate(-75deg);
-            bottom: 1150px;
-            left: 24%;
+             bottom: 920px;
+            right: 5%;
         }
     }
 }
+}
+
