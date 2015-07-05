@@ -51,6 +51,10 @@ p, h1, h2, h3, h4, h5 {
   font-weight: 500;
   margin-bottom: 12px; }
 
+a {
+  color: #BE5841;
+  font-size: 18px; }
+
 p {
   font-family: "futura-pt",sans-serif;
   font-style: normal;
@@ -83,7 +87,7 @@ body {
         margin: 0 auto;
         text-align: right;
         position: relative;
-        font-size: 80px;
+        font-size: 70px;
         font-family: "futura-pt",sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -128,5 +132,79 @@ body {
   .summary p:first-child {
     z-index: 10;
     padding-top: 110px; }
+
+@media screen and (min-width: 35em) {
+  header {
+    padding-top: 0px;
+    margin-top: -280px;
+    z-index: 10;
+    margin-bottom: 200px;
+    height: 900px; }
+    header:before {
+      display: inline-block;
+      position: relative;
+      left: 95.8%;
+      top: 175px;
+      background: url(../images/newline.png);
+      -webkit-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+      -o-transform: rotate(15deg);
+      transform: rotate(15deg);
+      content: "";
+      height: 500px;
+      width: 1%; }
+    header:after {
+      display: none; }
+    header h1 {
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+      font-size: 140px;
+      font-family: "futura-pt",sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      min-height: 500px;
+      background: url(../images/2015.png);
+      background-repeat: no-repeat;
+      background-position: 55% 300px; }
+      header h1:before {
+        display: block;
+        position: absolute;
+        left: 39%;
+        background: #F2811D;
+        height: 2200px;
+        width: 9%;
+        content: "";
+        z-index: -10;
+        border-right: 12px solid black; }
+      header h1:after {
+        display: block;
+        content: "";
+        width: 0px;
+        height: 0px;
+        border-left: 55px solid transparent;
+        border-right: 55px solid transparent;
+        border-top: 120px solid #0477BF;
+        position: absolute;
+        bottom: 376px;
+        left: 56.1%;
+        z-index: -2;
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+        transform: rotate(-180deg); }
+    header h2 {
+      background: none;
+      font-size: 30px;
+      position: relative;
+      -webkit-transform: rotate(-75deg);
+      -moz-transform: rotate(-75deg);
+      -ms-transform: rotate(-75deg);
+      -o-transform: rotate(-75deg);
+      transform: rotate(-75deg);
+      bottom: 920px;
+      right: 5%; } }
 
 /*# sourceMappingURL=style.css.map */
