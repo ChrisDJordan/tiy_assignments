@@ -68,7 +68,7 @@ body {
   background: #F4EDDF;
   position: relative; }
   body .page-wrapper {
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto; }
     body .page-wrapper header {
       padding-top: 100px; }
