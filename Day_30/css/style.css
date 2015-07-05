@@ -71,17 +71,11 @@ header {
     left: 95.123%;
     top: -68px;
     background: url(../images/newline.png);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
     transform: rotate(15deg);
-    /* Safari */
-    -webkit-transform: rotate(15 deg);
-    /* Firefox */
-    -moz-transform: rotate(15 deg);
-    /* IE */
-    -ms-transform: rotate(15 deg);
-    /* Opera */
-    -o-transform: rotate(15 deg);
-    /* Internet Explorer */
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     content: "";
     height: 400px;
     width: 2.1%; }
@@ -91,25 +85,23 @@ header {
     left: 94.5%;
     top: -104px;
     background: url(../images/newline.png);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
     transform: rotate(15deg);
     content: "";
     height: 400px;
     width: 2.1%; }
   header h1 {
-    transform: rotate(15deg);
-    /* Safari */
-    -webkit-transform: rotate(15 deg);
-    /* Firefox */
-    -moz-transform: rotate(15 deg);
-    /* IE */
-    -ms-transform: rotate(15 deg);
-    /* Opera */
-    -o-transform: rotate(15 deg);
-    /* Internet Explorer */
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     background: white;
     z-index: 2;
     text-transform: uppercase;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg);
     margin: 0 auto;
     position: relative;
     font-size: 80px;
@@ -132,10 +124,18 @@ header {
       bottom: 340px;
       left: 11.9%;
       z-index: -2;
+      -webkit-transform: rotate(-180deg);
+      -moz-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+      -o-transform: rotate(-180deg);
       transform: rotate(-180deg); }
     header h1 h2 {
       font-size: 30px;
       position: absolute;
+      -webkit-transform: rotate(-75deg);
+      -moz-transform: rotate(-75deg);
+      -ms-transform: rotate(-75deg);
+      -o-transform: rotate(-75deg);
       transform: rotate(-75deg);
       bottom: 1150px;
       left: 24%; }
@@ -151,6 +151,10 @@ header {
       left: 89.1%;
       top: 16px;
       background: url(../images/newline.png);
+      -webkit-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+      -o-transform: rotate(15deg);
       transform: rotate(15deg);
       content: "";
       height: 400px;
@@ -158,6 +162,10 @@ header {
     header:after {
       display: none; }
     header h1 {
+      -webkit-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+      -o-transform: rotate(15deg);
       transform: rotate(15deg);
       background: white;
       z-index: 2;
@@ -194,10 +202,18 @@ header {
         bottom: 376px;
         left: 56.1%;
         z-index: -2;
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
         transform: rotate(-180deg); }
     header h2 {
       font-size: 30px;
       position: absolute;
+      -webkit-transform: rotate(-75deg);
+      -moz-transform: rotate(-75deg);
+      -ms-transform: rotate(-75deg);
+      -o-transform: rotate(-75deg);
       transform: rotate(-75deg);
       bottom: 1150px;
       left: 24%; } }
