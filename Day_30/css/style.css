@@ -58,15 +58,96 @@ body {
 h2 {
   margin-top: 150px; }
 
-@media screen and (min-width: 900px) {
+.summary {
+  background: #BE5841; }
+
+header {
+  padding-top: 200px;
+  z-index: 10;
+  margin-bottom: 100px; }
+  header:before {
+    display: block;
+    position: absolute;
+    left: 95.123%;
+    top: -68px;
+    background: url(../images/newline.png);
+    transform: rotate(15deg);
+    content: "";
+    height: 400px;
+    width: 2.1%; }
+  header:after {
+    display: block;
+    position: absolute;
+    left: 94.5%;
+    top: -104px;
+    background: url(../images/newline.png);
+    transform: rotate(15deg);
+    content: "";
+    height: 400px;
+    width: 2.1%; }
+  header h1 {
+    transform: rotate(15deg);
+    background: white;
+    z-index: 2;
+    text-transform: uppercase;
+    margin: 0 auto;
+    position: relative;
+    font-size: 80px;
+    font-family: "futura-pt",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    min-height: 500px;
+    background: url(../images/2015.png);
+    background-repeat: no-repeat;
+    background-position: 56% 180px; }
+    header h1:before {
+      width: 100px;
+      height: 100px;
+      background: red;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 50px; }
+    header h1:after {
+      display: block;
+      content: "";
+      width: 0px;
+      height: 0px;
+      border-left: 38px solid transparent;
+      border-right: 38px solid transparent;
+      border-top: 85px solid #0477BF;
+      position: absolute;
+      bottom: 340px;
+      left: 11.9%;
+      z-index: -2;
+      transform: rotate(-180deg); }
+    header h1 h2 {
+      font-size: 30px;
+      position: absolute;
+      transform: rotate(-75deg);
+      bottom: 1150px;
+      left: 24%; }
+
+@media screen and (min-width: 550px) {
   header {
-    padding-top: 300px;
-    z-index: 10; }
+    padding-top: 200px;
+    z-index: 10;
+    margin-bottom: 100px; }
+    header:before {
+      display: block;
+      position: absolute;
+      left: 89.1%;
+      top: 16px;
+      background: url(../images/newline.png);
+      transform: rotate(15deg);
+      content: "";
+      height: 400px;
+      width: 1%; }
+    header:after {
+      display: none; }
     header h1 {
       transform: rotate(15deg);
       background: white;
       z-index: 2;
-      text-transform: uppercase;
       width: 80%;
       margin: 0 auto;
       position: relative;
@@ -77,14 +158,14 @@ h2 {
       min-height: 500px;
       background: url(../images/2015.png);
       background-repeat: no-repeat;
-      background-position: 530px 300px; }
+      background-position: 55% 300px; }
       header h1:before {
         display: block;
         position: absolute;
-        left: 412px;
+        left: 35.70%;
         background: #F2811D;
         height: 600px;
-        width: 100px;
+        width: 9%;
         content: "";
         z-index: -2;
         border-right: 12px solid black; }
@@ -98,8 +179,14 @@ h2 {
         border-top: 120px solid #0477BF;
         position: absolute;
         bottom: 376px;
-        left: 645px;
+        left: 56.1%;
         z-index: -2;
-        transform: rotate(-180deg); } }
+        transform: rotate(-180deg); }
+    header h2 {
+      font-size: 30px;
+      position: absolute;
+      transform: rotate(-75deg);
+      bottom: 1150px;
+      left: 24%; } }
 
 /*# sourceMappingURL=style.css.map */
