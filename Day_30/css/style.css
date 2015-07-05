@@ -100,13 +100,6 @@ header {
     background: url(../images/2015.png);
     background-repeat: no-repeat;
     background-position: 56% 180px; }
-    header h1:before {
-      width: 100px;
-      height: 100px;
-      background: red;
-      -moz-border-radius: 50px;
-      -webkit-border-radius: 50px;
-      border-radius: 50px; }
     header h1:after {
       display: block;
       content: "";
