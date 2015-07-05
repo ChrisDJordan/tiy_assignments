@@ -66,20 +66,20 @@ body {
 
 
 
-// .summary {
-//     background: url(../images/layer4.png);
-//     max-height: 200px;
-//     margin-top: 110px;
-//     margin-bottom: 150px;
-//     background-position: 50% 0;
-//     height: 90px;
-//     z-index: -10;
-//     p {
-//         &:first-child {
-//             z-index: 10;
-//             padding-top: 110px;
-//         }
-//     }
-// }
+.summary {
+    background: url(../images/layer4.png);
+    max-height: 200px;
+    margin-top: 110px;
+    margin-bottom: 150px;
+    background-position: 50% 0;
+    height: 90px;
+
+    p {
+        &:first-child {
+            z-index: 10;
+            padding-top: 110px;
+        }
+    }
+}
 
 @import "mediaqueries";
