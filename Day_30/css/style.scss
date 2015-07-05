@@ -27,7 +27,7 @@ body {
                 font-style: normal;
                 font-weight: 500;
                 min-height: 300px;
-                // background: url(../images/newline1.png);
+                background: url(../images/newline1.png);
                 background-repeat: no-repeat;
                 background-position: 100% 170px;
                 &:after {
@@ -71,7 +71,7 @@ body {
     max-height: 200px;
     margin-top: 110px;
     margin-bottom: 150px;
-    background-position: 50% 0;
+    // background-position: 50% 0;
     height: 90px;
 
     p {
