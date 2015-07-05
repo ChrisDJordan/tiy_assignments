@@ -2,18 +2,83 @@
 @import "fontandcolor";
 
 body {
-    background: #F2E0C9;
+    background: #F4EDDF;
     position: relative;
+    .page-wrapper {
+        max-width: 400px;
+        margin: 0 auto;
+        header {
+            padding-top: 100px;
+            h1 {
+                background: white;
+                text-transform: uppercase;
+                -webkit-transform: rotate(15deg);
+                -moz-transform: rotate(15deg);
+                -ms-transform: rotate(15deg);
+                -o-transform: rotate(15deg);
+                transform: rotate(15deg);
+                width: 77%;
+                margin: 0 auto;
+                text-align: right;
+                position: relative;
+                font-size: 80px;
+                font-family: "futura-pt",sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                min-height: 300px;
+                background: url(../images/newline1.png);
+                background-repeat: no-repeat;
+                background-position: 100% 170px;
+                &:after {
+                    display: block;
+                    content: "";
+                    width: 0px;
+                    height: 0px;
+                    border-left: 30px solid transparent;
+                    border-right: 30px solid transparent;
+                    border-top: 65px solid #0477BF;
+                    position: absolute;
+                    bottom: 150px;
+                    left: 18.75%;
+                    z-index: -2;
+                    -webkit-transform: rotate(-180deg);
+                    -moz-transform: rotate(-180deg);
+                    -ms-transform: rotate(-180deg);
+                    -o-transform: rotate(-180deg);
+                    transform: rotate(-180deg);
+                }
+            }
+            h2 {
+                font-size: 25px;
+                width: 80%;
+                margin: -50px 0px 50px 40px;
+                -webkit-transform: rotate(15deg);
+                -moz-transform: rotate(15deg);
+                -ms-transform: rotate(15deg);
+                -o-transform: rotate(15deg);
+                transform: rotate(15deg);
+                width: 77%;
+            }
+        }
+    }
 }
 
 
-h2 {
-    margin-top: 150px;
+
+.summary {
+    background: url(../images/layer4.png);
+    max-height: 200px;
+    margin-top: 110px;
+    margin-bottom: 150px;
+    background-position: 50% 0;
+    height: 90px;
+    z-index: -10;
+    p {
+        &:first-child {
+            z-index: 10;
+            padding-top: 110px;
+        }
+    }
 }
 
-
-
-.summary{
-    background:#BE5841;
-}
 @import "mediaqueries";

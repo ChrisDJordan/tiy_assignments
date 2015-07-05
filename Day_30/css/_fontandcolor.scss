@@ -1,9 +1,26 @@
 
 
-h1, h2, h3, h4, h5 {
+p,h1, h2, h3, h4, h5 {
     font-family: "futura-pt",sans-serif;
     font-style: normal;
     font-weight: 500;
     margin-bottom: 12px;
 }
 
+
+
+p{
+    font-family: "futura-pt",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size:18px;
+    margin-left:15px;
+    max-width:372px;
+    line-height:1.4;
+}
+
+h3{
+    font-size:25px;
+    margin-left:15px;
+
+}
