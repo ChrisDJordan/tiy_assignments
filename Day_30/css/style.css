@@ -118,8 +118,7 @@ body {
       -moz-transform: rotate(15deg);
       -ms-transform: rotate(15deg);
       -o-transform: rotate(15deg);
-      transform: rotate(15deg);
-      width: 77%; }
+      transform: rotate(15deg); }
 
 .summary {
   background: url(../images/triangles.png);
@@ -135,7 +134,13 @@ body {
   body header {
     max-width: 80%;
     margin: 0 auto; }
+    body header:after {
+      display: block;
+      position: absolute;
+      z-index: 2;
+      content: ""; }
     body header h1 {
+      z-index: 10;
       background-position: 0 580px;
       margin-top: -200px;
       font-size: 85px;
@@ -146,11 +151,23 @@ body {
         position: relative;
         top: 20px;
         right: 1.85%;
-        background: #red;
         height: 400px;
         content: "";
         border-right: 9px solid black; }
+      body header h1:after {
+        bottom: 112px;
+        left: 24%;
+        border-left: 32px solid transparent;
+        border-right: 32px solid transparent;
+        border-top: 68px solid #0477BF; }
     body header h2 {
-      display: none; } }
+      -webkit-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+      -o-transform: rotate(15deg);
+      transform: rotate(-75deg);
+      position: absolute;
+      top: 65px;
+      left: 32.5%; } }
 
 /*# sourceMappingURL=style.css.map */
