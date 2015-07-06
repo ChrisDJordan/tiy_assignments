@@ -71,9 +71,9 @@ h3 {
 body {
   background: #F4EDDF;
   position: relative; }
-  body .page-wrapper header {
+  body header {
     padding-top: 100px; }
-    body .page-wrapper header h1 {
+    body header h1 {
       background: white;
       text-transform: uppercase;
       -webkit-transform: rotate(15deg);
@@ -93,7 +93,7 @@ body {
       background: url(../images/2015.png);
       background-repeat: no-repeat;
       background-position: 100% 150px; }
-      body .page-wrapper header h1:after {
+      body header h1:after {
         display: block;
         content: "";
         width: 0px;
@@ -110,7 +110,7 @@ body {
         -ms-transform: rotate(-180deg);
         -o-transform: rotate(-180deg);
         transform: rotate(-180deg); }
-    body .page-wrapper header h2 {
+    body header h2 {
       font-size: 25px;
       width: 80%;
       margin: -70px 0px 50px 48px;
@@ -131,78 +131,26 @@ body {
     z-index: 10;
     padding-top: 110px; }
 
-@media screen and (min-width: 35em) {
-  header {
-    padding-top: 0px;
-    margin-top: -280px;
-    z-index: 10;
-    margin-bottom: 200px;
-    height: 900px; }
-    header:before {
-      display: inline-block;
-      position: relative;
-      left: 95.8%;
-      top: 175px;
-      background: url(../images/newline.png);
-      -webkit-transform: rotate(15deg);
-      -moz-transform: rotate(15deg);
-      -ms-transform: rotate(15deg);
-      -o-transform: rotate(15deg);
-      transform: rotate(15deg);
-      content: "";
-      height: 500px;
-      width: 1%; }
-    header:after {
-      display: none; }
-    header h1 {
-      width: 80%;
-      margin: 0 auto;
-      position: relative;
-      font-size: 140px;
-      font-family: "futura-pt",sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      min-height: 500px;
-      background: url(../images/2015.png);
-      background-repeat: no-repeat;
-      background-position: 55% 300px; }
-      header h1:before {
+@media screen and (min-width: 45em) {
+  body header {
+    max-width: 80%;
+    margin: 0 auto; }
+    body header h1 {
+      background-position: 0 580px;
+      margin-top: -200px;
+      font-size: 85px;
+      max-width: 60%;
+      padding-bottom: 100px; }
+      body header h1:before {
         display: block;
-        position: absolute;
-        left: 39%;
-        background: #F2811D;
-        height: 2200px;
-        width: 9%;
+        position: relative;
+        top: 20px;
+        right: 1.85%;
+        background: #red;
+        height: 400px;
         content: "";
-        z-index: -10;
-        border-right: 12px solid black; }
-      header h1:after {
-        display: block;
-        content: "";
-        width: 0px;
-        height: 0px;
-        border-left: 55px solid transparent;
-        border-right: 55px solid transparent;
-        border-top: 120px solid #0477BF;
-        position: absolute;
-        bottom: 376px;
-        left: 56.1%;
-        z-index: -2;
-        -webkit-transform: rotate(-180deg);
-        -moz-transform: rotate(-180deg);
-        -ms-transform: rotate(-180deg);
-        -o-transform: rotate(-180deg);
-        transform: rotate(-180deg); }
-    header h2 {
-      background: none;
-      font-size: 30px;
-      position: relative;
-      -webkit-transform: rotate(-75deg);
-      -moz-transform: rotate(-75deg);
-      -ms-transform: rotate(-75deg);
-      -o-transform: rotate(-75deg);
-      transform: rotate(-75deg);
-      bottom: 920px;
-      right: 5%; } }
+        border-right: 9px solid black; }
+    body header h2 {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */
