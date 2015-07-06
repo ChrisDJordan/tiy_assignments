@@ -5,12 +5,11 @@
                 // background:white;
                 max-width: 80%;
                 margin: 0 auto;
-                
-               
                 h1 {
                     z-index: 10;
                     background-position: 0 580px;
                     margin-top: -200px;
+                    font-size: 5.313rem;
                     font-size: 85px;
                     max-width: 60%;
                     padding-bottom: 100px;
@@ -50,9 +49,10 @@
 
 @media screen and (min-width: 65em) {
     body {
+        max-width: 1440px;
+        margin: 0 auto;
         .page-wrapper {
             header {
-
                 &:before {
                     display: block;
                     position: absolute;
@@ -60,7 +60,6 @@
                     top: 350px;
                     background: #F3A130;
                     height: 540px;
-                    // width: 5.5%;
                     content: "";
                     z-index: -1;
                     border-right: 12px solid black;
@@ -70,17 +69,16 @@
                     -o-transform: rotate(15deg);
                     transform: rotate(15deg);
                 }
-
-                 &:after {
-                	background:#F4CF3A;
+                &:after {
+                    background: #F4CF3A;
                     display: block;
                     position: absolute;
                     z-index: 2;
                     content: "";
-                    width:320px;
-                    height:100px;
-                    top:250px;
-                     -webkit-transform: rotate(15deg);
+                    width: 320px;
+                    height: 100px;
+                    top: 250px;
+                    -webkit-transform: rotate(15deg);
                     -moz-transform: rotate(15deg);
                     -ms-transform: rotate(15deg);
                     -o-transform: rotate(15deg);
@@ -89,30 +87,27 @@
                 h1 {
                     border: 5px solid black;
                     background-position: 68% 740px;
+                    font-size: 7.5rem;
                     font-size: 120px;
                     max-width: 90%;
                     margin-top: -360px;
                     margin-bottom: 245px;
                     &:before {
-                        // z-index: -10;
                         display: block;
                         position: relative;
                         top: 34px;
                         right: .9%;
                         height: 600px;
-                        // width: 1%;
                         content: "";
                         border-right: 12px solid black;
                     }
-
-
-                    &:after{
-                    bottom: 115px;
-                    left:63.5%;
-                    border-left: 48px solid transparent;
-                    border-right: 48px solid transparent;
-                    border-top: 100px solid #0477BF;
-                    position: absolute;
+                    &:after {
+                        bottom: 115px;
+                        left: 63.5%;
+                        border-left: 48px solid transparent;
+                        border-right: 48px solid transparent;
+                        border-top: 100px solid #0477BF;
+                        position: absolute;
                     }
                 }
                 h2 {
