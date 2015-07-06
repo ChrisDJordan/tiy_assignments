@@ -5,12 +5,8 @@
                 // background:white;
                 max-width: 80%;
                 margin: 0 auto;
-                &:after {
-                    display: block;
-                    position: absolute;
-                    z-index: 2;
-                    content: "";
-                }
+                
+               
                 h1 {
                     z-index: 10;
                     background-position: 0 580px;
@@ -37,10 +33,10 @@
                     }
                 }
                 h2 {
-                    -webkit-transform: rotate(15deg);
-                    -moz-transform: rotate(15deg);
-                    -ms-transform: rotate(15deg);
-                    -o-transform: rotate(15deg);
+                    -webkit-transform: rotate(-75deg);
+                    -moz-transform: rotate(-75deg);
+                    -ms-transform: rotate(-75deg);
+                    -o-transform: rotate(-75deg);
                     transform: rotate(-75deg);
                     position: absolute;
                     // margin:0;
@@ -56,10 +52,11 @@
     body {
         .page-wrapper {
             header {
+
                 &:before {
                     display: block;
                     position: absolute;
-                    left: 37.8%;
+                    left: 37.88%;
                     top: 350px;
                     background: #F3A130;
                     height: 540px;
@@ -68,6 +65,22 @@
                     z-index: -1;
                     border-right: 12px solid black;
                     -webkit-transform: rotate(15deg);
+                    -moz-transform: rotate(15deg);
+                    -ms-transform: rotate(15deg);
+                    -o-transform: rotate(15deg);
+                    transform: rotate(15deg);
+                }
+
+                 &:after {
+                	background:#F4CF3A;
+                    display: block;
+                    position: absolute;
+                    z-index: 2;
+                    content: "";
+                    width:320px;
+                    height:100px;
+                    top:250px;
+                     -webkit-transform: rotate(15deg);
                     -moz-transform: rotate(15deg);
                     -ms-transform: rotate(15deg);
                     -o-transform: rotate(15deg);
