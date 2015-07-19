@@ -163,16 +163,16 @@ a {
   .hero h1 {
     font-family: helvetica neue;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 2.313rem;
+    font-size: 37px;
     text-align: left;
     color: white;
     margin-top: 30px;
     letter-spacing: -0.07em;
     margin-bottom: 15px;
-    margin-left: 6%; }
+    margin-left: 5%; }
   .hero p:nth-child(3) {
-    width: 92.5%;
-    max-width: 320px;
+    max-width: 330px;
     font-size: 1rem;
     font-size: 16px;
     text-align: left;
@@ -211,19 +211,29 @@ footer {
   footer a {
     color: #bf544b; }
 
+@media screen and (min-width: 30em) {
+  .hero {
+    height: 32em; }
+    .hero h1 {
+      font-size: 50px; }
+    .hero p:nth-child(3) {
+      font-size: 18px;
+      max-width: 400px; } }
 @media screen and (min-width: 46.8em) {
   .hero {
     height: 32em; }
     .hero h1 {
+      font-size: 4.375rem;
       font-size: 70px; }
     .hero p:nth-child(3) {
+      font-size: 1.125em;
       font-size: 18px;
       max-width: 550px; } }
 @media screen and (min-width: 50em) {
   .hero {
     height: 40em; }
     .hero h1 {
-      font-size: 85px; }
+      font-size: 80px; }
 
   header {
     background: rgba(255, 255, 255, 0.3); }
