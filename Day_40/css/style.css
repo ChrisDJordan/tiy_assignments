@@ -163,21 +163,22 @@ a {
   .hero h1 {
     font-family: helvetica neue;
     font-weight: bold;
-    font-size: 40px;
-    text-align: center;
+    font-size: 35px;
+    text-align: left;
     color: white;
     margin-top: 30px;
     letter-spacing: -0.07em;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    margin-left: 6%; }
   .hero p:nth-child(3) {
     width: 92.5%;
-    max-width: 375px;
+    max-width: 320px;
     font-size: 1rem;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
     line-height: 24px;
     color: white;
-    margin: 0 auto;
+    margin-left: 5%;
     font-family: "source-sans-pro",sans-serif;
     font-style: normal;
     font-weight: 600; }
