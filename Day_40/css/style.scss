@@ -7,12 +7,12 @@
 .hero {
     background: no-repeat center center;
     background-size: cover;
-    height: 20em;
+    height: 30em;
     background-image: url(../images/shoes2.jpg);
     h1 {
         font-family: helvetica neue;
         font-weight: bold;
-        font-size: 35px;
+        font-size: 40px;
         text-align: center;
         color: white;
         margin-top: 30px;
@@ -22,7 +22,7 @@
     p {
         &:nth-child(3){
         width: 92.5%;
-        max-width: 550px;
+        max-width: 375px;
         font-size:1rem;
         font-size: 16px;
         text-align:center;
