@@ -3,7 +3,7 @@
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
    float:right;
-   
+
    
  }
 
@@ -12,7 +12,7 @@
 .nav-collapse ul {
   
     padding: 0;
-    width: 100%;
+    // width: 100%;
     display: block;
     list-style-type: none;
     text-decoration: none;
@@ -41,9 +41,9 @@
     display: block;
     overflow: hidden;
     zoom: 1;
-    clear: both;
+     clear: both;
     float:right;
-    width:50%;
+    // width:50%;
 }
 
 .nav-collapse.opened {
@@ -70,13 +70,17 @@
 .nav-toggle span {
     color: $darkred;
     font-size: 3.5rem;
-    
+    overflow: hidden;
+   
+    display:inline-block;
+
 }
 
-header a{
-  // max-height:30px;
-  margin:0;
-}
+
+// header a{
+//   // max-height:30px;
+//   margin:0;
+// }
 @media screen and (min-width: 50em) {
 .nav-collapse{
   background:orange;
@@ -88,8 +92,9 @@ header a{
 
 .nav-collapse ul{
   background:green;
-  overflow: hidden;
+   overflow: hidden;
   float:right;
+  vertical-align: center;
 
 
 }
@@ -98,9 +103,10 @@ header a{
 
 
     .nav-collapse li {
+        display:inline-block;
       background:blue;
-         float: left;
-        margin-right:3%;
+         // float: left;
+        // margin-right:3%;
         &:last-of-type {
             margin-right: 0;
         }
@@ -110,6 +116,7 @@ header a{
     }
     .js .nav-collapse {
         position: relative;
+          clear: none;
     }
     .js .nav-collapse.closed {
         max-height: none;

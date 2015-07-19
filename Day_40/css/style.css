@@ -66,7 +66,6 @@ p, a {
 
 .nav-collapse ul {
   padding: 0;
-  width: 100%;
   display: block;
   list-style-type: none;
   text-decoration: none; }
@@ -87,8 +86,7 @@ p, a {
   overflow: hidden;
   zoom: 1;
   clear: both;
-  float: right;
-  width: 50%; }
+  float: right; }
 
 .nav-collapse.opened {
   max-height: 9999px;
@@ -108,10 +106,9 @@ p, a {
 
 .nav-toggle span {
   color: #bf544b;
-  font-size: 3.5rem; }
-
-header a {
-  margin: 0; }
+  font-size: 3.5rem;
+  overflow: hidden;
+  display: inline-block; }
 
 @media screen and (min-width: 50em) {
   .nav-collapse {
@@ -122,19 +119,20 @@ header a {
   .nav-collapse ul {
     background: green;
     overflow: hidden;
-    float: right; }
+    float: right;
+    vertical-align: center; }
 
   .nav-collapse li {
-    background: blue;
-    float: left;
-    margin-right: 3%; }
+    display: inline-block;
+    background: blue; }
     .nav-collapse li:last-of-type {
       margin-right: 0; }
     .nav-collapse li:nth-of-type(4)::after {
       display: none; }
 
   .js .nav-collapse {
-    position: relative; }
+    position: relative;
+    clear: none; }
 
   .js .nav-collapse.closed {
     max-height: none; }
@@ -161,13 +159,17 @@ p, a {
   header {
     background: red;
     width: 100%;
-    overflow: hidden; }
+    overflow: hidden;
+    padding: .5rem 0; }
+    header .wrap {
+      max-width: 90%;
+      background: yellow;
+      margin: 0 auto;
+      overflow: hidden; }
     header p {
-      color: #bf544b;
       font-size: 3em;
-      font-family: "tablet-gothic-compressed",sans-serif;
       float: left;
-      margin-left: 3%; }
+      margin-top: 2px; }
 
   footer {
     background: #7edde1;
@@ -186,10 +188,6 @@ p, a {
   section p {
     max-width: 60%; } }
 @media screen and (min-width: 50em) {
-  header p {
-    font-size: 64px;
-    font-size: 4em; }
-
   footer .col16 li {
     padding: 45px 0 16px 5%; }
 
@@ -242,15 +240,6 @@ p, a {
 
   .col16 {
     width: 100%;
-    margin-right: 0%; }
-
-  div:last-of-type {
-    margin-right: 0; } }
-@media screen and (min-width: 900px) {
-  footer .col16:after {
-    width: 425px;
-    top: -30px; }
-  footer .col16 li {
-    padding: 45px 0 40px 5%; } }
+    margin-right: 0%; } }
 
 /*# sourceMappingURL=style.css.map */

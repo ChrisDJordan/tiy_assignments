@@ -30,12 +30,23 @@ header {
     // min-height: 50px;
     width: 100%;
     overflow: hidden;
+    padding: .5rem 0;
+
+      .wrap{
+        max-width:90%;
+        background:yellow;
+        margin:0 auto;
+         overflow: hidden;
+
+      }
     p {
-        color: #bf544b;
+        // color: #bf544b;
         font-size: 3em;
-        font-family: "tablet-gothic-compressed",sans-serif;
-        float: left;
-        margin-left: 3%;
+        // font-family: "tablet-gothic-compressed",sans-serif;
+         float: left;
+         margin-top:2px;
+     
+        // margin-left: 3%;
     }
 }
 
