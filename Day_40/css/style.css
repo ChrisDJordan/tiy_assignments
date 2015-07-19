@@ -148,39 +148,39 @@ p, a {
   font-weight: 700;
   font-size: 1.5rem; }
 
-@media screen and (min-width: 24em) {
-  .hero {
-    background: no-repeat center center;
-    background-size: cover;
-    height: 20em;
-    /* 300px */
-    background-image: url(../images/skating-mobile.jpg); }
+.hero {
+  background: no-repeat center center;
+  background-size: cover;
+  height: 20em;
+  /* 300px */
+  background-image: url(../images/skating-mobile.jpg); }
 
-  header {
-    background: red;
-    width: 100%;
-    overflow: hidden;
-    padding: .5rem 0; }
-    header .wrap {
-      max-width: 90%;
-      background: yellow;
-      margin: 0 auto;
-      overflow: hidden; }
-    header p {
-      font-size: 3em;
-      float: left;
-      margin-top: 2px; }
-
-  footer {
-    background: #7edde1;
-    width: 100%;
+header {
+  background: red;
+  width: 100%;
+  overflow: hidden;
+  padding: .5rem 0; }
+  header .wrap {
+    max-width: 90%;
+    background: yellow;
+    margin: 0 auto;
+    overflow: hidden; }
+  header p {
+    font-size: 3em;
     float: left;
-    margin-top: 100px; }
-    footer li {
-      float: left;
-      padding: 35px 0 35px 5%; }
-    footer a {
-      color: #bf544b; } }
+    margin-top: 2px; }
+
+footer {
+  background: #7edde1;
+  width: 100%;
+  float: left;
+  margin-top: 100px; }
+  footer li {
+    float: left;
+    padding: 35px 0 35px 5%; }
+  footer a {
+    color: #bf544b; }
+
 @media screen and (min-width: 46.8em) {
   .hero {
     height: 32em; }
