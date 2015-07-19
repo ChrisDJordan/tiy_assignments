@@ -1,0 +1,101 @@
+@import "fontandcolor";
+
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse {
+    z-index: 10;
+}
+
+.nav-collapse ul {
+    // margin-top:15px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    width: 150px;
+    float: right;
+    margin-right: 10%;
+    border:1px solid black;
+    // margin-left:24px;
+}
+
+.nav-collapse li {
+    margin-bottom: .5em;
+    // margin-right: 4%;
+    display: block;
+    text-align: right;
+    font-size:1.5em;
+    // float:left;
+}
+
+// .nav-collapse li:first-of-type{
+//   margin-left:10px;
+// }
+
+.nav-collapse li:last-child {
+    margin-right: 0px;
+}
+
+.nav-collapse a {
+    color: white;
+     text-decoration: none;
+}
+
+.js .nav-collapse {
+    clip: rect(0 0 0 0);
+    max-height: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.nav-collapse.opened {
+    max-height: 9999px;
+}
+
+.nav-toggle {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    color: white;
+    padding: 20px 2%;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.nav-toggle span {
+    color: $darkred;
+    font-size: 3.5rem;
+    margin-top: -5px;
+    margin-right: 8%;
+    float: right;
+}
+
+@media screen and (min-width: 55em) {
+    .js .nav-collapse {
+        position: relative;
+    }
+    .js .nav-collapse.closed {
+        max-height: none;
+    }
+    .nav-toggle {
+         display: none;
+    }
+    .nav-collapse {
+        width: 40%;
+    }
+    .nav-collapse ul {
+        float: right;
+        border: 1px solid black;
+        width:40%;
+        // display: none;
+    }
+    .nav-collapse li {
+        margin: 0;
+        float: left;
+    }
+}

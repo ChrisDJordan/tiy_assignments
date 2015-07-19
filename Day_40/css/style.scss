@@ -1,0 +1,54 @@
+@import "reset";
+@import "mixin";
+@import "responsive-nav";
+@import "fontandcolor";
+
+//global----------------------------------
+// .hero-img{
+//     // background:url(../images/adventure.jpg);
+//     background:green;
+//     height:500px;
+//     background-repeat:no-repeat;
+//     width:100%;
+//     background-size:cover;
+
+// }
+.hero {
+  background: no-repeat center center;
+  background-size: cover;
+  height: 20em; /* 300px */
+  background-image: url(../images/skating.jpg);
+     // background-image: url(http://placehold.it/600x300);
+}
+
+header {
+    background: red;
+   // background: rgba(255, 255, 255, 0.1);
+    // padding: 5px 0 5px 0;
+    min-height: 50px;
+    width: 100%;
+    overflow: hidden;
+    p {
+        color: #bf544b;
+        font-size: 3em;
+        font-family: "tablet-gothic-compressed",sans-serif;
+        float: left;
+        margin-left: 3%;
+    }
+}
+
+footer {
+    background: #7edde1;
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+    li {
+        float: left;
+        padding: 35px 0 35px 5%;
+    }
+    a {
+        color: #bf544b;
+    }
+}
+
+@import "mediaqueries";

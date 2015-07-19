@@ -1,0 +1,106 @@
+@media screen and (min-width: 600px) {
+        .hero {
+
+    height:500px;
+  }
+    section {
+        p {
+            max-width: 60%;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    // main section----------------------------------------------------------
+      .hero {
+      
+
+
+
+    // background-image: url(http://placehold.it/1200x300);
+  }
+
+ 
+    header {
+   
+        p {
+            font-size: 64px;
+            font-size: 4em;
+        }
+    }
+    
+    // menu links--------------------------------------------------------------
+    
+    footer {
+        .col16 {
+         
+            li {
+                padding: 45px 0 16px 5%;
+            }
+        }
+    }
+    // grid----------------------------------------------------------------------
+    .col2 {
+        @include grid(2);
+    }
+    .col3 {
+        @include grid(3);
+        min-height: 50px;
+    }
+    .col4 {
+        @include grid(4);
+        background: red;
+        min-height: 500px;
+    }
+    .col5 {
+        @include grid(5);
+    }
+    .col6 {
+        @include grid(6);
+    }
+    .col7 {
+        @include grid(7);
+    }
+    .col8 {
+        @include grid(8);
+    }
+    .col9 {
+        @include grid(9);
+    }
+    .col10 {
+        @include grid(10);
+    }
+    .col11 {
+        @include grid(11);
+    }
+    .col12 {
+        @include grid(12);
+    }
+    .col16 {
+        @include grid(16);
+    
+    }
+    div:last-of-type {
+        margin-right: 0;
+    }
+}
+
+// media querie------------------------------------------------
+
+@media screen and (min-width: 900px) {
+    header {
+      
+    }
+   
+    footer {
+        .col16 {
+            &:after {
+                width: 425px;
+                top: -30px;
+            }
+            li {
+                padding: 45px 0 40px 5%;
+            }
+        }
+    }
+}
