@@ -51,6 +51,9 @@ table {
   width: 100%;
   float: left; }
 
+* {
+  text-decoration: none; }
+
 p, a {
   font-family: "source-sans-pro",sans-serif;
   font-style: normal;
@@ -59,25 +62,21 @@ p, a {
 
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
-  overflow: hidden; }
+  float: right; }
 
 .nav-collapse ul {
   padding: 0;
-  list-style: none;
-  overflow: hidden;
-  width: 150px;
-  float: right;
-  margin-right: 10%;
-  border: 1px solid black; }
+  width: 100%;
+  display: block;
+  list-style-type: none;
+  text-decoration: none; }
 
 .nav-collapse li {
-  margin-bottom: .5em;
   display: block;
-  text-align: right;
-  font-size: 1.5em; }
+  margin-bottom: 1em;
+  text-align: right; }
 
-.nav-collapse a {
-  color: white;
+.nav-collaspe a {
   text-decoration: none; }
 
 .js .nav-collapse {
@@ -86,10 +85,14 @@ p, a {
   position: absolute;
   display: block;
   overflow: hidden;
-  zoom: 1; }
+  zoom: 1;
+  clear: both;
+  float: right;
+  width: 50%; }
 
 .nav-collapse.opened {
-  max-height: 9999px; }
+  max-height: 9999px;
+  padding-bottom: 30px; }
 
 .nav-toggle {
   -webkit-tap-highlight-color: transparent;
@@ -99,20 +102,37 @@ p, a {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-  color: white;
-  padding: 20px 2%;
-  display: block;
-  text-decoration: none;
-  overflow: hidden; }
+  float: right;
+  font-size: 1.5em;
+  text-decoration: none; }
 
 .nav-toggle span {
   color: #bf544b;
-  font-size: 3.5rem;
-  margin-top: -5px;
-  margin-right: 8%;
-  float: right; }
+  font-size: 3.5rem; }
+
+header a {
+  margin: 0; }
 
 @media screen and (min-width: 50em) {
+  .nav-collapse {
+    background: orange;
+    float: right;
+    overflow: hidden; }
+
+  .nav-collapse ul {
+    background: green;
+    overflow: hidden;
+    float: right; }
+
+  .nav-collapse li {
+    background: blue;
+    float: left;
+    margin-right: 3%; }
+    .nav-collapse li:last-of-type {
+      margin-right: 0; }
+    .nav-collapse li:nth-of-type(4)::after {
+      display: none; }
+
   .js .nav-collapse {
     position: relative; }
 
@@ -120,19 +140,10 @@ p, a {
     max-height: none; }
 
   .nav-toggle {
-    display: none; }
+    display: none; } }
+* {
+  text-decoration: none; }
 
-  .nav-collapse {
-    width: 40%; }
-
-  .nav-collapse ul {
-    border: 1px solid black;
-    margin: 0;
-    width: 500px;
-    padding: 10px 0 10px 0; }
-
-  .nav-collapse li {
-    float: left; } }
 p, a {
   font-family: "source-sans-pro",sans-serif;
   font-style: normal;
@@ -149,7 +160,6 @@ p, a {
 
   header {
     background: red;
-    min-height: 50px;
     width: 100%;
     overflow: hidden; }
     header p {
