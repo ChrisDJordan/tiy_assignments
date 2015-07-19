@@ -56,7 +56,7 @@ table {
 * {
   text-decoration: none; }
 
-p, a {
+a {
   font-family: "source-sans-pro",sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -149,7 +149,7 @@ p, a {
 * {
   text-decoration: none; }
 
-p, a {
+a {
   font-family: "source-sans-pro",sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -159,7 +159,28 @@ p, a {
   background: no-repeat center center;
   background-size: cover;
   height: 20em;
-  background-image: url(../images/shoes.jpg); }
+  background-image: url(../images/shoes2.jpg); }
+  .hero h1 {
+    font-family: helvetica neue;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    letter-spacing: -0.07em;
+    margin-bottom: 15px; }
+  .hero p:nth-child(3) {
+    width: 92.5%;
+    max-width: 550px;
+    font-size: 1rem;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    color: white;
+    margin: 0 auto;
+    font-family: "source-sans-pro",sans-serif;
+    font-style: normal;
+    font-weight: 600; }
 
 header {
   background: #2E3032;
@@ -174,7 +195,9 @@ header {
     background: #F5F6F5;
     font-size: 3em;
     float: left;
-    margin: 5px; }
+    margin: 5px;
+    font-family: helvetica neue;
+    font-weight: bold; }
 
 footer {
   background: #7edde1;
@@ -190,10 +213,17 @@ footer {
 @media screen and (min-width: 46.8em) {
   .hero {
     height: 32em; }
+    .hero h1 {
+      font-size: 65px; }
 
   section p {
     max-width: 60%; } }
 @media screen and (min-width: 50em) {
+  .hero {
+    height: 40em; }
+    .hero h1 {
+      font-size: 85px; }
+
   header {
     background: rgba(255, 255, 255, 0.3); }
 

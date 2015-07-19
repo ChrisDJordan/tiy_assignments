@@ -1,6 +1,9 @@
 @media screen and (min-width: 46.8em) {
     .hero {
         height: 32em;
+            h1{
+                  font-size:65px;
+            }
     }
     section {
         p {
@@ -12,8 +15,11 @@
 @media screen and (min-width: 50em) {
     // main section----------------------------------------------------------
     .hero {
+        height:40em;
         // background-image: url(http://placehold.it/1200x300);
-
+             h1{
+                  font-size:85px;
+            }
    
     }
     header {
@@ -25,6 +31,9 @@
        
         }
     }
+
+
+
     // menu links--------------------------------------------------------------
     footer {
         .col16 {

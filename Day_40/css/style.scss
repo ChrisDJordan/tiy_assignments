@@ -5,11 +5,35 @@
 
 //global----------------------------------
 .hero {
-     background: no-repeat center center;
+    background: no-repeat center center;
     background-size: cover;
     height: 20em;
-    background-image: url(../images/shoes.jpg);
-   
+    background-image: url(../images/shoes2.jpg);
+    h1 {
+        font-family: helvetica neue;
+        font-weight: bold;
+        font-size: 35px;
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+        letter-spacing: -0.07em;
+        margin-bottom:15px;
+    }
+    p {
+        &:nth-child(3){
+        width: 92.5%;
+        max-width: 550px;
+        font-size:1rem;
+        font-size: 16px;
+        text-align:center;
+        line-height: 24px;
+        color: white;
+         margin: 0 auto;
+            font-family: "source-sans-pro",sans-serif;
+font-style: normal;
+font-weight: 600;
+        }
+    }
 }
 
 header {
@@ -29,22 +53,10 @@ header {
         font-size: 3em;
         float: left;
         margin: 5px;
+        font-family: helvetica neue;
+        font-weight: bold;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     background: #7edde1;
