@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 30em) {
     .hero {
-        // height: 32em;
+        
         h1 {
             font-size: 50px;
         }
@@ -19,14 +19,14 @@
 
 @media screen and (min-width: 46.8em) {
     .hero {
-        // height: 32em;
+         height: 40em;
         h1 {
             font-size: 4.375rem;
             font-size: 70px;
         }
         p {
             &:nth-child(3) {
-                font-size: 1.125em;
+                font-size: 1.125rem;
                 font-size: 18px;
                 max-width: 550px;
             }
@@ -38,11 +38,21 @@
 @media screen and (min-width: 50em) {
     // main section----------------------------------------------------------
     .hero {
-        // height: 40em;
+         height: 50em;
         // background-image: url(http://placehold.it/1200x300);
         h1 {
+            font-size:1.250rem;
             font-size: 80px;
         }
+           p {
+            &:nth-child(3) {
+             
+                font-size: 20px;
+            
+            }
+        }
+
+
     }
     header {
         background: rgba(255, 255, 255, 0.3);
@@ -52,6 +62,14 @@
        
         }
     }
+
+
+
+
+
+
+
+
     // menu links--------------------------------------------------------------
     footer {
         .col16 {
