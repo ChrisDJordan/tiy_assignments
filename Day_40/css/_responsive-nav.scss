@@ -10,17 +10,22 @@
     display: block;
     list-style-type: none;
     text-decoration: none;
+            .underline{
+                 border-bottom: 3px solid #f9d76d;;
+
+            }
 }
 
 .nav-collapse li {
     display: block;
     margin-bottom: 1em;
     text-align: right;
+    a{
+         color:white;
+    }
+
 }
 
-.nav-collaspe a {
-    text-decoration: none;
-}
 
 .js .nav-collapse {
     clip: rect(0 0 0 0);
@@ -52,7 +57,7 @@
 }
 
 .nav-toggle span {
-    color: $darkred;
+    color:  #F5F6F5;
     font-size: 3.5rem;
     overflow: hidden;
     display: inline-block;
@@ -74,12 +79,15 @@
         display: inline-block;
         // background:blue;
         justify-content: center;
-        margin: 19px 0 19px 30px;
+        margin: 20px 0 14px 30px;
         &:last-of-type {
             margin-right: 0;
         }
         &:nth-of-type(4)::after {
             display: none;
+        }
+        a{
+             color:white;
         }
     }
     .js .nav-collapse {

@@ -71,14 +71,15 @@ p, a {
   display: block;
   list-style-type: none;
   text-decoration: none; }
+  .nav-collapse ul .underline {
+    border-bottom: 3px solid #f9d76d; }
 
 .nav-collapse li {
   display: block;
   margin-bottom: 1em;
   text-align: right; }
-
-.nav-collaspe a {
-  text-decoration: none; }
+  .nav-collapse li a {
+    color: white; }
 
 .js .nav-collapse {
   clip: rect(0 0 0 0);
@@ -107,7 +108,7 @@ p, a {
   text-decoration: none; }
 
 .nav-toggle span {
-  color: #bf544b;
+  color: #F5F6F5;
   font-size: 3.5rem;
   overflow: hidden;
   display: inline-block; }
@@ -125,11 +126,13 @@ p, a {
   .nav-collapse li {
     display: inline-block;
     justify-content: center;
-    margin: 19px 0 19px 30px; }
+    margin: 20px 0 14px 30px; }
     .nav-collapse li:last-of-type {
       margin-right: 0; }
     .nav-collapse li:nth-of-type(4)::after {
       display: none; }
+    .nav-collapse li a {
+      color: white; }
 
   .js .nav-collapse {
     position: relative;
@@ -156,21 +159,19 @@ p, a {
   background: no-repeat center center;
   background-size: cover;
   height: 20em;
-  /* 300px */
-  background-image: url(../images/skating-mobile.jpg); }
+  background-image: url(../images/shoes.jpg); }
 
 header {
-  background: red;
+  background: #2E3032;
   width: 100%;
   overflow: hidden;
   padding: .5rem 0; }
   header .wrap {
     max-width: 90%;
-    background: yellow;
     margin: 0 auto;
     overflow: hidden; }
   header p {
-    background: #bf544b;
+    background: #F5F6F5;
     font-size: 3em;
     float: left;
     margin: 5px; }
@@ -193,6 +194,9 @@ footer {
   section p {
     max-width: 60%; } }
 @media screen and (min-width: 50em) {
+  header {
+    background: rgba(255, 255, 255, 0.3); }
+
   footer .col16 li {
     padding: 45px 0 16px 5%; }
 
