@@ -51,9 +51,15 @@ table {
   width: 100%;
   float: left; }
 
+p, a {
+  font-family: "source-sans-pro",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem; }
+
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
-  z-index: 10; }
+  overflow: hidden; }
 
 .nav-collapse ul {
   padding: 0;
@@ -69,9 +75,6 @@ table {
   display: block;
   text-align: right;
   font-size: 1.5em; }
-
-.nav-collapse li:last-child {
-  margin-right: 0px; }
 
 .nav-collapse a {
   color: white;
@@ -109,7 +112,7 @@ table {
   margin-right: 8%;
   float: right; }
 
-@media screen and (min-width: 55em) {
+@media screen and (min-width: 50em) {
   .js .nav-collapse {
     position: relative; }
 
@@ -123,50 +126,56 @@ table {
     width: 40%; }
 
   .nav-collapse ul {
-    float: right;
     border: 1px solid black;
-    width: 40%; }
+    margin: 0;
+    width: 500px;
+    padding: 10px 0 10px 0; }
 
   .nav-collapse li {
-    margin: 0;
     float: left; } }
-.hero {
-  background: no-repeat center center;
-  background-size: cover;
-  height: 20em;
-  /* 300px */
-  background-image: url(../images/skating.jpg); }
+p, a {
+  font-family: "source-sans-pro",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem; }
 
-header {
-  background: red;
-  min-height: 50px;
-  width: 100%;
-  overflow: hidden; }
-  header p {
-    color: #bf544b;
-    font-size: 3em;
-    font-family: "tablet-gothic-compressed",sans-serif;
-    float: left;
-    margin-left: 3%; }
-
-footer {
-  background: #7edde1;
-  width: 100%;
-  float: left;
-  margin-top: 100px; }
-  footer li {
-    float: left;
-    padding: 35px 0 35px 5%; }
-  footer a {
-    color: #bf544b; }
-
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 24em) {
   .hero {
-    height: 500px; }
+    background: no-repeat center center;
+    background-size: cover;
+    height: 20em;
+    /* 300px */
+    background-image: url(../images/skating.jpg); }
+
+  header {
+    background: red;
+    min-height: 50px;
+    width: 100%;
+    overflow: hidden; }
+    header p {
+      color: #bf544b;
+      font-size: 3em;
+      font-family: "tablet-gothic-compressed",sans-serif;
+      float: left;
+      margin-left: 3%; }
+
+  footer {
+    background: #7edde1;
+    width: 100%;
+    float: left;
+    margin-top: 100px; }
+    footer li {
+      float: left;
+      padding: 35px 0 35px 5%; }
+    footer a {
+      color: #bf544b; } }
+@media screen and (min-width: 46.8em) {
+  .hero {
+    height: 32em; }
 
   section p {
     max-width: 60%; } }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 50em) {
   header p {
     font-size: 64px;
     font-size: 4em; }

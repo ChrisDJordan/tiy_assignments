@@ -13,6 +13,8 @@
 //     background-size:cover;
 
 // }
+
+@media screen and (min-width: 24em) {
 .hero {
   background: no-repeat center center;
   background-size: cover;
@@ -50,5 +52,5 @@ footer {
         color: #bf544b;
     }
 }
-
+}
 @import "mediaqueries";

@@ -2,7 +2,7 @@
 
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
-    z-index: 10;
+   overflow: hidden;
 }
 
 .nav-collapse ul {
@@ -30,9 +30,9 @@
 //   margin-left:10px;
 // }
 
-.nav-collapse li:last-child {
-    margin-right: 0px;
-}
+// .nav-collapse li:last-child {
+//     margin-right: 0px;
+// }
 
 .nav-collapse a {
     color: white;
@@ -64,7 +64,7 @@
     padding: 20px 2%;
     display: block;
     text-decoration: none;
-    overflow: hidden;
+     overflow: hidden;
 }
 
 .nav-toggle span {
@@ -75,7 +75,9 @@
     float: right;
 }
 
-@media screen and (min-width: 55em) {
+@media screen and (min-width: 50em) {
+
+
     .js .nav-collapse {
         position: relative;
     }
@@ -89,13 +91,17 @@
         width: 40%;
     }
     .nav-collapse ul {
-        float: right;
+       
         border: 1px solid black;
-        width:40%;
-        // display: none;
+        margin:0;
+         width: 500px;
+         padding:10px 0 10px 0;
+
+        
     }
     .nav-collapse li {
-        margin: 0;
+       
         float: left;
+        
     }
 }
