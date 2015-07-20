@@ -14,7 +14,10 @@
             }
         }
     }
-    section {
+
+}
+@media screen and (min-width: 35em) {
+        section {
           a {
             // font-size: 2.625rem;
             font-size: 42px;
@@ -35,8 +38,6 @@
         }
     }
 }
-}
-@media screen and (min-width: 35em) {
     // grid----------------------------------------------------------------------
     .col-5 {
         @include grid(0.5);
@@ -148,6 +149,7 @@
                 font-size: 70px;
             }
         .port-wrap {
+            // width: 90%;
           
         }
     }

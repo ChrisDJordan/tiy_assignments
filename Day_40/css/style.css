@@ -232,8 +232,8 @@ header {
 
 section {
   height: 2000px;
-  background: #EDEAE6;
-  background: #EDEAE6; }
+  width: 90%;
+  margin: 0 auto; }
   section a {
     font-family: helvetica neue;
     font-weight: bold;
@@ -241,12 +241,12 @@ section {
     font-size: 2.250rem;
     font-size: 36px;
     color: #2E3032;
-    width: 90%;
-    display: block;
-    margin: 0 auto; }
+    display: inline-block;
+    color: #2E3032;
+    border-bottom: 3px solid #f9d76d;
+    padding: 5px; }
   section .port-wrap {
     overflow: hidden;
-    width: 90%;
     margin: 15px auto; }
     section .port-wrap .zen, section .port-wrap .bouldin {
       margin-top: 30px;
@@ -279,16 +279,16 @@ footer {
       font-size: 48px; }
     .hero .wrapper p:nth-child(2) {
       font-size: 18px;
-      max-width: 60%; }
-
+      max-width: 60%; } }
+@media screen and (min-width: 35em) {
   section a {
     font-size: 42px; }
   section .port-wrap .zen, section .port-wrap .bouldin {
     max-width: 49%; }
   section .port-wrap .zen {
     float: left;
-    margin-right: 2%; } }
-@media screen and (min-width: 35em) {
+    margin-right: 2%; }
+
   .col-5 {
     width: 4.16667%;
     margin-right: 0%;

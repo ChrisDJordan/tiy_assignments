@@ -6,6 +6,7 @@
 //global----------------------------------
 body {
     // height:2000px;
+       // background: #EDEAE6;
 }
 
 .hero {
@@ -18,7 +19,6 @@ body {
         // background:red;
         max-width: 90%;
         margin: 0 auto;
-    
         p {
             &:nth-child(2) {
                 max-width: 80%;
@@ -76,26 +76,27 @@ header {
 
 section {
     height: 2000px;
-    background: #EDEAE6;
-    background: #EDEAE6;
-       a {
-            font-family: helvetica neue;
-            font-weight: bold;
-            letter-spacing: -0.07em;
-            font-size: 2.250rem;
-            font-size: 36px;
-            color: #2E3032;
-            width: 90%;
-            display:block;
-         
-            margin:0 auto;
-        }
+ 
+    width: 90%;
+    margin: 0 auto;
+    a {
+        font-family: helvetica neue;
+        font-weight: bold;
+        letter-spacing: -0.07em;
+        font-size: 2.250rem;
+        font-size: 36px;
+        color: #2E3032;
+        display: inline-block;
+        
+        color:#2E3032;
+         border-bottom: 3px solid #f9d76d;
+         padding:5px;
+    }
     .port-wrap {
         overflow: hidden;
-        width: 90%;
+        // width: 90%;
         margin: 15px auto;
         // background:red;
-     
         .zen, .bouldin {
             margin-top: 30px;
             display: block;
