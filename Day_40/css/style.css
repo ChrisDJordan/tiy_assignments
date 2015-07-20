@@ -179,12 +179,15 @@ h1 {
   letter-spacing: -0.07em;
   margin-bottom: 15px; }
 
+body {
+  background: #F4F4F4; }
+
 .hero {
   background: no-repeat center center;
   background-size: cover;
   height: 30em;
   background-image: url(../images/shoes2.jpg);
-  margin-bottom: 35px; }
+  margin-bottom: 25px; }
   .hero .wrapper {
     max-width: 90%;
     margin: 0 auto; }
@@ -247,7 +250,7 @@ section {
     padding: 5px; }
   section .port-wrap {
     overflow: hidden;
-    margin: 15px auto; }
+    margin: 5px auto; }
     section .port-wrap .zen, section .port-wrap .bouldin {
       margin-top: 30px;
       display: block;
@@ -285,6 +288,8 @@ footer {
     font-size: 42px; }
   section .port-wrap .zen, section .port-wrap .bouldin {
     max-width: 49%; }
+  section .port-wrap .bouldin {
+    padding-top: 60px; }
   section .port-wrap .zen {
     float: left;
     margin-right: 2%; }
@@ -381,6 +386,8 @@ footer {
 
   section a {
     font-size: 70px; }
+  section .port-wrap .zen, section .port-wrap .bouldin {
+    margin-top: 35px; }
 
   footer .col16 li {
     padding: 45px 0 16px 5%; } }

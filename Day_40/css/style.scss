@@ -6,7 +6,8 @@
 //global----------------------------------
 body {
     // height:2000px;
-       // background: #EDEAE6;
+        // background: #EDEAE6;
+        background:#F4F4F4;
 }
 
 .hero {
@@ -14,7 +15,7 @@ body {
     background-size: cover;
     height: 30em;
     background-image: url(../images/shoes2.jpg);
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     .wrapper {
         // background:red;
         max-width: 90%;
@@ -95,13 +96,14 @@ section {
     .port-wrap {
         overflow: hidden;
         // width: 90%;
-        margin: 15px auto;
+        margin: 5px auto;
         // background:red;
         .zen, .bouldin {
             margin-top: 30px;
             display: block;
             width: 100%;
             border-radius: 5px;
+
         }
     }
 }
