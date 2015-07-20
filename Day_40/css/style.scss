@@ -4,9 +4,7 @@
 @import "fontandcolor";
 
 //global----------------------------------
-body{
-
- 
+body {
     // height:2000px;
 }
 
@@ -16,62 +14,44 @@ body{
     height: 30em;
     background-image: url(../images/shoes2.jpg);
     margin-bottom: 35px;
-.wrapper{
-    // background:red;
-    max-width: 90%;
-    margin:0 auto;
-    h1 {
-        font-family: helvetica neue;
-        font-weight: bold;
-        font-size: 2.313rem;
-        font-size: 37px;
-        text-align: left;
-        color: white;
-        margin-top: 30px;
-        letter-spacing: -0.07em;
-        margin-bottom: 15px;
-        
-    }
-    p {
-        &:nth-child(2) {
-          
-             max-width: 80%;
-          
-            font-size: 1rem;
-            font-size: 16px;
-            text-align: left;
-            line-height: 24px;
-            color: white;
-          
-            // margin: 0 auto;
+    .wrapper {
+        // background:red;
+        max-width: 90%;
+        margin: 0 auto;
+    
+        p {
+            &:nth-child(2) {
+                max-width: 80%;
+                font-size: 1rem;
+                font-size: 16px;
+                text-align: left;
+                line-height: 24px;
+                color: white;
+                // margin: 0 auto;
+                font-family: "source-sans-pro",sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                margin-bottom: 15px;
+            }
+        }
+        .port-btn {
+            background: #f9d76d;
+            display: inline-block;
+            padding: 20px 25px;
+            border-radius: 5px;
             font-family: "source-sans-pro",sans-serif;
             font-style: normal;
-            font-weight: 600;
-            margin-bottom: 15px;
+            font-weight: 700;
+            font-size: 1rem;
+            font-size: 16px;
+            box-shadow: inset 0 -2px rgba(0, 0, 0, 0.1);
+            &:hover {
+                background: #d18e00;
+            }
         }
     }
-
-    .port-btn{
-        background:#f9d76d;
-        display:inline-block;
-        padding:20px 25px;
-        border-radius:5px;
-    
-         font-family: "source-sans-pro",sans-serif;
-            font-style: normal;
-            font-weight: 700;
-
-            font-size:1rem;
-             font-size:16px;
-             box-shadow: inset 0 -2px rgba(0, 0, 0, 0.1);
-
-             &:hover{
-                background:#d18e00;;
-             }
-
-    }
 }
-}
+
 header {
     background: #2E3032;
     // background: rgba(255, 255, 255, 0.1);
@@ -94,59 +74,36 @@ header {
     }
 }
 
-
-
-section{
-    height:2000px;
-       background:#EDEAE6;
-
-    // background:#EDEAE6;
-    .port-wrap{
-        overflow: hidden;
-        width:90%;
-        margin:15px auto;
-        
-    a{
-        font-family: helvetica neue;
-        font-weight: bold;
-        letter-spacing: -0.07em;
-        font-size:2.250rem;
-        font-size:36px;
-        color: #2E3032;
-
-
+section {
+    height: 2000px;
+    background: #EDEAE6;
+    background: #EDEAE6;
+       a {
+            font-family: helvetica neue;
+            font-weight: bold;
+            letter-spacing: -0.07em;
+            font-size: 2.250rem;
+            font-size: 36px;
+            color: #2E3032;
+            width: 90%;
+            display:block;
+         
+            margin:0 auto;
         }
-
-    .zen,.bouldin{
-        margin-top:30px;
-        display:block;
-        width:100%;
-        border-radius:5px;
+    .port-wrap {
+        overflow: hidden;
+        width: 90%;
+        margin: 15px auto;
+        // background:red;
+     
+        .zen, .bouldin {
+            margin-top: 30px;
+            display: block;
+            width: 100%;
+            border-radius: 5px;
+        }
     }
-    }
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     background: #7edde1;
@@ -162,4 +119,5 @@ footer {
     }
 }
 
+@import "about";
 @import "mediaqueries";

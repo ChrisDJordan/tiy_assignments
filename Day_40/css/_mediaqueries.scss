@@ -3,7 +3,7 @@
         height: 30em;
         .wrapper {
             h1 {
-                font-size:3rem;
+                font-size: 3rem;
                 font-size: 48px;
             }
             p {
@@ -15,26 +15,27 @@
         }
     }
     section {
-         a{
-            font-size:2.625rem;
-            font-size:42px;
-         }
-        .zen, .bouldin {
-            max-width: 48%;
-
-            }
-        .bouldin{
-                margin-right:2%;
-
+          a {
+            // font-size: 2.625rem;
+            font-size: 42px;
+           
         }
-
-        .zen{
-            float:left;
-            
+        .port-wrap{
+      
+        .zen, .bouldin {
+            max-width: 49%;
+        }
+        .bouldin {
+            // padding-top:60px;
+       
+        }
+        .zen {
+            float: left;
+            margin-right: 2%;
         }
     }
 }
-
+}
 @media screen and (min-width: 35em) {
     // grid----------------------------------------------------------------------
     .col-5 {
@@ -143,10 +144,11 @@
     }
     section {
         // background:#EDEAE6;
-        .port-wrap {
-            a {
+          a {
                 font-size: 70px;
             }
+        .port-wrap {
+          
         }
     }
     // menu links--------------------------------------------------------------
