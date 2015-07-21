@@ -14,38 +14,32 @@
             }
         }
     }
-    section{
-        .port-wrap{
-        
-
-        }
+    section {
+        .port-wrap {}
     }
-
 }
+
 @media screen and (min-width: 35em) {
-        section {
-          h2 {
-            font-size:2.750rem;
+    section {
+        h2 {
+            font-size: 2.750rem;
             font-size: 44px;
+        }
+        .port-wrap {
+            .zen, .bouldin {
+                max-width: 50%;
+            }
+            .bouldin {
+                // padding-top:60px;
            
-        }
-        .port-wrap{
-
+            }
+            .zen {
+                float: left;
+                // margin-right: 2%;
            
-      
-        .zen, .bouldin {
-            max-width: 50%;
-        }
-        .bouldin {
-             // padding-top:60px;
-       
-        }
-        .zen {
-            float: left;
-            // margin-right: 2%;
+            }
         }
     }
-}
     // grid----------------------------------------------------------------------
     .col-5 {
         @include grid(0.5);
@@ -133,8 +127,9 @@
         .wrapper {
             // background-image: url(http://placehold.it/1200x300);
             h1 {
-                font-size: 4.875em;
-                font-size: 78px;
+                // font-size: 4.875em;
+                // font-size: 78px;
+           
             }
             p {
                 &:nth-child(2) {
@@ -146,39 +141,33 @@
     header {
         background: rgba(255, 255, 255, 0.3);
         p {
-            // font-size: 64px;
-            // font-size: 4em;
-       
+            font-size: 64px;
+            font-size: 4em;
         }
     }
     section {
         // background:#EDEAE6;
-          h2 {
-                font-size:4.375rem;
-                font-size: 70px;
-            }
+        h2 {
+            font-size: 4.375rem;
+            font-size: 70px;
+        }
         .port-wrap {
-             .hey{
-                float:left;
+            .hey {
+                float: left;
             }
-
-          
-
-            
-             .zen, .bouldin {
+            .zen, .bouldin {
                 // margin-top:35px;
                 // width:25%;
                 // float:left;
-             }
-          
-          
+           
+            }
         }
     }
     // menu links--------------------------------------------------------------
     footer {
         .col16 {
             li {
-                padding: 45px 0 16px 5%;
+                margin: 20px 0 14px 1%;
             }
         }
     }

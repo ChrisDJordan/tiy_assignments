@@ -109,47 +109,34 @@ section {
         // z-index: -1; 
         //       }
         //   }
-         .port-img1{
-            background:url(../images/zengarden.png);
-            height:250px;
+        .port-img1 {
+            background: url(../images/zengarden.png);
+            height: 250px;
             background-size: 100%;
-            background-repeat:no-repeat;
-
-            
-
-          
-           
+            background-repeat: no-repeat;
+            margin-bottom:40px;
             // width:100%;
-          
             // &:hover{
             //     background:black;
             //     height:200px;
             // }
+       
         }
-
-        .port-img2{
-             background:url(../images/bouldin.png);
-            height:250px;
+        .port-img2 {
+            background: url(../images/bouldin.png);
+            height: 250px;
             background-size: 100%;
-            background-repeat:no-repeat;
-
-        }
-
-
-            
-
-
-       
-        }
-        .zen, .bouldin {
-            // margin-top: 30px;
-            display: block;
-            width: 100%;
-            // border-radius: 5px;
-       
+            background-repeat: no-repeat;
         }
     }
-
+    .zen, .bouldin {
+        // margin-top: 30px;
+        display: block;
+        width: 100%;
+        // border-radius: 5px;
+   
+    }
+}
 
 footer {
     background: #2E3032;
@@ -158,12 +145,12 @@ footer {
     margin-top: 100px;
     li {
         float: left;
-        padding: 35px 0 35px 5%;
+        margin: 30px 0 30px 4.5%;
     }
     a {
         color: white;
     }
 }
 
-@import "about";
 @import "mediaqueries";
+@import "about";
