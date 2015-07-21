@@ -6,12 +6,12 @@
 //global----------------------------------
 body {
     // height:2000px;
-        // background: #EDEAE6;
-        background:#F4F4F4;
+    // background: #EDEAE6;
+    background: #f2f2f2;
 }
 
 .hero {
-    background: no-repeat center center;
+    // background: no-repeat center center;
     background-size: cover;
     height: 30em;
     background-image: url(../images/shoes2.jpg);
@@ -76,11 +76,9 @@ header {
 }
 
 section {
-    height: 2000px;
- 
-    width: 90%;
-    margin: 0 auto;
-    a {
+    // height: 2000px;
+    // overflow:hidden;
+    h2 {
         font-family: helvetica neue;
         font-weight: bold;
         letter-spacing: -0.07em;
@@ -88,28 +86,73 @@ section {
         font-size: 36px;
         color: #2E3032;
         display: inline-block;
-        
-        color:#2E3032;
-         border-bottom: 3px solid #f9d76d;
-         padding:5px;
+        color: #2E3032;
+        border-bottom: 3px solid #f9d76d;
+        padding: 5px;
+        margin-bottom: 35px;
+        margin-left: 5%;
     }
     .port-wrap {
         overflow: hidden;
         // width: 90%;
-        margin: 5px auto;
+        // margin: 5px auto;
         // background:red;
-        .zen, .bouldin {
-            margin-top: 30px;
-            display: block;
-            width: 100%;
-            border-radius: 5px;
+        //   img{
+        //       &:hover{
+        //             // content: "";
+        // opacity: 0.5;
+        // top: 0;
+        // left: 0;
+        // bottom: 0;
+        // right: 0;
+        // position: absolute;
+        // z-index: -1; 
+        //       }
+        //   }
+         .port-img1{
+            background:url(../images/zengarden.png);
+            height:250px;
+            background-size: 100%;
+            background-repeat:no-repeat;
+
+            
+
+          
+           
+            // width:100%;
+          
+            // &:hover{
+            //     background:black;
+            //     height:200px;
+            // }
+        }
+
+        .port-img2{
+             background:url(../images/bouldin.png);
+            height:250px;
+            background-size: 100%;
+            background-repeat:no-repeat;
 
         }
+
+
+            
+
+
+       
+        }
+        .zen, .bouldin {
+            // margin-top: 30px;
+            display: block;
+            width: 100%;
+            // border-radius: 5px;
+       
+        }
     }
-}
+
 
 footer {
-    background: #7edde1;
+    background: #2E3032;
     width: 100%;
     float: left;
     margin-top: 100px;
@@ -118,7 +161,7 @@ footer {
         padding: 35px 0 35px 5%;
     }
     a {
-        color: #bf544b;
+        color: white;
     }
 }
 

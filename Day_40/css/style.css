@@ -78,13 +78,14 @@ h1 {
 .nav-collapse {
   float: right; }
 
+.underline {
+  border-bottom: 3px solid #f9d76d; }
+
 .nav-collapse ul {
   padding: 20px 2px 0 0;
   display: block;
   list-style-type: none;
   text-decoration: none; }
-  .nav-collapse ul .underline {
-    border-bottom: 3px solid #f9d76d; }
 
 .nav-collapse li {
   display: block;
@@ -180,10 +181,9 @@ h1 {
   margin-bottom: 15px; }
 
 body {
-  background: #F4F4F4; }
+  background: #f2f2f2; }
 
 .hero {
-  background: no-repeat center center;
   background-size: cover;
   height: 30em;
   background-image: url(../images/shoes2.jpg);
@@ -233,32 +233,37 @@ header {
     font-family: helvetica neue;
     font-weight: bold; }
 
-section {
-  height: 2000px;
-  width: 90%;
-  margin: 0 auto; }
-  section a {
-    font-family: helvetica neue;
-    font-weight: bold;
-    letter-spacing: -0.07em;
-    font-size: 2.250rem;
-    font-size: 36px;
-    color: #2E3032;
-    display: inline-block;
-    color: #2E3032;
-    border-bottom: 3px solid #f9d76d;
-    padding: 5px; }
-  section .port-wrap {
-    overflow: hidden;
-    margin: 5px auto; }
-    section .port-wrap .zen, section .port-wrap .bouldin {
-      margin-top: 30px;
-      display: block;
-      width: 100%;
-      border-radius: 5px; }
+section h2 {
+  font-family: helvetica neue;
+  font-weight: bold;
+  letter-spacing: -0.07em;
+  font-size: 2.250rem;
+  font-size: 36px;
+  color: #2E3032;
+  display: inline-block;
+  color: #2E3032;
+  border-bottom: 3px solid #f9d76d;
+  padding: 5px;
+  margin-bottom: 35px;
+  margin-left: 5%; }
+section .port-wrap {
+  overflow: hidden; }
+  section .port-wrap .port-img1 {
+    background: url(../images/zengarden.png);
+    height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+  section .port-wrap .port-img2 {
+    background: url(../images/bouldin.png);
+    height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+section .zen, section .bouldin {
+  display: block;
+  width: 100%; }
 
 footer {
-  background: #7edde1;
+  background: #2E3032;
   width: 100%;
   float: left;
   margin-top: 100px; }
@@ -266,7 +271,7 @@ footer {
     float: left;
     padding: 35px 0 35px 5%; }
   footer a {
-    color: #bf544b; }
+    color: white; }
 
 .kitty {
   background: url(../images/kitty.jpg);
@@ -284,15 +289,13 @@ footer {
       font-size: 18px;
       max-width: 60%; } }
 @media screen and (min-width: 35em) {
-  section a {
-    font-size: 42px; }
+  section h2 {
+    font-size: 2.750rem;
+    font-size: 44px; }
   section .port-wrap .zen, section .port-wrap .bouldin {
-    max-width: 49%; }
-  section .port-wrap .bouldin {
-    padding-top: 60px; }
+    max-width: 50%; }
   section .port-wrap .zen {
-    float: left;
-    margin-right: 2%; }
+    float: left; }
 
   .col-5 {
     width: 4.16667%;
@@ -384,10 +387,11 @@ footer {
   header {
     background: rgba(255, 255, 255, 0.3); }
 
-  section a {
+  section h2 {
+    font-size: 4.375rem;
     font-size: 70px; }
-  section .port-wrap .zen, section .port-wrap .bouldin {
-    margin-top: 35px; }
+  section .port-wrap .hey {
+    float: left; }
 
   footer .col16 li {
     padding: 45px 0 16px 5%; } }

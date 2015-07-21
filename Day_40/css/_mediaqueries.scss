@@ -14,27 +14,35 @@
             }
         }
     }
+    section{
+        .port-wrap{
+        
+
+        }
+    }
 
 }
 @media screen and (min-width: 35em) {
         section {
-          a {
-            // font-size: 2.625rem;
-            font-size: 42px;
+          h2 {
+            font-size:2.750rem;
+            font-size: 44px;
            
         }
         .port-wrap{
+
+           
       
         .zen, .bouldin {
-            max-width: 49%;
+            max-width: 50%;
         }
         .bouldin {
-             padding-top:60px;
+             // padding-top:60px;
        
         }
         .zen {
             float: left;
-            margin-right: 2%;
+            // margin-right: 2%;
         }
     }
 }
@@ -145,12 +153,22 @@
     }
     section {
         // background:#EDEAE6;
-          a {
+          h2 {
+                font-size:4.375rem;
                 font-size: 70px;
             }
         .port-wrap {
+             .hey{
+                float:left;
+            }
+
+          
+
+            
              .zen, .bouldin {
-                margin-top:35px;
+                // margin-top:35px;
+                // width:25%;
+                // float:left;
              }
           
           
