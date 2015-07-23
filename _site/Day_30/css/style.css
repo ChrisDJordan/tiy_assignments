@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+p, h1, h2, h3, h4, h5 {
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 12px; }
+
+a {
+  color: #BE5841;
+  font-size: 1.125rem;
+  font-size: 18px;
+  text-decoration: none; }
+
+p {
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.125rem;
+  font-size: 18px;
+  margin-left: 15px;
+  max-width: 93%;
+  line-height: 1.4; }
+
+h3 {
+  font-size: 25px;
+  margin-left: 15px; }
+
+body {
+  background: #F4EDDF;
+  position: relative; }
+  body .page-wrapper header {
+    padding-top: 100px; }
+    body .page-wrapper header h1 {
+      background: white;
+      text-transform: uppercase;
+      -webkit-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+      -o-transform: rotate(15deg);
+      transform: rotate(15deg);
+      max-width: 70%;
+      margin: 0 auto;
+      text-align: right;
+      position: relative;
+      font-size: 4.375rem;
+      font-size: 70px;
+      font-family: "futura-pt",sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      min-height: 300px;
+      background: url(../images/2015.png);
+      background-repeat: no-repeat;
+      background-position: 100% 150px; }
+      body .page-wrapper header h1:after {
+        display: block;
+        content: "";
+        width: 0px;
+        height: 0px;
+        border-left: 28px solid transparent;
+        border-right: 28px solid transparent;
+        border-top: 60px solid #0477BF;
+        position: absolute;
+        bottom: 165px;
+        left: 21.3%;
+        z-index: -2;
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+        transform: rotate(-180deg); }
+    body .page-wrapper header h2 {
+      font-size: 1.563rem;
+      font-size: 25px;
+      width: 80%;
+      margin: -70px 0px 50px 48px;
+      -webkit-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+      -o-transform: rotate(15deg);
+      transform: rotate(15deg); }
+
+.summary {
+  background: url(../images/triangles.png);
+  margin-top: 110px;
+  margin-bottom: 150px;
+  background-position: 50% 0;
+  height: 90px;
+  z-index: 11; }
+  .summary p:first-child {
+    z-index: 10;
+    padding-top: 110px; }
+
+@media screen and (min-width: 45em) {
+  body .page-wrapper header {
+    max-width: 80%;
+    margin: 0 auto; }
+    body .page-wrapper header h1 {
+      z-index: 10;
+      background-position: 0 580px;
+      margin-top: -200px;
+      font-size: 5.313rem;
+      font-size: 85px;
+      max-width: 60%;
+      padding-bottom: 100px; }
+      body .page-wrapper header h1:before {
+        display: block;
+        position: relative;
+        top: 20px;
+        right: 1.85%;
+        height: 400px;
+        content: "";
+        border-right: 9px solid black; }
+      body .page-wrapper header h1:after {
+        bottom: 112px;
+        left: 24%;
+        border-left: 32px solid transparent;
+        border-right: 32px solid transparent;
+        border-top: 68px solid #0477BF; }
+    body .page-wrapper header h2 {
+      -webkit-transform: rotate(-75deg);
+      -moz-transform: rotate(-75deg);
+      -ms-transform: rotate(-75deg);
+      -o-transform: rotate(-75deg);
+      transform: rotate(-75deg);
+      position: absolute;
+      top: 65px;
+      left: 32.5%; } }
+@media screen and (min-width: 65em) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto; }
+    body .page-wrapper header:before {
+      display: block;
+      position: absolute;
+      left: 37.88%;
+      top: 350px;
+      background: #F3A130;
+      height: 540px;
+      content: "";
+      z-index: -1;
+      border-right: 12px solid black;
+      -webkit-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+      -o-transform: rotate(15deg);
+      transform: rotate(15deg); }
+    body .page-wrapper header:after {
+      background: #F4CF3A;
+      display: block;
+      position: absolute;
+      z-index: 2;
+      content: "";
+      width: 320px;
+      height: 100px;
+      top: 250px;
+      -webkit-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+      -o-transform: rotate(15deg);
+      transform: rotate(15deg); }
+    body .page-wrapper header h1 {
+      border: 5px solid black;
+      background-position: 68% 740px;
+      font-size: 7.5rem;
+      font-size: 120px;
+      max-width: 90%;
+      margin-top: -360px;
+      margin-bottom: 245px; }
+      body .page-wrapper header h1:before {
+        display: block;
+        position: relative;
+        top: 34px;
+        right: .9%;
+        height: 600px;
+        content: "";
+        border-right: 12px solid black; }
+      body .page-wrapper header h1:after {
+        bottom: 115px;
+        left: 63.5%;
+        border-left: 48px solid transparent;
+        border-right: 48px solid transparent;
+        border-top: 100px solid #0477BF;
+        position: absolute; }
+    body .page-wrapper header h2 {
+      top: -135px;
+      left: 47%; } }
+
+/*# sourceMappingURL=style.css.map */

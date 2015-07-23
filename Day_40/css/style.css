@@ -74,6 +74,9 @@ h1 {
   letter-spacing: -0.07em;
   margin-bottom: 15px; }
 
+h3 {
+  font-size: 2em; }
+
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
   float: right; }
@@ -180,17 +183,24 @@ h1 {
   letter-spacing: -0.07em;
   margin-bottom: 15px; }
 
+h3 {
+  font-size: 2em; }
+
 body {
-  background: #f2f2f2; }
+  background: url(../images/grey.png); }
 
 .hero {
   background-size: cover;
-  height: 30em;
+  min-height: 30em;
   background-image: url(../images/shoes2.jpg);
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  position: relative;
+  top: -6em; }
   .hero .wrapper {
     max-width: 90%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    position: relative;
+    top: 6em; }
     .hero .wrapper p:nth-child(2) {
       max-width: 80%;
       font-size: 1rem;
@@ -203,7 +213,7 @@ body {
       font-weight: 600;
       margin-bottom: 15px; }
     .hero .wrapper .port-btn {
-      background: #f9d76d;
+      background: #d18e00;
       display: inline-block;
       padding: 20px 25px;
       border-radius: 5px;
@@ -214,13 +224,15 @@ body {
       font-size: 16px;
       box-shadow: inset 0 -2px rgba(0, 0, 0, 0.1); }
       .hero .wrapper .port-btn:hover {
-        background: #d18e00; }
+        background: #f9d76d; }
 
 header {
   background: #2E3032;
   width: 100%;
   overflow: hidden;
-  padding: .5rem 0; }
+  padding: .5rem 0;
+  position: relative;
+  z-index: 10; }
   header .wrap {
     max-width: 90%;
     margin: 0 auto;
@@ -234,12 +246,12 @@ header {
     font-weight: bold; }
 
 section h2 {
+  z-index: 15;
   font-family: helvetica neue;
   font-weight: bold;
   letter-spacing: -0.07em;
   font-size: 2.250rem;
   font-size: 36px;
-  color: #2E3032;
   display: inline-block;
   color: #2E3032;
   border-bottom: 3px solid #f9d76d;
@@ -385,15 +397,24 @@ footer {
   section h2 {
     font-size: 4.375rem;
     font-size: 70px; }
-  section .port-wrap .hey {
-    float: left; }
 
   footer .col16 li {
     margin: 20px 0 14px 1%; } }
 .road {
-  background: url(../images/openroad.jpg);
+  min-height: 25em;
   background-position: 50%;
   background-size: cover;
-  height: 30em; }
+  margin-bottom: 25px;
+  position: relative;
+  top: -6em; }
+  .road .wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 6em; }
+
+@media screen and (min-width: 50em) {
+  .road {
+    background-position: 0% 60%; } }
 
 /*# sourceMappingURL=style.css.map */

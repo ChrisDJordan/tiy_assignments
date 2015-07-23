@@ -1,0 +1,155 @@
+
+/*thanks for the brain workout!!!!!*/
+
+body{
+  font-family: helvetica;
+  
+}
+
+.container{
+  width:1280px;
+  /*height:1840px;*/
+  margin:0 auto;
+  /*border:1px solid black;*/
+  overflow: hidden;
+}
+
+/*header section-----------------------------------*/
+header{
+  width:1280px;
+  height:50px;
+  position:fixed;
+  background:white;
+    
+}
+
+h1{
+  float:left;
+  margin-left:50px;
+  margin-top:16px;
+  font-weight:bold;
+  font-size:20px;
+}
+
+nav{
+  float:right;
+  margin-top: 20px;    
+}
+
+ul li{
+  float:left;
+  margin-right:40px;
+  font-weight:bol
+}
+/*pretty photo-------------------------------------*/
+.main-photo{
+  background: url("../images/main-photo.jpg");
+  height:580px;
+  width:1280px;
+  margin-top: 50px;
+  margin-bottom:60px;
+ }
+/*actor bios---------------------------------------*/
+.company-text{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom:60px;
+  font-size:30px;
+}
+
+.actors{
+  max-width:200px;
+  float:left;
+  margin-bottom: 110px;
+}
+
+.han{
+  margin-left:100px;
+  margin-right:240px;
+}
+
+.chewy{
+  margin-right:240px;
+}
+
+.han-photo{
+  background:url("../images/han.jpg" );
+  width:200px;
+  height:200px;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+}
+
+.chewy-photo{
+  background: url("../images/chewbacca.jpg");
+  width:200px;
+  height:200px;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+}
+
+.darth-photo{
+  background: url("../images/darth.jpg");
+  width:200px;
+  height:200px;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+}
+
+.names{
+  text-align: center;
+  font-weight: bold;
+  margin-top:30px;
+  font-size:18px;
+}
+
+.actor_text{
+  width:200px;
+  text-align:center;
+  font-size:11px;
+}
+/*company address----------------------------------*/
+  .maps{
+  width:640px;
+  height:500px;
+  background: url("../images/map.png");
+  float:left;
+}
+
+.address-col{
+  width:640px;
+  height:500px;
+  background:#f2ede5;
+  float:left;
+}
+
+.office-text{
+  text-align: left;
+  font-weight: bold;
+  font-size:30px;
+  margin-top:180px;
+  margin-left:130px;
+  margin-bottom:35px;
+}
+
+.address-text h3{
+  text-align:left;
+  font-weight:bold;
+  font-size: 20px;
+  margin-left:130px;
+}
+/*footer content-------------------------------------*/
+footer{
+  height:130px;
+  width:1280px;
+  float:left;
+  display:block;
+}
+
+.footer-text{
+  font-size:20px; 
+  text-align: center;
+  margin-top:58px;
+}
+    
+

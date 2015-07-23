@@ -1,0 +1,179 @@
+@import 'reset';
+@import 'font';
+
+
+
+/*thanks for the brain workout!!!!!*/
+// This not a brain workout compared to twitter
+
+body{
+  font-family: helvetica;
+  }
+
+.container{
+  width:1280px;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+/*header section-----------------------------------*/
+header{
+  width:1280px;
+  height:50px;
+  position:fixed;
+  background:white;
+    
+    h1{
+      float:left;
+      margin-left:50px;
+      margin-top:16px;
+      font-weight:$font-bold;
+      font-size:$font-size;
+      }
+
+    nav{
+      float:right;
+      margin-top: 20px; 
+      }   
+
+    li{
+    float:left;
+    margin-right:40px;
+    font-weight:$font-bold;
+   }
+}
+/*pretty photo-------------------------------------*/
+.main-photo{
+  background: url("../images/main-photo.jpg");
+  height:580px;
+  width:1280px;
+  margin-top: 50px;
+  margin-bottom:60px;
+ }
+
+ // section
+
+section{
+
+    h2{
+      font-weight:$font-bold;
+      text-align: center;
+      margin-bottom:60px;
+      font-size:$font-size2;
+    }
+     
+    div{
+      max-width:200px;
+      float:left;
+      
+      .photo-style{
+          width:200px;
+          height:200px;
+          background-repeat:no-repeat;
+          border-radius:100px;
+          margin-bottom:34px;
+          }
+
+        h3{
+          font-weight:bold;
+          text-align:center;
+          font-size:18px;
+          }
+
+        p{
+          width:200px;
+          text-align:center;
+          font-size:11px;
+          margin-bottom:110px;
+          }
+       }
+    }
+
+.han-align{
+  margin-left:100px;
+  margin-right:240px;
+}
+
+.darth-align{
+  margin-left:240px;
+}
+
+
+.han-photo{
+  background:url("../images/han.jpg" );
+}
+
+.chewy-photo{
+  background: url("../images/chewbacca.jpg");
+}
+
+.darth-photo{
+  background: url("../images/darth.jpg");
+}
+
+/*company address----------------------------------*/
+.location{
+    width:1282px;
+    background:#f2ede5;
+    overflow: hidden;
+
+              .address-text{
+                float:right;
+                margin:184px 138px 0 0;
+
+                  h2{
+                  text-align:left;
+                  font-weight:$font-bold;
+                  font-size:$font-size2;
+                  margin-bottom:38px;
+
+                  }
+
+                 h3{
+                 text-align:left;
+                 font-weight:$font-bold;
+                 font-size:$font-size; 
+                 } 
+              }
+            }
+             
+
+/*footer content-------------------------------------*/
+
+
+footer{
+   height:130px;
+   width:1280px;
+   float:left;
+   display:block;
+         
+         p{
+         font-size:$font-size; 
+         text-align: center;
+         margin-top:58px;
+         }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
