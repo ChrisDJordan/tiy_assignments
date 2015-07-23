@@ -32,7 +32,7 @@ bring a fresh style to the website. I plan to bring a familiar color system that
    -Comps
 
 ##Grid
-  -Mixin 
+  -Mixin  
   -Margins
 
 ##color
