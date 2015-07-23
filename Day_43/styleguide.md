@@ -31,18 +31,18 @@ bring a fresh style to the website. I plan to bring a familiar color system that
    -Wireframes
    -Comps
 
-#Grid
+##Grid
   -Mixin 
   -Margins
 
-#color
+##color
   -Bouldin color collage
 
-#Typgraphy
+##Typgraphy
   -List of all typefaces used
   -Spacing between headers and paragraphs
 
-#Elements
+##Elements
   -Before and after Header
 
 
