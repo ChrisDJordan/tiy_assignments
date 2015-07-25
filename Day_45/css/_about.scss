@@ -1,0 +1,43 @@
+
+
+//this is the about page css
+
+.road{
+	// background:url(../images/openroad.jpg);
+	min-height:25em;
+
+	background-position:50%;
+	background-size: cover;
+    margin-bottom: 25px;
+    position:relative;
+    top:-6em;
+
+    .wrapper{
+    	 max-width: 90%;
+        margin: 0 auto;
+        position:relative;
+        top:6em;
+    	h1{
+    		
+    	}
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 50em) {
+.road{
+		
+		background-position: 0% 60%;
+  
+
+
+
+	  
+	
+}
+
+}

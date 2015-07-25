@@ -1,0 +1,75 @@
+@media screen and (min-width: 30em) {
+}
+   
+
+@media screen and (min-width: 35em) {
+}
+  
+    // grid----------------------------------------------------------------------
+    .col-5 {
+        @include grid(0.5);
+        min-height: 20px;
+        background: green;
+    }
+    .col1 {
+        @include grid(1);
+        min-height: 20px;
+        background: green;
+    }
+    .col2 {
+        @include grid(2);
+        min-height: 20px;
+    }
+    .col3 {
+        @include grid(3);
+        background: red;
+        min-height: 20px;
+    }
+    .col4 {
+        @include grid(4);
+    }
+    .col5 {
+        @include grid(5);
+        background: red;
+        min-height: 500px;
+    }
+    .col6 {
+        @include grid(6);
+        background: red;
+        min-height: 500px;
+    }
+    .col7 {
+        @include grid(7);
+    }
+    .col8 {
+        @include grid(8);
+        background: red;
+        min-height: 20px;
+    }
+    .col9 {
+        @include grid(9);
+    }
+    .col10 {
+        @include grid(10);
+    }
+    .col11 {
+        @include grid(11);
+    }
+    .col12 {
+        @include grid(12);
+    }
+    .col16 {
+        @include grid(16);
+    }
+    // div:last-of-type {
+    //     margin-right: 0;
+    // }
+}
+
+@media screen and (min-width: 46.8em) {
+   
+}
+
+@media screen and (min-width: 50em) {
+}
+   

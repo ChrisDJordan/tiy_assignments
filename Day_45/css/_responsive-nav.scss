@@ -1,0 +1,106 @@
+@import "fontandcolor";
+
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse {
+    float: right;
+}
+ .underline{
+                 border-bottom: 3px solid #f9d76d;
+
+            }
+.nav-collapse ul {
+    padding: 20px 2px 0 0;
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+           
+}
+
+.nav-collapse li {
+    display: block;
+    margin-bottom: 1em;
+    text-align: right;
+    a{
+         color:white;
+    }
+
+}
+
+
+.js .nav-collapse {
+    clip: rect(0 0 0 0);
+    max-height: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+    clear: both;
+    float: right;
+}
+
+.nav-collapse.opened {
+    max-height: 9999px;
+    padding-bottom: 30px;
+}
+
+.nav-toggle {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    float: right;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.nav-toggle span {
+    color:  #F5F6F5;
+    font-size: 3.5rem;
+    overflow: hidden;
+    display: inline-block;
+}
+
+@media screen and (min-width: 50em) {
+    .nav-collapse {
+        // background:orange;
+        float: right;
+        overflow: hidden;
+    }
+    .nav-collapse ul {
+        // background:green;
+        overflow: hidden;
+        float: right;
+        padding: 0;
+    }
+    .nav-collapse li {
+        display: inline-block;
+        // background:blue;
+        justify-content: center;
+        margin: 20px 0 14px 30px;
+        &:last-of-type {
+            margin-right: 0;
+        }
+        &:nth-of-type(4)::after {
+            display: none;
+        }
+        a{
+             color:white;
+        }
+    }
+    .js .nav-collapse {
+        position: relative;
+        clear: none;
+    }
+    .js .nav-collapse.closed {
+        max-height: none;
+    }
+    .nav-toggle {
+        display: none;
+    }
+    .nav-collapse.opened {
+        padding: 0;
+    }
+}

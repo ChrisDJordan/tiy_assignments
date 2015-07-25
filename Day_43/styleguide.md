@@ -23,7 +23,7 @@ bring a fresh style to the website. I plan to bring a familiar color system that
    - Key points about that need improvement such as making it mobile friendly
    - My goals to improve the site 
 
-##Process
+##Process  
    -Wordlist
    -Competitive market study
    -Sketches
