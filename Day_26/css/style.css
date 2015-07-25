@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 12px; }
 
 h1 {
-  font-sixe: 76px;
+  font-size: 76px;
   font-size: 4.75rem;
   color: #0597f2; }
 
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 12px; }
 
 h1 {
-  font-sixe: 76px;
+  font-size: 76px;
   font-size: 4.75rem;
   color: #0597f2; }
 
@@ -419,7 +419,7 @@ footer {
     margin-right: 0; } }
 @media screen and (min-width: 900px) {
   header:after {
-    max-width: 29.5%; }
+    max-width: 440px; }
 
   section {
     max-width: 1150px; }
