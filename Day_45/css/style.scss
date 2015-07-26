@@ -14,8 +14,9 @@ header {
     width: 100%;
     overflow: hidden;
     padding: .5rem 0;
-    position:relative;
-    z-index:10;
+    position:fixed;
+
+    // z-index:10;
 
     
    
@@ -26,14 +27,99 @@ header {
         overflow: hidden;
     }
     p {
-        background: #F5F6F5;
-        font-size: 3em;
+        color: #b25b62;
+        font-size: 2em;
         float: left;
-        margin: 5px;
+        padding: 30px 0 30px 0;
         font-family: helvetica neue;
         font-weight: bold;
+       
     }
 }
+
+.margins{
+    width:90%;
+    margin:0 auto;
+    max-width:900px;
+}
+
+img{
+    width:100%;
+}
+
+.color-container{
+ 
+  // overflow:auto;
+  max-width:350px;
+
+.margin{
+    margin-bottom:40px
+}
+ 
+  
+
+
+
+
+.box{
+    width: 150px;
+    height:150px;
+     float:left;
+}
+
+.lightblue{
+    background:#7edde1;
+   
+
+  
+}
+
+.darkblue{
+    background:#0597f2;
+
+}
+
+.darkred{
+    background:#bf544b;
+}
+
+.darkorange{
+    background:#cc6806;
+}
+
+
+
+.num-container {
+   float:left;
+   padding:51px 0 51px 20px;
+  
+  // background:green;
+  
+  }
+
+}
+
+
+
+h3{
+    clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -56,12 +56,15 @@ table {
 * {
   text-decoration: none; }
 
+a {
+  font-family: "fira-sans-2",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5em; }
+
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
   float: right; }
-
-.underline {
-  border-bottom: 3px solid #f9d76d; }
 
 .nav-collapse ul {
   padding: 20px 2px 0 0;
@@ -106,7 +109,8 @@ table {
   color: #b25b62;
   font-size: 3.5rem;
   overflow: hidden;
-  display: inline-block; }
+  display: inline-block;
+  padding: 18px 0 18px 0; }
 
 @media screen and (min-width: 50em) {
   .nav-collapse {
@@ -144,24 +148,60 @@ table {
 * {
   text-decoration: none; }
 
+a {
+  font-family: "fira-sans-2",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5em; }
+
 header {
   background: #7edde1;
   width: 100%;
   overflow: hidden;
   padding: .5rem 0;
-  position: relative;
-  z-index: 10; }
+  position: fixed; }
   header .wrap {
     max-width: 90%;
     margin: 0 auto;
     overflow: hidden; }
   header p {
-    background: #F5F6F5;
-    font-size: 3em;
+    color: #b25b62;
+    font-size: 2em;
     float: left;
-    margin: 5px;
+    padding: 30px 0 30px 0;
     font-family: helvetica neue;
     font-weight: bold; }
+
+.margins {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 900px; }
+
+img {
+  width: 100%; }
+
+.color-container {
+  max-width: 350px; }
+  .color-container .margin {
+    margin-bottom: 40px; }
+  .color-container .box {
+    width: 150px;
+    height: 150px;
+    float: left; }
+  .color-container .lightblue {
+    background: #7edde1; }
+  .color-container .darkblue {
+    background: #0597f2; }
+  .color-container .darkred {
+    background: #bf544b; }
+  .color-container .darkorange {
+    background: #cc6806; }
+  .color-container .num-container {
+    float: left;
+    padding: 51px 0 51px 20px; }
+
+h3 {
+  clear: both; }
 
 .col-5 {
   width: 4.16667%;
@@ -237,7 +277,7 @@ header {
     background: red; }
     header p {
       font-size: 64px;
-      font-size: 4em; } }
+      font-size: 1.5em; } }
 .road {
   min-height: 25em;
   background-position: 50%;
