@@ -4,18 +4,12 @@
 @import "fontandcolor";
 
 //global----------------------------------
-body {
-    // height:2000px;
-    // background: #EDEAE6;
-    // background: #F9D76D;
-    background:url(../images/grey.png);
 
-}
 
 
 
 header {
-    background: red;
+    background: $lightblue;
     // background: rgba(255, 255, 255, 0.1);
     width: 100%;
     overflow: hidden;

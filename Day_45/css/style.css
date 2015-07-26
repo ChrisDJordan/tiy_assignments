@@ -56,27 +56,6 @@ table {
 * {
   text-decoration: none; }
 
-a {
-  font-family: "source-sans-pro",sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.3rem;
-  color: black; }
-
-h1 {
-  font-family: helvetica neue;
-  font-weight: bold;
-  font-size: 2.313rem;
-  font-size: 37px;
-  text-align: left;
-  color: white;
-  margin-top: 30px;
-  letter-spacing: -0.07em;
-  margin-bottom: 15px; }
-
-h3 {
-  font-size: 2em; }
-
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
   float: right; }
@@ -124,7 +103,7 @@ h3 {
   text-decoration: none; }
 
 .nav-toggle span {
-  color: #F5F6F5;
+  color: #b25b62;
   font-size: 3.5rem;
   overflow: hidden;
   display: inline-block; }
@@ -165,32 +144,8 @@ h3 {
 * {
   text-decoration: none; }
 
-a {
-  font-family: "source-sans-pro",sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.3rem;
-  color: black; }
-
-h1 {
-  font-family: helvetica neue;
-  font-weight: bold;
-  font-size: 2.313rem;
-  font-size: 37px;
-  text-align: left;
-  color: white;
-  margin-top: 30px;
-  letter-spacing: -0.07em;
-  margin-bottom: 15px; }
-
-h3 {
-  font-size: 2em; }
-
-body {
-  background: url(../images/grey.png); }
-
 header {
-  background: red;
+  background: #7edde1;
   width: 100%;
   overflow: hidden;
   padding: .5rem 0;
@@ -208,101 +163,81 @@ header {
     font-family: helvetica neue;
     font-weight: bold; }
 
-@media screen and (min-width: 35em) {
-  section h2 {
-    font-size: 2.750rem;
-    font-size: 44px; }
-  section .port-wrap .zen, section .port-wrap .bouldin {
-    max-width: 50%; }
-  section .port-wrap .zen {
-    float: left; }
+.col-5 {
+  width: 4.16667%;
+  margin-right: 0%;
+  min-height: 20px;
+  background: green; }
 
-  .col-5 {
-    width: 4.16667%;
-    margin-right: 0%;
-    min-height: 20px;
-    background: green; }
+.col1 {
+  width: 8.33333%;
+  margin-right: 0%;
+  min-height: 20px;
+  background: green; }
 
-  .col1 {
-    width: 8.33333%;
-    margin-right: 0%;
-    min-height: 20px;
-    background: green; }
+.col2 {
+  width: 16.66667%;
+  margin-right: 0%;
+  min-height: 20px; }
 
-  .col2 {
-    width: 16.66667%;
-    margin-right: 0%;
-    min-height: 20px; }
+.col3 {
+  width: 25.0%;
+  margin-right: 0%;
+  background: red;
+  min-height: 20px; }
 
-  .col3 {
-    width: 25.0%;
-    margin-right: 0%;
-    background: red;
-    min-height: 20px; }
+.col4 {
+  width: 33.33333%;
+  margin-right: 0%; }
 
-  .col4 {
-    width: 33.33333%;
-    margin-right: 0%; }
+.col5 {
+  width: 41.66667%;
+  margin-right: 0%;
+  background: red;
+  min-height: 500px; }
 
-  .col5 {
-    width: 41.66667%;
-    margin-right: 0%;
-    background: red;
-    min-height: 500px; }
+.col6 {
+  width: 50.0%;
+  margin-right: 0%;
+  background: red;
+  min-height: 500px; }
 
-  .col6 {
-    width: 50.0%;
-    margin-right: 0%;
-    background: red;
-    min-height: 500px; }
+.col7 {
+  width: 58.33333%;
+  margin-right: 0%; }
 
-  .col7 {
-    width: 58.33333%;
-    margin-right: 0%; }
+.col8 {
+  width: 66.66667%;
+  margin-right: 0%;
+  background: red;
+  min-height: 20px; }
 
-  .col8 {
-    width: 66.66667%;
-    margin-right: 0%;
-    background: red;
-    min-height: 20px; }
+.col9 {
+  width: 75.0%;
+  margin-right: 0%; }
 
-  .col9 {
-    width: 75.0%;
-    margin-right: 0%; }
+.col10 {
+  width: 83.33333%;
+  margin-right: 0%; }
 
-  .col10 {
-    width: 83.33333%;
-    margin-right: 0%; }
+.col11 {
+  width: 91.66667%;
+  margin-right: 0%; }
 
-  .col11 {
-    width: 91.66667%;
-    margin-right: 0%; }
+.col12 {
+  width: 100.0%;
+  margin-right: 0%; }
 
-  .col12 {
-    width: 100.0%;
-    margin-right: 0%; }
+.col16 {
+  width: 133.33333%;
+  margin-right: 0%; }
 
-  .col16 {
-    width: 133.33333%;
-    margin-right: 0%; } }
 @media screen and (min-width: 50em) {
-  .hero {
-    height: 50em; }
-    .hero .wrapper p:nth-child(2) {
-      font-size: 20px; }
-
   header {
     background: red; }
     header p {
       font-size: 64px;
-      font-size: 4em; }
-
-  section h2 {
-    font-size: 4.375rem;
-    font-size: 70px; }
-
-  footer .col16 li {
-    margin: 20px 0 14px 1%; } }
+      font-size: 4em; } }
 .road {
   min-height: 25em;
   background-position: 50%;
