@@ -158,31 +158,39 @@
 				
 				<div class="box lightblue margin"></div>
 				<div class="num-container margin">
-					<p>#77edde1</p>
-					<p>rgb(126,221,225)</p>
-					<p>variable=$lightblue</p>
+				<ul>
+					<li>#77edde1</li>
+					<li>rgb(126,221,225)</li>
+					<li>variable=$lightblue</li>
+					</ul>
 				</div>
 				
 				
 				
 				<div class="box darkblue margin"></div>
 				<div class="num-container margin">
-					<p>#0597f2</p>
-					<p>rgb(5,151,242)</p>
-					<p>variable=$darkblue</p>
+				<ul>
+					<li>#0597f2</li>
+					<li>rgb(5,151,242)</li>
+					<li>variable=$darkblue</li>
+				</ul>
 				</div>
 				
 				<div class="box darkred margin"></div>
 				<div class="num-container margin">
-					<p>#0b25b62</p>
-					<p>rgb(178,91,98)</p>
-					<p>variable=$darkred</p>
+				<ul>
+					<li>#0b25b62</li>
+					<li>rgb(178,91,98)</li>
+					<li>variable=$darkred</li>
+					</ul>
 				</div>
 				<div class="box darkorange margin"></div>
 				<div class="num-container margin">
-					<p>#cc6806</p>
-					<p>rgb(294,104,6)</p>
-					<p>variable=$darkorange</p>
+				<ul>
+					<li>#cc6806</li>
+					<li>rgb(294,104,6)</li>
+					<li>variable=$darkorange</li>
+					</ul>
 				</div>
 				
 			</div>
@@ -192,6 +200,50 @@
 				for body copy.
 				
 			</p>
+			<div class="color-container">
+				<div class="box lightgreen margin"></div>
+				<div class="num-container margin">
+				<ul>
+					<li>#88bb28</li>
+					<li>rgb(136,187,40)</li>
+					<li>variable=$lightgreen</li>
+					</ul>
+				</div>
+				<div class="box brown margin"></div>
+				<div class="num-container margin">
+				<ul>
+					<li>#dac48f</li>
+					<li>rgb(218,196,143)</li>
+					<li>variable=$brown</li>
+					</ul>
+				</div>
+				<div class="box black margin"></div>
+				<div class="num-container margin">
+				<ul>
+					<li>#4b4648</li>
+					<li>rgb(75,70,72)</li>
+					<li>variable=$black</li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="grid">
+			<h2>grid</h2>
+			<p>The grid system used for Bouldin Creek is made
+				by using a media querie with percentages.
+				The 16 column grid starts after the first querie
+				and doesn’t have a gutter, making it easier to put
+				images together. Before and after, in css, is used
+				for the header and footer after the first  media
+			querie.</p>
+			<p>@mixin grid ($col-num){
+				width: ($col * $col-num)+($gut * (($col-num)-1));
+				margin-right: $gut;
+			}</p>
+			<p>$col:6.25%;
+				$gut:0%;
+			</p>
+		
 		</div>
 		
 		

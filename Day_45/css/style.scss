@@ -5,21 +5,14 @@
 
 //global----------------------------------
 
-
-
-
 header {
     background: $lightblue;
     // background: rgba(255, 255, 255, 0.1);
     width: 100%;
     overflow: hidden;
     padding: .5rem 0;
-    position:fixed;
-
+    // position:fixed;
     // z-index:10;
-
-    
-   
     .wrap {
         max-width: 90%;
         // background: yellow;
@@ -33,96 +26,66 @@ header {
         padding: 30px 0 30px 0;
         font-family: helvetica neue;
         font-weight: bold;
-       
     }
 }
 
-.margins{
-    width:90%;
-    margin:0 auto;
-    max-width:900px;
+.margins {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 900px;
 }
 
-img{
-    width:100%;
+img {
+    width: 100%;
 }
 
-.color-container{
- 
-  // overflow:auto;
-  max-width:350px;
-
-.margin{
-    margin-bottom:40px
-}
- 
-  
-
-
-
-
-.box{
-    width: 150px;
-    height:150px;
-     float:left;
-}
-
-.lightblue{
-    background:#7edde1;
+.color-container {
+    // overflow:auto;
+    max-width: 350px;
+    .margin {
+        margin-bottom: 40px;
+    }
+    .box {
+        width: 150px;
+        height: 150px;
+        float: left;
+    }
+    .lightblue {
+        background: #7edde1;
+    }
+    .darkblue {
+        background: #0597f2;
+    }
+    .darkred {
+        background: #bf544b;
+    }
+    .darkorange {
+        background: #cc6806;
+    }
+    .lightgreen {
+        background: #88bb28;
+    }
+    .brown {
+        background: #dac48f;
+    }
+    .black {
+        background: black;
+    }
+    .num-container {
+        float: left;
+        padding: 51px 0 51px 20px;
+        // background:green;
    
-
-  
+    }
 }
 
-.darkblue{
-    background:#0597f2;
-
+h3 {
+    clear: both;
 }
 
-.darkred{
-    background:#bf544b;
+h2 {
+    clear: both;
 }
-
-.darkorange{
-    background:#cc6806;
-}
-
-
-
-.num-container {
-   float:left;
-   padding:51px 0 51px 20px;
-  
-  // background:green;
-  
-  }
-
-}
-
-
-
-h3{
-    clear:both;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @import "mediaqueries";
 @import "about";
