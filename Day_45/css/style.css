@@ -56,31 +56,32 @@ table {
 * {
   text-decoration: none; }
 
-a {
-  font-family: "fira-sans-2",sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.5em; }
+a, p, li {
+  color: #4b4648; }
 
 h1, h2 {
   font-weight: bold;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-family: helvetica;
+  font-size: 48px;
+  color: #0597f2; }
+
+h2 {
+  margin-top: 85px; }
 
 h3 {
   font-family: helvetica;
   font-weight: regular;
-  font-size: 32px; }
-
-h1, h2 {
-  font-size: 48px;
-  color: #0597f2;
-  font-family: helvetica;
-  font-weight: bold; }
+  font-size: 32px;
+  margin: 40px 0 20px 0; }
 
 p {
   font-family: helvetica;
   font-size: 20px;
   line-height: 1.4; }
+
+li {
+  font-family: helvetica; }
 
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
@@ -97,7 +98,11 @@ p {
   margin-bottom: 1em;
   text-align: right; }
   .nav-collapse li a {
-    color: white; }
+    font-family: "fira-sans-2",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #bf544b; }
 
 .js .nav-collapse {
   clip: rect(0 0 0 0);
@@ -126,7 +131,7 @@ p {
   text-decoration: none; }
 
 .nav-toggle span {
-  color: #b25b62;
+  color: #bf544b;
   font-size: 3.5rem;
   overflow: hidden;
   display: inline-block;
@@ -168,37 +173,49 @@ p {
 * {
   text-decoration: none; }
 
-a {
-  font-family: "fira-sans-2",sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.5em; }
+a, p, li {
+  color: #4b4648; }
 
 h1, h2 {
   font-weight: bold;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-family: helvetica;
+  font-size: 48px;
+  color: #0597f2; }
+
+h2 {
+  margin-top: 85px; }
 
 h3 {
   font-family: helvetica;
   font-weight: regular;
-  font-size: 32px; }
-
-h1, h2 {
-  font-size: 48px;
-  color: #0597f2;
-  font-family: helvetica;
-  font-weight: bold; }
+  font-size: 32px;
+  margin: 40px 0 20px 0; }
 
 p {
   font-family: helvetica;
   font-size: 20px;
   line-height: 1.4; }
 
+li {
+  font-family: helvetica; }
+
+.margins {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 900px; }
+
+img {
+  width: 100%;
+  margin-top: 40px; }
+
 header {
   background: #7edde1;
   width: 100%;
   overflow: hidden;
-  padding: .5rem 0; }
+  padding: .5rem 0;
+  position: fixed;
+  top: 0px; }
   header .wrap {
     max-width: 90%;
     margin: 0 auto;
@@ -208,16 +225,60 @@ header {
     font-size: 2em;
     float: left;
     padding: 30px 0 30px 0;
-    font-family: helvetica neue;
-    font-weight: bold; }
+    font-family: helvetica neue; }
 
-.margins {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 900px; }
+.intro h1 {
+  margin-top: 200px; }
+.intro p {
+  margin-bottom: 40px; }
 
-img {
-  width: 100%; }
+.type-eg h1, .type-eg h2, .type-eg h3, .type-eg h4 {
+  font-family: "tablet-gothic-compressed",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0;
+  color: black;
+  margin-top: 40px; }
+.type-eg h1 {
+  font-size: 4.75rem; }
+.type-eg h2 {
+  font-size: 3.5rem; }
+.type-eg h3 {
+  font-size: 2.75rem; }
+.type-eg h4 {
+  font-size: 1.75rem; }
+.type-eg p, .type-eg a {
+  font-family: "fira-sans-2",sans-serif;
+  font-style: normal;
+  font-weight: 500; }
+.type-eg p {
+  font-size: 16px;
+  color: grey; }
+  .type-eg p:nth-child(9) {
+    margin-top: 40px;
+    color: black;
+    font-size: 1.4rem; }
+.type-eg a {
+  font-size: 1.4rem;
+  margin-top: 40px;
+  display: inline-block; }
+
+.name-eg .main-font {
+  font-size: 25px;
+  margin-top: 40px; }
+.name-eg .gothic {
+  font-family: "tablet-gothic-compressed",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px; }
+.name-eg .fira {
+  font-family: "fira-sans-2",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px; }
+
+.colors p {
+  margin-bottom: 40px; }
 
 .color-container {
   max-width: 350px; }
@@ -240,7 +301,7 @@ img {
   .color-container .brown {
     background: #dac48f; }
   .color-container .black {
-    background: black; }
+    background: #4b4648; }
   .color-container .num-container {
     float: left;
     padding: 51px 0 51px 20px; }
@@ -320,12 +381,15 @@ h2 {
   width: 133.33333%;
   margin-right: 0%; }
 
+@media screen and (min-width: 46.8em) {
+  .margins {
+    width: 60%;
+    margin: 0 auto;
+    max-width: 900px; } }
 @media screen and (min-width: 50em) {
-  header {
-    background: red; }
-    header p {
-      font-size: 64px;
-      font-size: 1.5em; } }
+  header p {
+    font-size: 64px;
+    font-size: 1.5em; } }
 .road {
   min-height: 25em;
   background-position: 50%;

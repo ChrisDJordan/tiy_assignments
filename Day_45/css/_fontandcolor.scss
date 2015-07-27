@@ -6,130 +6,45 @@ $lightgreen: #88bb28;
 $tan: #dac48f;
 $orange: #cc6806;
 
-*{
-	text-decoration:none;
+* {
+    text-decoration: none;
+}
+
+a,p,li{
+    color:#4b4648;
 
 }
 
 
 
-a{
-    font-family: "fira-sans-2",sans-serif;
-font-style: normal;
-font-weight: 500;
- font-size: 1.5em;
-
-}
-
-h1,h2{
-   
-    font-weight:bold;
-    margin-bottom:30px;
-}
-
-h3{
+h1, h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
     font-family: helvetica;
-    font-weight:regular;
-    font-size:32px;
-
+    font-size: 48px;
+    color: $darkblue;
 }
 
-h1,h2{
-    font-size:48px;
-    color:#0597f2;
+h2{
+    margin-top:85px;
+}
+
+
+h3 {
     font-family: helvetica;
-    font-weight:bold;
+    font-weight: regular;
+    font-size: 32px;
+    margin:40px 0 20px 0;
 }
 
-p{
-        font-family: helvetica;
-        font-size:20px;
-        line-height: 1.4;
-    
+p {
+    font-family: helvetica;
+    font-size: 20px;
+    line-height: 1.4;
 }
 
+li{
+     font-family: helvetica;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-// p {
-//     font-size: 1rem;
-//     font-size: 16px;
-//     line-height: 1.4;
-// }
-
-// a {
-//     font-size: 24px;
-//     font-size: 1.5em;
-//     text-decoration: none;
-// }
-
-// h1, h2, h3, h4, h5 {
-//     font-family: "tablet-gothic-compressed",sans-serif;
-//     font-style: normal;
-//     font-weight: 300;
-//     margin-bottom: 12px;
-// }
-
-// h1 {
-//     font-size: 76px;
-//     font-size: 4.75rem;
-//     color: #0597f2;
-// }
-
-// h2 {
-//     font-size: 56px;
-//     font-size: 3.5rem;
-//     color: #dac48f;
-// }
-
-// h3 {
-//     font-size: 34px;
-//     font-size: 2.15rem;
-//     color: #88bb28;
-// }
-
-// h4 {
-//     font-size: 44px;
-//     font-size: 2.75rem;
-//     color: #b25b62;
-// }
-
-// h5 {
-//     font-size: 28px;
-//     font-size: 1.75rem;
-//     color: #cc6806;
-// }

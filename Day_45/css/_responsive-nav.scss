@@ -17,10 +17,13 @@
     display: block;
     margin-bottom: 1em;
     text-align: right;
-    a{
-         color:white;
-    }
-
+    a {
+    font-family: "fira-sans-2",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    color:$darkred
+}
 }
 
 
@@ -54,7 +57,7 @@
 }
 
 .nav-toggle span {
-    color:  #b25b62;
+    color:  $darkred;
     font-size: 3.5rem;
     overflow: hidden;
     display: inline-block;
