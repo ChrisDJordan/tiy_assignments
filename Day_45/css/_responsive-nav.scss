@@ -6,7 +6,7 @@
 }
 
 .nav-collapse ul {
-    padding: 20px 2px 0 0;
+    padding: 0 0px 2px 0;
     display: block;
     list-style-type: none;
     text-decoration: none;
@@ -61,8 +61,8 @@
     font-size: 3.5rem;
     overflow: hidden;
     display: inline-block;
-    padding:18px 0 18px 0;
-     // background:white;
+    padding:38px 0 36px 0;
+      // background:white;
 }
 
 @media screen and (min-width: 50em) {
@@ -79,9 +79,9 @@
     }
     .nav-collapse li {
         display: inline-block;
-        // background:blue;
+         // background:blue;
         justify-content: center;
-        margin: 20px 0 14px 30px;
+        margin: 62px 0 62px 30px;
         &:last-of-type {
             margin-right: 0;
         }
@@ -89,7 +89,7 @@
             display: none;
         }
         a{
-             color:white;
+             color:$darkred;
         }
     }
     .js .nav-collapse {

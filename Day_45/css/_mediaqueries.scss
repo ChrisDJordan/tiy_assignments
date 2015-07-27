@@ -1,10 +1,4 @@
-@media screen and (min-width: 30em) {
- 
 
-
-
-
-}
 
 @media screen and (min-width: 35em) {
     .color-container{
@@ -78,25 +72,26 @@
     // }
 
 
-@media screen and (min-width: 46.8em) {
-.margins {
+
+
+
+@media screen and (min-width: 50em) {
+    .margins {
     width: 60%;
     margin: 0 auto;
     max-width: 900px;
 }
-
-    
+p{
+    width:90%;
 }
 
-@media screen and (min-width: 50em) {
-    // main section----------------------------------------------------------
-   
-    header {
-       
-        p {
-            font-size: 64px;
-            font-size: 1.5em;
-        }
+header{
+    p{
+    width:30%;
+}
+}
+
+
+
     }
-}
-    
+
