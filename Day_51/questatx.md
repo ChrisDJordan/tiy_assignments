@@ -1,27 +1,28 @@
 #Quest Austin Redesign
 
 ##History and Intro
-Twenty-two years ago, a group of watersport enthusiasts were looking for the right
-property to create the perfect lake. After years of searching they felt they were on
-a quest for the perfect property. They found that property in Southeast Austin and after
-years of enjoyment, they decided to take the facility to the next level and develop a
-full-sized cable park – and Quest ATX was born.
+Twenty-two years ago, a group of watersport enthusiasts were looking for the right  
+property to create the perfect lake. After years of searching they felt they were on  
+a quest for the perfect property. They found that property in Southeast Austin and after  
+years of enjoyment, they decided to take the facility to the next level and develop a  
+full-sized cable park – and Quest ATX was born.  
 
-Quest ATX is Austin’s first and only cable wakepark with big ambition to become a complete
-action sports destination. Set on 130 uniquely-manicured acres, and located close to the new
-Circuit of the Americas, Quest ATX is a world class wakeboarding facility. The park is equipped
-with a six-tower Sesitec system, UNIT Parktec rails and a System 2.0. Pairing Austin’s ‘Keep It
-Weird’ vibe with a of land of endless possibilities, Quest ATX is set to be one of the most unique 
+Quest ATX is Austin’s first and only cable wakepark with big ambition to become a complete  
+action sports destination. Set on 130 uniquely-manicured acres, and located close to the new  
+Circuit of the Americas, Quest ATX is a world class wakeboarding facility. The park is equipped  
+with a six-tower Sesitec system, UNIT Parktec rails and a System 2.0. Pairing Austin’s ‘Keep It  
+Weird’ vibe with a of land of endless possibilities, Quest ATX is set to be one of the most unique   
 cable wakeboard parks in the United States.
 
-The Quest staff has over a decade of experience in the cable wake boarding industry as well
-as a love for Austin’s outdoor active lifestyle. Their goal for Quest ATX is to promote that
-lifestyle for all ages, throughout Austin, and it’s surrounding communities.
+The Quest staff has over a decade of experience in the cable wake boarding industry as well  
+as a love for Austin’s outdoor active lifestyle. Their goal for Quest ATX is to promote that  
+lifestyle for all ages, throughout Austin, and it’s surrounding communities.  
 
 ##Project Issues and Goals
 
-While Quest ATX provides an awesome atmosphere for beginners to the most advanced riders, it doesn't
-come to life on their website. They also miss showcasing what makes them stand out from other parks 
+While Quest ATX provides an awesome atmosphere for beginners to the most advanced  
+riders, it doesn't come to life on their website. They also miss showcasing what  
+makes them stand out from other parks   
  
 ###Pros: 
 -only place with a mountain biking park  
@@ -67,8 +68,8 @@ Lack of information about:
 -wakeboard facility in austin tx    
 -possibly better features at the park  
 
-Next level ride, will be the top competition 
-When opened because they will offer a cable lake much like quest in austin tx. 
+Next level ride, will be the top competition When opened because  
+they will offer a cable lake much like quest in austin tx. 
 
 
 ####BSR
@@ -93,7 +94,7 @@ The competition with BSR will be with people from out of town looking to wakeboa
 -less tourists  
 
 ###Weaknesses
-lack of info about: 
+lack of info about:   
 -mountain biking  
 -rails and jumps  
 	
