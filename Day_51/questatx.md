@@ -131,7 +131,7 @@ lack of info about:
 
 ##This not That
 cable lake not boat lake  
-new school not old school  
+current not old school  
 supportive not uncarring  
 local not mass produced  
 summer not winter  
