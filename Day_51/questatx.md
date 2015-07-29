@@ -37,16 +37,16 @@ Lack of information about:
 -professional instructors  
         
 ###Goals:
--improve clarity of what quest has to offer  
+-improve clarity on what quest has to offer  
 -bring the excitement of wakeboarding with typography and photography  
 -show the unique rails and jumps   
 
 ##Audience
--local wakeboarders
--beginners to the sport 
--children
--families
--riders from other states and countries
+-local wakeboarders  
+-beginners to the sport   
+-children  
+-families  
+-riders from other states and countries  
 
 
 ##Competitive Market Study
@@ -54,29 +54,29 @@ Lack of information about:
 ###Competitors and what they offer:  
 
 ####Texas ski ranch
--family friendly
--sand beach at cable lake
--boat lake
--skatepark
-- snowboard park
--fish taco restaurant
--trampoline room
--camps
+-family friendly  
+-sand beach at cable lake  
+-boat lake  
+-skatepark  
+- snowboard park  
+-fish taco restaurant  
+-trampoline room  
+-camps  
 
 ####Next level ride
--wakeboard facility for austin tx 
--possibly better features at the park
+-wakeboard facility in austin tx    
+-possibly better features at the park  
 
 Next level ride, will be the top competition 
 When opened because they will offer a cable lake much like quest in austin tx. 
 
 
 ####BSR
--restaurant 
--multiple cable parks
--super slide
--lazy river
--camps
+-restaurant   
+-multiple cable parks  
+-super slide  
+-lazy river  
+-camps  
 
 BSR is the furthest away from quest, and  provides an experience much like TSR.  
 The competition with BSR will be with people from out of town looking to wakeboard. 
@@ -85,17 +85,17 @@ The competition with BSR will be with people from out of town looking to wakeboa
 ##SWOT
 
 ###Strengths
--first cable lake in Austin
--mountain biking
--private parties
--camps
--private training
--less tourists
+-first cable lake in Austin  
+-mountain biking  
+-private parties  
+-camps  
+-private training  
+-less tourists  
 
 ###Weaknesses
 	lack of info about: 
--mountain biking
--rails and jumps
+-mountain biking  
+-rails and jumps  
 	
 
 -facility offers fewest activities compared to TSR and BSR
@@ -103,25 +103,26 @@ The competition with BSR will be with people from out of town looking to wakeboa
 
 
 ###Opportunities
--showcase mountain biking 
--show more of the facility
--explaining what makes them different than their competitiion
--expanded t
+-showcase mountain biking   
+-show more of the facility  
+-explaining what makes them different than their competitiion  
+-bring more activities to location  
+-show off sponsors for Quest  
 
 
 
 ###Threats
--being out done by competition
--becoming out dated
--cable parks in Austin being built
+-being out done by competition    
+-becoming out dated    
+-cable parks in Austin being built   
 
 
 ##Keywords
--local
--family
--fun
--wakeboarding
--cable lake
+-local  
+-family  
+-fun  
+-wakeboarding  
+-cable lake  
 
 
 	
