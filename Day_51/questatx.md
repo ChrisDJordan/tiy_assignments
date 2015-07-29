@@ -35,7 +35,8 @@ Lack of information about:
 
 -personal mountain biking trail  
 -what rails and jumps they have  
--professional instructors  
+-professional instructors 
+-what makes them different 
         
 ###Goals:
 -improve clarity on what quest has to offer  
