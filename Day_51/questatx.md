@@ -139,12 +139,12 @@ summer not winter
 
 
 ##Game Plan
-The game plan for this project is to bring out what makes quest stand out from   
-their competitors, and manage their content well. Bringing excitement to wakeboarding,    
-and what makes it cool will be a big goal. I will provide information for newcomers to    
-the sport about to expect, and show off the supportive environment. Quest offers a great    
-facility with activities that no one has, they keep the laid-back Austin feel, without    
-intent of becoing to big. I intend on showcasing their fun supportive atmosphere. 
+The game plan for this project is to make Quest stand out from their competitors  
+and manage their content well. One of my many goals is to bring excitement to wake  
+boarding and show people how cool it can be. I will provide information for new comers  
+about what to expect and show off Quest's supportive environment. Quest offers a great  
+facility with unique activities and keeps a laid-back, "Austin" feel, without  
+the intent to make it big.   
 
 ###Technical Possibilities
 -possible weather update  
