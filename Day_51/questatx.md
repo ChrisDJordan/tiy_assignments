@@ -143,7 +143,7 @@ their competitors, and manage their content well. Bringing excitement to wakeboa
 and what makes it cool will be a big goal. I will provide information for newcomers to    
 the sport about to expect, and show off the supportive environment. Quest offers a great    
 facility with activities that no one has, they keep the laid-back Austin feel, without    
-intent of loosing their local feel. 
+intent of becoing to big. I intend on showcasing their fun supportive atmosphere. 
 
 ###Technical Possibilities
 -possible weather update  
