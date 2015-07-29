@@ -129,6 +129,41 @@ lack of info about:
 -wakeboarding  
 -cable lake  
 
+##This not That
+cable lake not boat lake  
+new school not old school  
+supportive not uncarring  
+local not mass produced  
+summer not winter  
+
+
+##Game Plan
+The game plan for this project is to bring out what makes quest stand out from   
+their competitors, and manage their content well. Bringing excitement to wakeboarding,    
+and what makes it cool will be a big goal. I will provide information for newcomers to    
+the sport about to expect, and show off the supportive environment. Quest offers a great    
+facility with activities that no one has, they keep the laid-back Austin feel, without    
+intent of loosing their local feel. 
+
+###Technical Possibilities
+-possible weather update  
+-wavier form online pdf  
+-cms  
+
+##Project Deliverables
+-style tiles  
+-style guide  
+-wireframes  
+-comps  
+-website  
+
+
+
+
+
+
+
+
 
 	
 
