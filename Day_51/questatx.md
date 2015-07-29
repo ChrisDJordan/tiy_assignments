@@ -33,7 +33,7 @@ makes them stand out from other parks
 ###Cons:
 Lack of information about:
 
--personal mountain biking trial  
+-personal mountain biking trail  
 -what rails and jumps they have  
 -professional instructors  
         
