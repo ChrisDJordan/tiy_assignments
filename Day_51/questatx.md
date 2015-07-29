@@ -57,11 +57,11 @@ Lack of information about:
 -family friendly  
 -sand beach at cable lake  
 -boat lake  
--skatepark  
-- snowboard park  
--fish taco restaurant  
--trampoline room  
--camps  
+-skatepark    
+-snowboard park    
+-fish taco restaurant   
+-trampoline room    
+-camps    
 
 ####Next level ride
 -wakeboard facility in austin tx    
@@ -93,13 +93,13 @@ The competition with BSR will be with people from out of town looking to wakeboa
 -less tourists  
 
 ###Weaknesses
-	lack of info about: 
+lack of info about: 
 -mountain biking  
 -rails and jumps  
 	
 
--facility offers fewest activities compared to TSR and BSR
--location is harder to find than competition
+-facility offers fewest activities compared to TSR and BSR  
+-location is harder to find than competition  
 
 
 ###Opportunities
