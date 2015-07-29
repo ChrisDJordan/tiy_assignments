@@ -62,7 +62,11 @@ Lack of information about:
 -snowboard park    
 -fish taco restaurant   
 -trampoline room    
--camps    
+-camps  
+   
+Texas ski ranch is currently the main competitor being that they're the  
+closest to quest. TSR, values family fun over all else and provides the most  
+activities in one area.      
 
 ####Next level ride
 -wakeboard facility in austin tx    
@@ -146,5 +150,4 @@ lack of info about:
 
 
 
-   
-Texas ski ranch is currently the main competitor being that they're the closest to quest. TSR values family fun over all else and provides the most activities in one area
+
