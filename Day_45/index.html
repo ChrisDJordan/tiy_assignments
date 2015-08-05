@@ -65,7 +65,7 @@
 					time around every corner of the restaurant getting
 					pictures with my photographer friend, Chris. As we
 				looked around I could see a common color pallet.</p>
-				<img src="images/frogsign-small.jpg">
+				<img class="frog" src="images/frogsign.jpg">
 				<img src="images/outside-small.jpg">
 				<img src="images/buildingside-small.jpg">
 				<h3>word list and site map</h3>
@@ -265,8 +265,56 @@
 		<footer>
 			
 		</footer>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script>
 		var nav = responsiveNav(".nav-collapse");
+
+	
+  $(window).resize(function(){
+  var width = $(window).width(); 
+
+   if (width < 500) {
+      $(".frog").attr("src","images/frogsign-small.jpg");
+   }
+
+   else{
+   	$(".frog").attr("src","images/frogsign.jpg");
+
+   }
+ }); 
+
+
+
+
+
+
 		</script>
+
 	</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
