@@ -1,3 +1,53 @@
-@import "reset";
-@import "bourbon/bourbon";
-@import "neat/neat";
+
+body{
+	background-color:black;
+}
+
+
+
+
+
+
+.col-xs-12{
+	height:100px;
+	background:blue;
+	color:white;
+	text-align:center;
+}
+
+.col-xs-6{
+	height:100px;
+	background:yellow;
+	color:black;
+	text-align:center;
+		border:1px solid black;
+}
+
+
+.col-xs-4{
+	height:100px;
+	background:green;
+	color:white;
+	text-align:center;
+		border:1px solid black;
+}
+
+.col-xs-8{
+	height:100px;
+	background:red;
+	color:black;
+	text-align:center;
+		border:1px solid black;
+}
+
+
+.footer .col-sm-4{
+	height:100px;
+	background:purple;
+	color:white;
+	text-align:center;
+	border:1px solid black;
+}
+
+
+
