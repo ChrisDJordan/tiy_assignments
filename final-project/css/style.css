@@ -83,10 +83,10 @@ section.cover {
 .img-fix {
   width: 100%; }
 
-.red-box {
+.grey-box {
   height: 200px;
   width: 100%;
-  background: red; }
+  background: grey; }
 
 .top {
   display: none;
@@ -136,15 +136,17 @@ section:before {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   transition-duration: 0.6s; }
 
+/* prices
+===================================*/
 .prices {
   height: 100px;
-  background: purple;
+  background: lightgrey;
   color: white;
   text-align: center;
   border: 1px solid black; }
 
 .circle-icon {
-  background: red;
+  background: grey;
   height: 60px;
   margin-top: 150px; }
   .circle-icon .circle {
