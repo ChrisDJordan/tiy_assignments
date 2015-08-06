@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic);
-
+@import "bootchange";
 
 /* Base Styles
 ===================================*/
@@ -207,7 +207,13 @@ section:before {
 
 /* prices
 ===================================*/
+.prices-contain{
+	.col-lg-4{
+		margin-right:5px;
+		background:red;
+	}
 
+}
 
 
 
@@ -216,7 +222,8 @@ section:before {
 	background:lightgrey;
 	color:white;
 	text-align:center;
-	border:1px solid black;
+
+	
 }
 
 .circle-icon{
@@ -234,4 +241,6 @@ section:before {
     margin:0 auto;
   }
 }
+
+
 
