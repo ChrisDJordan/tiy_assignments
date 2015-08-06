@@ -160,6 +160,11 @@ section.cover {
     text-align: center;
 }
 
+// .color{
+// 	background:green;
+
+// }
+
 .img-fix {
     width: 100%;
 }
@@ -276,4 +281,7 @@ section:before {
     }
 }
 
+.embed-container{
+	margin-top:150px;
+}
 @import "mediaqueries";
