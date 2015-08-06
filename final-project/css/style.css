@@ -670,10 +670,6 @@ section:before {
   .whatis-section {
     margin-top: 0px; } }
 @media screen and (min-width: 1200px) {
-  .row-change {
-    margin-right: -85px;
-    margin-left: -85px; }
-
   .main-rental-contain h2 {
     color: red;
     margin-bottom: 60px; }
