@@ -128,6 +128,7 @@ section.cover {
 // }
 
 .section-one-content {
+
     h2 {
         text-align: center;
     }
@@ -284,4 +285,19 @@ section:before {
 .embed-container{
 	margin-top:150px;
 }
+
+
+
+
+
+.map-contain{
+	width:90%;
+	margin:0 auto;
+}
+
+.col-change{
+	width:90%;
+}
+
+
 @import "mediaqueries";
