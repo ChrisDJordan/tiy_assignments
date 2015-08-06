@@ -2,6 +2,9 @@
 ul {
   padding-left: 0; }
 
+li {
+  list-style-type: none; }
+
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
@@ -545,17 +548,23 @@ section.cover {
 
 /* Section One Styles
 ===================================*/
+.section-one-content h2 {
+  text-align: center; }
+.section-one-content .prices-circle {
+  margin: 0 auto; }
+
+.prices-circle {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50px; }
+
 .col-xs-12 {
   background: red;
   text-align: center; }
 
 .img-fix {
   width: 100%; }
-
-.grey-box {
-  height: 200px;
-  width: 100%;
-  background: grey; }
 
 .top {
   display: none;
@@ -607,25 +616,27 @@ section:before {
 
 /* prices
 ===================================*/
-.main-price-contain {
+.main-rental-contain {
   margin-left: 15px;
   margin-right: 15px; }
-  .main-price-contain h2 {
+  .main-rental-contain h2 {
     color: green;
     text-align: center;
     margin-bottom: 75px; }
-  .main-price-contain .prices {
+  .main-rental-contain .rental-prices {
     background: lightgrey;
     color: white;
     text-align: center;
     margin-top: 4px; }
-    .main-price-contain .prices li {
-      list-style-type: none; }
-  .main-price-contain .circle-icon {
+    .main-rental-contain .rental-prices .small-ul {
+      font-size: 20px; }
+    .main-rental-contain .rental-prices .big-ul {
+      font-size: 40px; }
+  .main-rental-contain .icon-bar {
     background: grey;
     height: 60px;
     margin-top: 20px; }
-    .main-price-contain .circle-icon .circle {
+    .main-rental-contain .icon-bar .rental-circle {
       width: 100px;
       height: 100px;
       background: black;
