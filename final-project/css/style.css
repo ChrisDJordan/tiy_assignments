@@ -41,7 +41,8 @@ footer {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background: rgba(24, 53, 50, 0.1); }
+  background: #283332;
+  color: #FCAD30; }
 
 .dropdown-menu {
   padding: 8px;
@@ -64,33 +65,6 @@ footer {
 
 /* Cover / Jumbotron Styles
 ===================================*/
-section.cover {
-  padding-top: 70px;
-  /*background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/201958/LJJPGUPA00.jpg');*/
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.flex-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.jumbotron {
-  background: transparent;
-  color: #ffffff;
-  text-align: center;
-  width: 90%; }
-
-.jumbotron-btn {
-  background: #fff;
-  color: #111111; }
-
-.jumbotron-btn:hover {
-  background: #183532;
-  color: #fff;
-  border: 1px solid #fff; }
-
 /* Section One Styles
 ===================================*/
 .section-one-content {
