@@ -10,6 +10,10 @@ body {
 
 /* Layout Styles
 ===================================*/
+section:not(:first-of-type),
+section:not(:nth-of-type(n2)) {
+  margin-top: 0px; }
+
 .section-two,
 .section-three,
 footer {
@@ -65,11 +69,19 @@ footer {
 
 /* Cover / Jumbotron Styles
 ===================================*/
+section.cover {
+  padding-top: 70px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 /* Section One Styles
 ===================================*/
 .col-xs-12 {
   background: red;
   text-align: center; }
+
+.img-fix {
+  width: 100%; }
 
 /* CSS Image Styles
 ====================================================*/
@@ -100,6 +112,14 @@ footer {
 
 /* Helpers for top position on internal page links
 ====================================================*/
+#spytop:before,
+section:before {
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden; }
+
 /* Media Styles
 ===================================*/
 @media (min-width: 480px) {

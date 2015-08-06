@@ -12,10 +12,10 @@ body {
 
 /* Layout Styles
 ===================================*/
-// section:not(:first-of-type),
-// section:not(:nth-of-type(n2)) {
-// 	margin-top: 0px;
-// }
+section:not(:first-of-type),
+section:not(:nth-of-type(n2)) {
+	margin-top: 0px;
+}
 .section-two,
 .section-three,
 footer {
@@ -84,37 +84,12 @@ footer {
 
 /* Cover / Jumbotron Styles
 ===================================*/
-// section.cover {
-//     padding-top: 70px;
-//     background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/201958/LJJPGUPA00.jpg');
-//     background-repeat: no-repeat;
-//     background-size: cover;
-// }
+section.cover {
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-// .flex-wrapper {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-// }
-
-// .jumbotron {
-//     background: transparent;
-//     color: #ffffff;
-//     text-align: center;
-//     width: 90%;
-// }
-
-// .jumbotron-btn {
-//     background: #fff;
-//     color: #111111;
-// }
-
-// .jumbotron-btn:hover {
-//     background: rgb(24, 53, 50);
-//     color: #fff;
-//     border: 1px solid #fff;
-// }
 
 /* Section One Styles
 ===================================*/
@@ -150,6 +125,10 @@ footer {
     text-align: center;
 }
 
+
+.img-fix{
+	width:100%;
+}
 /* CSS Image Styles
 ====================================================*/
 // .css-img-wrapper {
@@ -209,14 +188,14 @@ footer {
 
 /* Helpers for top position on internal page links
 ====================================================*/
-// #spytop:before,
-// section:before {
-//     display: block;
-//     content: " ";
-//     margin-top: -100px;
-//     height: 100px;
-//     visibility: hidden;
-// }
+#spytop:before,
+section:before {
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+}
 
 /* Media Styles
 ===================================*/
