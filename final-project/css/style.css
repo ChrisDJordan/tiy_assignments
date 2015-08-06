@@ -1,11 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic);
 .container {
-  width: 90%;
+  max-width: 1400px;
   margin: auto; }
-
-.col-md-4 {
-  padding-left: 2px;
-  padding-right: 2px; }
 
 ul {
   padding-left: 0;
@@ -677,9 +673,6 @@ section:before {
 .map-contain {
   width: 90%;
   margin: 0 auto; }
-
-.col-change {
-  width: 90%; }
 
 @media screen and (min-width: 992px) {
   .whatis-section {
