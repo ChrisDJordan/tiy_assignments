@@ -83,8 +83,11 @@ section.cover {
 .img-fix {
   width: 100%; }
 
-/* CSS Image Styles
-====================================================*/
+.red-box {
+  height: 200px;
+  width: 100%;
+  background: red; }
+
 .top {
   display: none;
   background-color: #FCAD30;
@@ -132,5 +135,25 @@ section:before {
   padding: 0;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   transition-duration: 0.6s; }
+
+.prices {
+  height: 100px;
+  background: purple;
+  color: white;
+  text-align: center;
+  border: 1px solid black; }
+
+.circle-icon {
+  background: red;
+  height: 60px;
+  margin-top: 150px; }
+  .circle-icon .circle {
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50px;
+    position: relative;
+    bottom: 60px;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
