@@ -2,7 +2,6 @@
 
 @import "bootchange";
 
-
 /* Base Styles
 ===================================*/
 body {
@@ -22,10 +21,12 @@ body {
 
 .section-two,
 .section-three,
-,.main-price-contain,
+.main-price-contain,
 .whatis-section,
+.section-one-content,
+.main-rental-contain,
 footer {
-    margin-top: 80px;
+    margin-top: 150px;
 }
 
 .carousel-inner {}
@@ -114,6 +115,7 @@ section.cover {
 
 // #section-one-middle {
 //     background: #244F4A;
+//     margin-top: 80px;
 // }
 
 // #section-one-right {
@@ -125,41 +127,33 @@ section.cover {
 //     background: #fff;
 // }
 
-
-.section-one-content{
-	h2{
-		text-align:center;
-	}
-
-	.prices-circle{
-		margin:0 auto;
-	}
+.section-one-content {
+    h2 {
+        text-align: center;
+    }
+    .prices-bar {
+        background: grey;
+        height: 60px;
+    }
+    .prices-circle {
+        margin: 0 auto;
+        position: relative;
+        bottom: 60px;
+        width: 100px;
+        height: 100px;
+        background: red;
+        border-radius: 50px;
+    }
+    ul {
+        margin-top: 4px;
+    }
+    li {
+   
+        text-align: center;
+        background: lightgrey;
+        margin-top: 4px;
+    }
 }
-.prices-circle{
-	width:100px;
-	height:100px;
-	background:red;
-	border-radius:50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .col-xs-12 {
     background: red;
@@ -170,7 +164,11 @@ section.cover {
     width: 100%;
 }
 
-
+.grey-box {
+    width: 100%;
+    height: 200px;
+    background: grey;
+}
 
 // /* To Top Button Styles
 // ===================================*/
@@ -239,32 +237,24 @@ section:before {
     transition-duration: 0.6s;
 }
 
-
 /* prices
 ===================================*/
+.small-ul {
+    font-size: 20px;
+}
+
+.big-ul {
+    font-size: 40px;
+}
 
 .main-rental-contain {
-    margin-left:15px;
-    margin-right:15px;
-    h2{
-    	color:green;
-    	text-align:center;
-    	margin-bottom:75px;
-    }
-    .rental-prices {
-        background: lightgrey;
-        color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    h2 {
         text-align: center;
-        margin-top: 4px;
-        .small-ul{
-        	font-size:20px;
-        }
-        .big-ul{
-        	font-size:40px;
-        }
-        
+        margin-bottom: 75px;
     }
-    .icon-bar {
+    .rental-bar {
         background: grey;
         height: 60px;
         margin-top: 20px;
@@ -277,6 +267,12 @@ section:before {
             bottom: 60px;
             margin: 0 auto;
         }
+    }
+    .rental-prices {
+        background: lightgrey;
+        color: white;
+        text-align: center;
+        margin-top: 4px;
     }
 }
 
