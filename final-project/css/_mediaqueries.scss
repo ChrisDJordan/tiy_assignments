@@ -1,0 +1,22 @@
+@media screen and (min-width: 992px) {
+    .whatis-section {
+        margin-top: 0px;
+       
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main-price-contain {
+        h2 {
+            color: red;
+            margin-bottom: 60px;
+        }
+    }
+    .prices {
+        margin-right: .5%;
+        width: 33%;
+        &:last-of-type {
+            margin-right: 0%;
+        }
+    }
+}

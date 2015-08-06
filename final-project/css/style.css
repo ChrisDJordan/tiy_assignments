@@ -478,12 +478,10 @@ body {
 
 /* Layout Styles
 ===================================*/
-section:not(:first-of-type),
-section:not(:nth-of-type(n2)) {
-  margin-top: 0px; }
-
 .section-two,
 .section-three,
+.main-price-contain,
+.whatis-section,
 footer {
   margin-top: 80px; }
 
@@ -607,29 +605,42 @@ section:before {
 /* prices
 ===================================*/
 .main-price-contain {
-  margin: 0 15px 0 15px; }
-
-.prices-contain .col-lg-4 {
-  margin-right: 5px;
-  background: red; }
-
-.prices {
-  height: 100px;
-  background: lightgrey;
-  color: white;
-  text-align: center; }
-
-.circle-icon {
-  background: grey;
-  height: 60px;
-  margin-top: 150px; }
-  .circle-icon .circle {
-    width: 100px;
+  margin-left: 15px;
+  margin-right: 15px; }
+  .main-price-contain h2 {
+    text-align: center;
+    margin-bottom: 75px; }
+  .main-price-contain .prices {
     height: 100px;
-    background: black;
-    border-radius: 50px;
-    position: relative;
-    bottom: 60px;
-    margin: 0 auto; }
+    background: lightgrey;
+    color: white;
+    text-align: center;
+    margin-top: 4px; }
+  .main-price-contain .circle-icon {
+    background: grey;
+    height: 60px;
+    margin-top: 20px; }
+    .main-price-contain .circle-icon .circle {
+      width: 100px;
+      height: 100px;
+      background: black;
+      border-radius: 150px;
+      position: relative;
+      bottom: 60px;
+      margin: 0 auto; }
+
+@media screen and (min-width: 992px) {
+  .whatis-section {
+    margin-top: 0px; } }
+@media screen and (min-width: 1200px) {
+  .main-price-contain h2 {
+    color: red;
+    margin-bottom: 60px; }
+
+  .prices {
+    margin-right: .5%;
+    width: 33%; }
+    .prices:last-of-type {
+      margin-right: 0%; } }
 
 /*# sourceMappingURL=style.css.map */
