@@ -46,7 +46,8 @@ footer {
 .dropdown-menu {
   padding: 8px;
   box-shadow: none;
-  border: none; }
+  border: none;
+  background: white; }
 
 .dropdown-menu li a {
   padding: 4px 8px;
