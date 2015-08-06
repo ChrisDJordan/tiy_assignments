@@ -219,11 +219,13 @@ section:before {
     	margin-bottom:75px;
     }
     .prices {
-        height: 100px;
         background: lightgrey;
         color: white;
         text-align: center;
         margin-top: 4px;
+        li{
+        	list-style-type: none;
+        }
     }
     .circle-icon {
         background: grey;
