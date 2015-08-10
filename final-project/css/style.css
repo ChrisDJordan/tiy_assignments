@@ -3,6 +3,18 @@
   max-width: 1400px;
   margin: auto; }
 
+.item {
+  background-size: cover;
+  height: 200px; }
+
+.first {
+  background-image: url(../images/jump.jpg);
+  background-position: center center; }
+
+.second {
+  background-image: url(../images/chill-dock.jpg);
+  background-position: center center; }
+
 ul {
   padding-left: 0;
   margin-right: 0; }
@@ -11,6 +23,9 @@ li {
   list-style-type: none; }
 
 @media (min-width: 768px) {
+  .item {
+    height: 500px; }
+
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
 
@@ -478,6 +493,9 @@ li {
 
   .col-lg-offset-0 {
     margin-left: 0; } }
+.carousel-control.left, .carousel-control.right {
+  background: none; }
+
 /* colors
 ===================================*/
 /* Base Styles
@@ -526,11 +544,11 @@ footer {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background: #283332;
-  color: #FCAD30; }
+  background: #34495e;
+  color: #fd4950; }
 
 .dropdown-menu {
-  padding: 8px;
+  padding: 48px;
   box-shadow: none;
   border: none;
   background: white; }
@@ -540,8 +558,7 @@ footer {
   border-radius: 6px; }
 
 .nav-dropdown-scroll {
-  background: #e7eaea;
-  box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4); }
+  background: #e7eaea; }
 
 .navbar-toggle,
 .navbar-default .navbar-toggle:focus,
@@ -570,9 +587,9 @@ section.cover {
   width: 90px;
   height: 90px;
   background-color: #fd4950;
-  background-image: url("../images/clock.png");
+  background-image: url("../images/ticket1.png");
   background-repeat: no-repeat;
-  background-position: 9px 10px;
+  background-position: 14px 14px;
   border-radius: 50px; }
 .section-one-content ul {
   margin-top: 4px; }
@@ -588,7 +605,7 @@ section.cover {
 
 .top {
   display: none;
-  background-color: #FCAD30;
+  background-color: #fd4950;
   bottom: 2em;
   color: #FFF;
   opacity: 0.8;

@@ -2,6 +2,9 @@
 
 @import "bootchange";
 
+.carousel-control.left, .carousel-control.right{
+   background:none;
+}
 
 
 /* colors
@@ -75,12 +78,12 @@ footer {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-    background: #283332;
-    color: #FCAD30;
+    background:$mainblue;
+    color: $iconred;
 }
 
 .dropdown-menu {
-    padding: 8px;
+    padding: 48px;
     box-shadow: none;
     border: none;
     background: white;
@@ -93,7 +96,7 @@ footer {
 
 .nav-dropdown-scroll {
     background: #e7eaea;
-    box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
+    // box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
 }
 
 .navbar-toggle,
@@ -158,9 +161,9 @@ section.cover {
         width: 90px;
         height: 90px;
         background-color: $iconred;
-        background-image: url('../images/clock.png');
+        background-image: url('../images/ticket1.png');
         background-repeat:no-repeat;
-        background-position:9px 10px;
+        background-position:14px 14px;
         border-radius: 50px;
 
     }
@@ -192,7 +195,7 @@ section.cover {
 // ===================================*/
 .top {
     display: none;
-    background-color: #FCAD30;
+    background-color: $iconred;
     bottom: 2em;
     color: #FFF;
     opacity: 0.8;

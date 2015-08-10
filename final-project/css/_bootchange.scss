@@ -6,7 +6,22 @@
 
 
 
+.item {
+  background-size: cover;
+  height: 200px;
+}
 
+
+
+.first {
+  background-image: url(../images/jump.jpg);
+  background-position: center center;
+}
+
+.second {
+  background-image: url(../images/chill-dock.jpg);
+  background-position: center center;
+}
 
 
 
@@ -22,6 +37,11 @@ li{
 
 
 @media (min-width: 768px) {
+  .item {
+    height: 500px;
+  }
+
+
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
   }
