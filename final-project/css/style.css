@@ -1,13 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic);
 .container {
-  max-width: 1500px;
+  max-width: 1400px;
   margin: auto; }
-
-.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-  position: relative;
-  min-height: 1px;
-  padding-right: 0px;
-  padding-left: 0px; }
 
 ul {
   padding-left: 0;
@@ -484,6 +478,8 @@ li {
 
   .col-lg-offset-0 {
     margin-left: 0; } }
+/* colors
+===================================*/
 /* Base Styles
 ===================================*/
 body {
@@ -561,37 +557,34 @@ section.cover {
 
 /* Section One Styles
 ===================================*/
+.prices-bar, .rental-bar {
+  background: #34495e;
+  height: 50px; }
+
 .section-one-content h2 {
   text-align: center; }
-.section-one-content .prices-bar {
-  background: grey;
-  height: 50px; }
 .section-one-content .prices-circle {
   margin: 0 auto;
   position: relative;
-  bottom: 60px;
-  width: 100px;
-  height: 100px;
-  background: red;
+  bottom: 50px;
+  width: 90px;
+  height: 90px;
+  background-color: #fd4950;
+  background-image: url("../images/clock.png");
+  background-repeat: no-repeat;
+  background-position: 9px 10px;
   border-radius: 50px; }
 .section-one-content ul {
   margin-top: 4px; }
 .section-one-content li {
   text-align: center;
-  background: lightgrey;
+  background: #ebebeb;
   margin-top: 4px; }
-
-.col-xs-12 {
-  background: red;
-  text-align: center; }
+.section-one-content .cable-color {
+  background: #9fa9b2; }
 
 .img-fix {
   width: 100%; }
-
-.grey-box {
-  width: 100%;
-  height: 200px;
-  background: grey; }
 
 .top {
   display: none;
@@ -656,39 +649,52 @@ section:before {
     text-align: center;
     margin-bottom: 75px; }
   .main-rental-contain .rental-bar {
-    background: grey;
+    background: #34495e;
     height: 50px;
     margin-top: 20px; }
     .main-rental-contain .rental-bar .rental-circle {
       width: 100px;
       height: 100px;
-      background: black;
-      border-radius: 150px;
+      background: #fd4950;
+      border-radius: 50px;
       position: relative;
       bottom: 60px;
       margin: 0 auto; }
   .main-rental-contain .rental-prices {
-    background: lightgrey;
-    color: white;
+    background: #F1F1F1;
     text-align: center;
     margin-top: 4px; }
 
+/* map
+===================================*
+*/
 .embed-container {
   margin-top: 150px; }
 
 .map-contain {
-  width: 90%;
-  margin: 0 auto; }
+  width: 100%; }
 
 @media screen and (min-width: 992px) {
+  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px; }
+
   .whatis-section {
     margin-top: 0px; }
 
   .lefty {
-    padding-right: 30px; }
+    padding-right: 40px; }
 
   .righty {
-    padding-left: 30px; } }
+    padding-left: 40px; }
+
+  .section-one li {
+    margin-right: 4px; }
+
+  .section-one-content .remove-marg {
+    margin-right: 0px; } }
 @media screen and (min-width: 1200px) {
   .main-rental-contain h2 {
     color: red;

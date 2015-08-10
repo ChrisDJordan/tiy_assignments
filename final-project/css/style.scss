@@ -2,6 +2,19 @@
 
 @import "bootchange";
 
+
+
+/* colors
+===================================*/
+
+$iconred: #fd4950;
+$mainblue: #34495e;
+$lightblue: #9fa9b2;
+$buttongreen: #96d59e;
+
+
+
+
 /* Base Styles
 ===================================*/
 body {
@@ -126,24 +139,30 @@ section.cover {
 // .section-three {
 //     background: #fff;
 // }
+ .prices-bar ,.rental-bar {
+        background: $mainblue;
+        height: 50px;
+
+    }
 
 .section-one-content {
 
     h2 {
         text-align: center;
     }
-    .prices-bar {
-        background: grey;
-        height: 50px;
-    }
+   
     .prices-circle {
         margin: 0 auto;
         position: relative;
-        bottom: 60px;
-        width: 100px;
-        height: 100px;
-        background: red;
+        bottom: 50px;
+        width: 90px;
+        height: 90px;
+        background-color: $iconred;
+        background-image: url('../images/clock.png');
+        background-repeat:no-repeat;
+        background-position:9px 10px;
         border-radius: 50px;
+
     }
     ul {
         margin-top: 4px;
@@ -151,30 +170,23 @@ section.cover {
     li {
    
         text-align: center;
-        background: lightgrey;
+        background: #ebebeb;
         margin-top: 4px;
     }
+
+    .cable-color{
+    background:$lightblue;
+}
 }
 
-.col-xs-12 {
-    background: red;
-    text-align: center;
-}
 
-// .color{
-// 	background:green;
 
-// }
 
 .img-fix {
     width: 100%;
+   
 }
 
-.grey-box {
-    width: 100%;
-    height: 200px;
-    background: grey;
-}
 
 // /* To Top Button Styles
 // ===================================*/
@@ -261,27 +273,29 @@ section:before {
         margin-bottom: 75px;
     }
     .rental-bar {
-        background: grey;
+        background:$mainblue;
         height: 50px;
         margin-top: 20px;
         .rental-circle {
             width: 100px;
-            height: 100px;
-            background: black;
-            border-radius: 150px;
+            height:100px;
+            background: $iconred;
+             border-radius: 50px;
             position: relative;
             bottom: 60px;
             margin: 0 auto;
         }
     }
     .rental-prices {
-        background: lightgrey;
-        color: white;
+        background: #F1F1F1;
+       
         text-align: center;
         margin-top: 4px;
     }
 }
-
+/* map
+===================================*
+*/
 .embed-container{
 	margin-top:150px;
 }
@@ -291,8 +305,8 @@ section:before {
 
 
 .map-contain{
-	width:90%;
-	margin:0 auto;
+	width:100%;
+	
 }
 
 
