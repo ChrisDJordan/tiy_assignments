@@ -496,6 +496,18 @@ li {
 .carousel-control.left, .carousel-control.right {
   background: none; }
 
+.navbar-default .navbar-toggle {
+  border-color: white; }
+
+.carousel-caption1 {
+  text-align: left;
+  font-size: 25px;
+  color: white;
+  margin-left: 12%;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 700; }
+
 /* colors
 ===================================*/
 /* Base Styles
