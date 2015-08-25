@@ -3,17 +3,18 @@
   max-width: 1400px;
   margin: auto; }
 
-.item {
-  background-size: cover;
-  height: 200px; }
-
 .first {
-  background-image: url(../images/jump.jpg);
-  background-position: center center; }
+  background-image: url(../images/hero.jpg);
+  height: 960px;
+  background-size: cover;
+  background-position: 90% 0%;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%; }
 
 .second {
-  background-image: url(../images/chill-dock.jpg);
-  background-position: center center; }
+  background-image: url(../images/nose-press.jpg);
+  background-position: 70% 0%; }
 
 ul {
   padding-left: 0;
@@ -516,8 +517,7 @@ body {
   color: #183532;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  line-height: 1.8;
-  background-color: #fff; }
+  line-height: 1.8; }
 
 /* Layout Styles
 ===================================*/
@@ -533,10 +533,11 @@ footer {
 /* Nav / Navbar Styles
 ===================================*/
 .navbar {
-  background: white;
+  background: transparent;
   border-bottom: none;
   padding: 10px 0 10px;
-  transition-duration: 0.6s; }
+  transition-duration: 0.6s;
+  z-index: 1; }
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
@@ -572,15 +573,9 @@ footer {
 .nav-dropdown-scroll {
   background: #e7eaea; }
 
-.navbar-toggle,
-.navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {
-  background: #fff; }
-
 /* Cover / Jumbotron Styles
 ===================================*/
 section.cover {
-  padding-top: 70px;
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -660,7 +655,6 @@ section:before {
 .navbar-scroll {
   background: white;
   padding: 0;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   transition-duration: 0.6s; }
 
 /* prices
@@ -702,6 +696,36 @@ section:before {
 
 .map-contain {
   width: 100%; }
+
+.parallelogram {
+  width: 100%;
+  height: 250px;
+  margin-top: -160px;
+  position: absolute;
+  -webkit-transform: skewY(-10deg);
+  -moz-transform: skewY(-10deg);
+  -o-transform: skewY(-10deg);
+  background-color: rgba(250, 186, 86, 0.6); }
+
+.para-aboutus {
+  width: 100%;
+  height: 1500px;
+  margin-top: -160px;
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  background-color: black; }
+
+.spring-back {
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  overflow: hidden;
+  margin-bottom: 400px; }
+
+.section-two {
+  position: relative;
+  top: 200p5; }
 
 @media screen and (min-width: 992px) {
   .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {

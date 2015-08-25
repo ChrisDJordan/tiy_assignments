@@ -39,7 +39,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 1.8;
-    background-color: #fff;
+
 }
 
 /* Layout Styles
@@ -57,6 +57,7 @@ body {
 .main-rental-contain,
 footer {
     margin-top: 150px;
+
 }
 
 .carousel-inner {}
@@ -64,11 +65,12 @@ footer {
 /* Nav / Navbar Styles
 ===================================*/
 .navbar {
-    background: white;
-    // transparent;
+ 
+    background:transparent;
     border-bottom: none;
     padding: 10px 0 10px;
     transition-duration: 0.6s;
+    z-index:1;
 }
 
 .navbar-default .navbar-brand,
@@ -116,13 +118,13 @@ footer {
 .navbar-toggle,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background: #fff;
+    
 }
 
 /* Cover / Jumbotron Styles
 ===================================*/
 section.cover {
-    padding-top: 70px;
+    // padding-top: 70px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -266,9 +268,9 @@ section:before {
 /* jQuery Styles
 ===================================*/
 .navbar-scroll {
-    background: white;
+     background:white;
     padding: 0;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    // box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     transition-duration: 0.6s;
 }
 
@@ -327,6 +329,44 @@ section:before {
 }
 
 
+.parallelogram {
+  width: 100%;
+  height: 250px;
+  
+  margin-top:-160px;
+  position:absolute;
+  -webkit-transform: skewY(-10deg);
+  -moz-transform: skewY(-10deg);
+  -o-transform: skewY(-10deg);
+  background-color:rgba(250,186,86,0.6);
+}
+
+.para-aboutus {
+  width: 100%;
+   height:1500px;
+ 
+
+  margin-top:-160px;
+
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  background-color:black;
+}
 
 
+.spring-back{
+      -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -o-transform: skewY( 5deg);
+ 
+  overflow:hidden;
+  margin-bottom:400px;
+
+}
+
+.section-two{
+    position:relative;
+    top:200p5
+}
 @import "mediaqueries";

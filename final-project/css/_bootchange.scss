@@ -6,21 +6,26 @@
 
 
 
-.item {
-  background-size: cover;
-  height: 200px;
-}
+
 
 
 
 .first {
-  background-image: url(../images/jump.jpg);
-  background-position: center center;
+  background-image: url(../images/hero.jpg);
+    height: 960px;
+  background-size: cover;
+  background-position: 90% 0%;
+  background-repeat: no-repeat;
+height:600px;
+  width:100%;
+  
+
+
 }
 
 .second {
-  background-image: url(../images/chill-dock.jpg);
-  background-position: center center;
+  background-image: url(../images/nose-press.jpg);
+  background-position: 70% 0%;
 }
 
 
