@@ -49,7 +49,7 @@ body {
 //     margin-top: 0px;
 // }
 
-.section-two,
+
 .section-three,
 .main-price-contain,
 .whatis-section,
@@ -129,35 +129,7 @@ section.cover {
     background-size: cover;
 }
 
-/* Section One Styles
-===================================*/
-// .section-one-content {
-//     padding: 40px 20px;
-//     color: #ffffff;
-//     font-weight: 300;
-// }
 
-// .section-one-content h1 {
-//     margin: 0 0 20px;
-// }
-
-// #section-one-left {
-//     background: #183532;
-// }
-
-// #section-one-middle {
-//     background: #244F4A;
-//     margin-top: 80px;
-// }
-
-// #section-one-right {
-//     background: #2A5C56;
-// }
-
-// .section-two,
-// .section-three {
-//     background: #fff;
-// }
  .prices-bar ,.rental-bar {
         background: $mainblue;
         height: 50px;
@@ -329,44 +301,34 @@ section:before {
 }
 
 
-.parallelogram {
-  width: 100%;
-  height: 250px;
-  
-  margin-top:-160px;
-  position:absolute;
-  -webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg);
-  -o-transform: skewY(-10deg);
-  background-color:rgba(250,186,86,0.6);
-}
 
-.para-aboutus {
+
+.about-section{
   width: 100%;
-   height:1500px;
+  padding-top:0px;
+  padding-bottom:0px;
+
+ 
  
 
-  margin-top:-160px;
 
-  -webkit-transform: skewY(-5deg);
-  -moz-transform: skewY(-5deg);
-  -o-transform: skewY(-5deg);
-  background-color:black;
+
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  background-color:#373235;
 }
 
 
 .spring-back{
-      -webkit-transform: skewY(5deg);
+      -webkit-transform: skewY(2deg);
   -moz-transform: skewY(5deg);
   -o-transform: skewY( 5deg);
  
-  overflow:hidden;
-  margin-bottom:400px;
+
+
 
 }
 
-.section-two{
-    position:relative;
-    top:200p5
-}
+
 @import "mediaqueries";

@@ -6,26 +6,29 @@
 
 
 
+.item {
+  background-size: cover;
+  min-height:500px;
 
+}
 
 
 
 .first {
-  background-image: url(../images/hero.jpg);
-    height: 960px;
+ background-image: url(http://mccormicks.kangamarketing.com/wp-content/uploads/2014/12/slide-2.jpg);
+
   background-size: cover;
-  background-position: 90% 0%;
+  background-position: center center;
   background-repeat: no-repeat;
-height:600px;
-  width:100%;
   
 
 
 }
 
 .second {
-  background-image: url(../images/nose-press.jpg);
+  background-image: url(../images/chill-dock.jpg);
   background-position: 70% 0%;
+
 }
 
 
