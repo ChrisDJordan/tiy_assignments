@@ -1,24 +1,35 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic);
 
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
 @import "bootchange";
 
-.carousel-control.left, .carousel-control.right{
-   background:none;
+h2 {
+    font-family: 'Pacifico', cursive;
+     text-align: center;
+     font-size:75px;
+     color:white;
+}
+h3,p{
+    color:white;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background: none;
 }
 
 .navbar-default .navbar-toggle {
-    border-color:white;
-
+    border-color: white;
 }
 
-.carousel-caption1{
+.carousel-caption1 {
     text-align: left;
-    font-size:25px;
-    color:white;
-    margin-left:12%;
+    font-size: 25px;
+    color: white;
+    margin-left: 12%;
     font-family: "proxima-nova",sans-serif;
-font-style: normal;
-font-weight: 700;
+    font-style: normal;
+    font-weight: 700;
 }
 
 /* colors
@@ -29,9 +40,6 @@ $mainblue: #34495e;
 $lightblue: #9fa9b2;
 $buttongreen: #96d59e;
 
-
-
-
 /* Base Styles
 ===================================*/
 body {
@@ -39,15 +47,8 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 1.8;
-
 }
 
-/* Layout Styles
-===================================*/
-// section:not(:first-of-type),
-// section:not(:nth-of-type(n2)) {
-//     margin-top: 0px;
-// }
 
 
 .section-three,
@@ -56,21 +57,19 @@ body {
 .section-one-content,
 .main-rental-contain,
 footer {
-    margin-top: 150px;
-
+    margin-top: 0px;
 }
 
-.carousel-inner {}
+
 
 /* Nav / Navbar Styles
 ===================================*/
 .navbar {
- 
-    background:transparent;
+    background: transparent;
     border-bottom: none;
     padding: 10px 0 10px;
     transition-duration: 0.6s;
-    z-index:1;
+    z-index: 1;
 }
 
 .navbar-default .navbar-brand,
@@ -94,7 +93,7 @@ footer {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-    background:$mainblue;
+    background: $mainblue;
     color: $iconred;
 }
 
@@ -117,30 +116,106 @@ footer {
 
 .navbar-toggle,
 .navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {
-    
-}
+.navbar-default .navbar-toggle:hover {}
 
-/* Cover / Jumbotron Styles
+/* Nav / Navbar Styles end
 ===================================*/
-section.cover {
-    // padding-top: 70px;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+/* About us section
+===================================*/
+
+.img-fix {
+    width: 100%;
+}
+
+.about-section {
+    width: 100%;
+    // padding-top: 150px;
+    // padding-bottom: 150px;
+    // -webkit-transform: skewY(-2deg);
+    // -moz-transform: skewY(-2deg);
+    // -o-transform: skewY(-2deg);
+    background-color: #373235;
+}
+
+.spring-back {
+    // -webkit-transform: skewY(2deg);
+    // -moz-transform: skewY(5deg);
+    // -o-transform: skewY(5deg);
+}
+
+.border-top{
+        border-width: 60px 0 0 2880px;
+    border-style: solid solid solid dashed;
+    border-style: solid solid solid solid;
+    border-left-width: 999px;
+    background:red;
 }
 
 
- .prices-bar ,.rental-bar {
-        background: $mainblue;
-        height: 50px;
 
-    }
 
-.section-one-content {
+.angle-container{
+ 
 
-    h2 {
-        text-align: center;
-    }
+
+
+
+  position: relative;
+  width: 100%;
+  
+
+  
+ .top-angle {
+   position:relative;
+   top: -60px;
+   left: 0;
+   border-left: 0 dotted transparent; // Hot tip: Using dotted instead of solid for transparent border fixes rendering issue with some browsers, e.g. firefox rendering the line blurry instead of crisp, change this to solid to see what I mean.
+   border-bottom: 0 solid #373235;
+ }
+ .bottom-angle {
+   
+   top: 60px;
+   left: 0;
+   border-right: 0 solid #373235;
+   border-bottom: 0 dotted transparent; // Hot tip: Using dotted instead of solid for transparent border fixes rendering issue with some browsers, e.g. firefox rendering the line blurry instead of crisp, change this to solid to see what I mean.
+ }
+}
+/* About us section ends
+===================================*/
+
+
+
+
+.rotate{
+
+  top: 60px;
+   left: 0;
+   border-right: 0 solid #373235;
+   border-bottom: 0 dotted transparent;
+   margin-top:-60px;
+}
+
+
+
+/* Prices section 
+===================================*/
+.prices-section{
+    background:#334d69;
+    padding:100px 0 100px 0;
+}
+
+
+
+.prices-container {
+  
+ 
+
+    .prices-bar, .rental-bar {
+    background: $mainblue;
+    height: 50px;
+}
    
     .prices-circle {
         margin: 0 auto;
@@ -149,35 +224,89 @@ section.cover {
         width: 90px;
         height: 90px;
         background-color: $iconred;
-        background-image: url('../images/ticket1.png');
-        background-repeat:no-repeat;
-        background-position:14px 14px;
+        background-image: url("../images/ticket1.png");
+        background-repeat: no-repeat;
+        background-position: 14px 14px;
         border-radius: 50px;
-
     }
     ul {
-        margin-top: 4px;
+        
     }
     li {
-   
         text-align: center;
         background: #ebebeb;
         margin-top: 4px;
     }
-
-    .cable-color{
-    background:$lightblue;
+    .cable-color {
+        background: $lightblue;
+    }
 }
+
+/* Prices section ends
+===================================*/
+
+
+
+/* rentals section
+===================================*/
+
+.small-ul {
+    font-size: 20px;
 }
 
+.big-ul {
+    font-size: 40px;
+}
+
+.main-rental-contain {
+    margin-left: 15px;
+    margin-right: 15px;
+    h2 {
+        text-align: center;
+        margin-bottom: 75px;
+    }
+    .rental-bar {
+        background: $mainblue;
+        height: 50px;
+        margin-top: 20px;
+        .rental-circle {
+            width: 100px;
+            height: 100px;
+            background: $iconred;
+            border-radius: 50px;
+            position: relative;
+            bottom: 60px;
+            margin: 0 auto;
+        }
+    }
+    .rental-prices {
+        background: #F1F1F1;
+        text-align: center;
+        margin-top: 4px;
+    }
+}
+
+// /* Rental section ends
+// ===================================*/
 
 
 
-.img-fix {
+
+
+
+/* map
+===================================*
+*/
+.embed-container {
+    margin-top: 150px;
+}
+
+.map-contain {
     width: 100%;
-   
 }
-
+/* map ends
+===================================*
+*/
 
 // /* To Top Button Styles
 // ===================================*/
@@ -220,115 +349,27 @@ section:before {
     visibility: hidden;
 }
 
-/* Media Styles
-===================================*/
-@media (min-width: 480px) {
-    body {
-        font-size: 18px;
-    }
-}
 
-// .carousel-caption{
-// 	p{
-// 	position:relative;
-// 	bottom:100px;
-// 	right:20%;
-// 	color:red;
-// 	font-size:3em;
-// }
 
 /* jQuery Styles
 ===================================*/
 .navbar-scroll {
-     background:white;
+    background: white;
     padding: 0;
     // box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     transition-duration: 0.6s;
 }
 
-/* prices
-===================================*/
-.small-ul {
-    font-size: 20px;
-}
 
-.big-ul {
-    font-size: 40px;
-}
 
-.main-rental-contain {
-    margin-left: 15px;
-    margin-right: 15px;
-    h2 {
-        text-align: center;
-        margin-bottom: 75px;
-    }
-    .rental-bar {
-        background:$mainblue;
-        height: 50px;
-        margin-top: 20px;
-        .rental-circle {
-            width: 100px;
-            height:100px;
-            background: $iconred;
-             border-radius: 50px;
-            position: relative;
-            bottom: 60px;
-            margin: 0 auto;
-        }
-    }
-    .rental-prices {
-        background: #F1F1F1;
-       
-        text-align: center;
-        margin-top: 4px;
+
+
+
+
+
+@media (min-width: 480px) {
+    body {
+        font-size: 18px;
     }
 }
-/* map
-===================================*
-*/
-.embed-container{
-	margin-top:150px;
-}
-
-
-
-
-
-.map-contain{
-	width:100%;
-	
-}
-
-
-
-
-.about-section{
-  width: 100%;
-  padding-top:0px;
-  padding-bottom:0px;
-
- 
- 
-
-
-
-  -webkit-transform: skewY(-2deg);
-  -moz-transform: skewY(-2deg);
-  -o-transform: skewY(-2deg);
-  background-color:#373235;
-}
-
-
-.spring-back{
-      -webkit-transform: skewY(2deg);
-  -moz-transform: skewY(5deg);
-  -o-transform: skewY( 5deg);
- 
-
-
-
-}
-
-
 @import "mediaqueries";

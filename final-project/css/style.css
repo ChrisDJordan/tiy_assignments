@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
 .container {
   max-width: 1400px;
   margin: auto; }
@@ -495,6 +496,15 @@ li {
 
   .col-lg-offset-0 {
     margin-left: 0; } }
+h2 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: white; }
+
+h3, p {
+  color: white; }
+
 .carousel-control.left, .carousel-control.right {
   background: none; }
 
@@ -520,15 +530,13 @@ body {
   font-weight: 400;
   line-height: 1.8; }
 
-/* Layout Styles
-===================================*/
 .section-three,
 .main-price-contain,
 .whatis-section,
 .section-one-content,
 .main-rental-contain,
 footer {
-  margin-top: 150px; }
+  margin-top: 0px; }
 
 /* Nav / Navbar Styles
 ===================================*/
@@ -573,19 +581,58 @@ footer {
 .nav-dropdown-scroll {
   background: #e7eaea; }
 
-/* Cover / Jumbotron Styles
+/* Nav / Navbar Styles end
 ===================================*/
-section.cover {
-  background-repeat: no-repeat;
-  background-size: cover; }
+/* About us section
+===================================*/
+.img-fix {
+  width: 100%; }
 
-.prices-bar, .rental-bar {
+.about-section {
+  width: 100%;
+  background-color: #373235; }
+
+.border-top {
+  border-width: 60px 0 0 2880px;
+  border-style: solid solid solid dashed;
+  border-style: solid solid solid solid;
+  border-left-width: 999px;
+  background: red; }
+
+.angle-container {
+  position: relative;
+  width: 100%; }
+  .angle-container .top-angle {
+    position: relative;
+    top: -60px;
+    left: 0;
+    border-left: 0 dotted transparent;
+    border-bottom: 0 solid #373235; }
+  .angle-container .bottom-angle {
+    top: 60px;
+    left: 0;
+    border-right: 0 solid #373235;
+    border-bottom: 0 dotted transparent; }
+
+/* About us section ends
+===================================*/
+.rotate {
+  top: 60px;
+  left: 0;
+  border-right: 0 solid #373235;
+  border-bottom: 0 dotted transparent;
+  margin-top: -60px; }
+
+/* Prices section 
+===================================*/
+.prices-section {
+  background: #334d69;
+  padding: 100px 0 100px 0; }
+
+.prices-container .prices-bar, .prices-container .rental-bar {
   background: #34495e;
   height: 50px; }
-
-.section-one-content h2 {
-  text-align: center; }
-.section-one-content .prices-circle {
+.prices-container .prices-circle {
   margin: 0 auto;
   position: relative;
   bottom: 50px;
@@ -596,66 +643,16 @@ section.cover {
   background-repeat: no-repeat;
   background-position: 14px 14px;
   border-radius: 50px; }
-.section-one-content ul {
-  margin-top: 4px; }
-.section-one-content li {
+.prices-container li {
   text-align: center;
   background: #ebebeb;
   margin-top: 4px; }
-.section-one-content .cable-color {
+.prices-container .cable-color {
   background: #9fa9b2; }
 
-.img-fix {
-  width: 100%; }
-
-.top {
-  display: none;
-  background-color: #fd4950;
-  bottom: 2em;
-  color: #FFF;
-  opacity: 0.8;
-  padding: 1.2em;
-  position: fixed;
-  right: 1.5em;
-  text-decoration: none;
-  transition-duration: 1s; }
-
-.top:hover {
-  opacity: 1;
-  transition: 1s;
-  text-decoration: none;
-  color: #fff; }
-
-/* Footer Styles
+/* Prices section ends
 ===================================*/
-footer {
-  height: 200px;
-  width: 100%;
-  background: #283332; }
-
-/* Helpers for top position on internal page links
-====================================================*/
-#spytop:before,
-section:before {
-  display: block;
-  content: " ";
-  margin-top: -100px;
-  height: 100px;
-  visibility: hidden; }
-
-/* Media Styles
-===================================*/
-@media (min-width: 480px) {
-  body {
-    font-size: 18px; } }
-/* jQuery Styles
-===================================*/
-.navbar-scroll {
-  background: white;
-  padding: 0;
-  transition-duration: 0.6s; }
-
-/* prices
+/* rentals section
 ===================================*/
 .small-ul {
   font-size: 20px; }
@@ -695,20 +692,54 @@ section:before {
 .map-contain {
   width: 100%; }
 
-.about-section {
+/* map ends
+===================================*
+*/
+.top {
+  display: none;
+  background-color: #fd4950;
+  bottom: 2em;
+  color: #FFF;
+  opacity: 0.8;
+  padding: 1.2em;
+  position: fixed;
+  right: 1.5em;
+  text-decoration: none;
+  transition-duration: 1s; }
+
+.top:hover {
+  opacity: 1;
+  transition: 1s;
+  text-decoration: none;
+  color: #fff; }
+
+/* Footer Styles
+===================================*/
+footer {
+  height: 200px;
   width: 100%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  -webkit-transform: skewY(-2deg);
-  -moz-transform: skewY(-2deg);
-  -o-transform: skewY(-2deg);
-  background-color: #373235; }
+  background: #283332; }
 
-.spring-back {
-  -webkit-transform: skewY(2deg);
-  -moz-transform: skewY(5deg);
-  -o-transform: skewY(5deg); }
+/* Helpers for top position on internal page links
+====================================================*/
+#spytop:before,
+section:before {
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden; }
 
+/* jQuery Styles
+===================================*/
+.navbar-scroll {
+  background: white;
+  padding: 0;
+  transition-duration: 0.6s; }
+
+@media (min-width: 480px) {
+  body {
+    font-size: 18px; } }
 @media screen and (min-width: 992px) {
   .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
     position: relative;
@@ -716,27 +747,14 @@ section:before {
     padding-right: 0px;
     padding-left: 0px; }
 
-  .whatis-section {
-    margin-top: 0px; }
-
   .lefty {
     padding-right: 40px; }
 
   .righty {
-    padding-left: 40px; }
-
-  .section-one li {
-    margin-right: 4px; }
-
-  .section-one-content .remove-marg {
-    margin-right: 0px; } }
+    padding-left: 40px; } }
 @media screen and (min-width: 1200px) {
-  .main-rental-contain h2 {
-    color: red;
-    margin-bottom: 60px; }
-
   .rental-prices {
-    margin-right: .5%;
+    margin-right: .45%;
     width: 33%; }
     .rental-prices:last-of-type {
       margin-right: 0%; } }

@@ -62,3 +62,28 @@ $(function() {
   });
 });
 
+
+
+// ----------------------
+
+function topTriangle() {
+  $(".top-angle").css({
+    "border-left-width": $(".angle-container").width() + "px",
+    "border-bottom-width": "60px"
+  });
+}
+topTriangle();
+
+$(window).on("resize", topTriangle);
+// Could add debounce function so this doesn't fire so many times on resize
+
+function bottomTriangle() {
+  $(".bottom-angle").css({
+    "border-right-width": $(".angle-container").width() + "px",
+    "border-bottom-width": "60px"
+  });
+}
+bottomTriangle();
+
+$(window).on("resize", bottomTriangle);
+// Could add debounce function so this doesn't fire so many times on resize
