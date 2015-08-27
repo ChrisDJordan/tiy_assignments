@@ -206,14 +206,6 @@ footer {
 
 /* Prices section 
 ===================================*/
-
-#prices-bottom-angle{
-      border-right: 0 solid #334d69;
-      transform:rotate(180deg);
-      top:-60px;
-
-}
-
 #prices-top-angle{
        border-bottom: 0 solid #334d69;
         -webkit-transform: rotate(180deg);
@@ -222,9 +214,21 @@ footer {
      top:0px;
 
 }
+
+#prices-bottom-angle{
+      border-right: 0 solid #334d69;
+       -webkit-transform: rotate(180deg);
+      -ms-transform:rotate(180deg);
+      transform:rotate(180deg);
+      top:-60px;
+
+}
+
+
 .prices-section {
     margin-top: -80px;
     background: #334d69;
+  
   
 
     h2{
@@ -238,19 +242,19 @@ footer {
     margin-bottom:120px;
     .prices-bar, .rental-bar {
         background: #1e2e41;
-        height: 50px;
+        height: 30px;
     }
     .prices-circle {
         margin: 0 auto;
         position: relative;
         bottom: 50px;
-        width: 90px;
-        height: 90px;
+        width: 80px;
+        height: 80px;
         background-color: #faba56;
         background-image: url("../images/ticket1.png");
         background-repeat: no-repeat;
-        background-position: 14px 14px;
-        border-radius: 50px;
+        background-position: 8px 10px;
+        border-radius: 40px;
     }
     ul {}
     li {
@@ -274,6 +278,12 @@ footer {
 
 }
 
+#rental-bottom-angle{
+     border-right: 0 solid #3fa6ad;
+     top:0px;
+
+
+}
 .small-ul {
     font-size: 20px;
 }
@@ -287,6 +297,7 @@ footer {
     background:#3fa6ad;
     padding-top:90px;
     margin-top:-60px;
+      padding-bottom:120px;
 }
 .main-rental-contain {
     margin-left: 15px;
@@ -294,26 +305,27 @@ footer {
    
     h2 {
         text-align: center;
-        margin-bottom: 75px;
+        padding-bottom:60px;
     }
     .rental-bar {
-        background: $mainblue;
-        height: 50px;
-        margin-top: 20px;
+        background: #1e2e41;
+        height: 30px;
+       
         .rental-circle {
-            width: 100px;
-            height: 100px;
-            background: $iconred;
+            width: 80px;
+            height: 80px;
+            background: #faba56;
             border-radius: 50px;
             position: relative;
-            bottom: 60px;
+            bottom: 55px;
             margin: 0 auto;
         }
     }
     .rental-prices {
         background: #F1F1F1;
         text-align: center;
-        margin-top: 4px;
+        margin-bottom: 4px;
+        
     }
 }
 
