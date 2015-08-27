@@ -141,7 +141,7 @@ footer {
         top: 100px;
         left: 0;
           border-bottom: 0 solid red;
-        border-left: 0 dotted transparent;
+        border-left: 0 solid transparent;
         // Hot tip: Using dotted instead of solid for transparent border fixes rendering issue with some browsers, e.g. firefox rendering the line blurry instead of crisp, change this to solid to see what I mean.
    
     }
@@ -150,7 +150,7 @@ footer {
         top: 160px;
         left: 0;
             border-right: 0 solid red;
-        border-bottom: 0 dotted transparent;
+        border-bottom: 0 solid transparent;
         // Hot tip: Using dotted instead of solid for transparent border fixes rendering issue with some browsers, e.g. firefox rendering the line blurry instead of crisp, change this to solid to see what I mean.
    
     }
@@ -216,6 +216,8 @@ footer {
 
 #prices-top-angle{
        border-bottom: 0 solid #334d69;
+        -webkit-transform: rotate(180deg);
+      -ms-transform:rotate(180deg);
     transform:rotate(180deg);
      top:0px;
 
