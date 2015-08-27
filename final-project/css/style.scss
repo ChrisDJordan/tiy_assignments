@@ -6,12 +6,13 @@
 
 h2 {
     font-family: 'Pacifico', cursive;
-     text-align: center;
-     font-size:75px;
-     color:white;
+    text-align: center;
+    font-size: 75px;
+    color: white;
 }
-h3,p{
-    color:white;
+
+h3, p {
+    color: white;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -49,8 +50,6 @@ body {
     line-height: 1.8;
 }
 
-
-
 .section-three,
 .main-price-contain,
 .whatis-section,
@@ -59,8 +58,6 @@ body {
 footer {
     margin-top: 0px;
 }
-
-
 
 /* Nav / Navbar Styles
 ===================================*/
@@ -121,6 +118,54 @@ footer {
 /* Nav / Navbar Styles end
 ===================================*/
 
+.all-container{
+    margin-top:-160px;
+}
+
+.section-img{
+    width:100%;
+
+
+
+}
+
+/* Angles
+===================================*/
+
+.angle-container {
+    position: relative;
+    width: 100%;
+    .top-angle {
+        position: relative;
+        top: 100px;
+        left: 0;
+          border-bottom: 0 solid red;
+        border-left: 0 dotted transparent;
+        // Hot tip: Using dotted instead of solid for transparent border fixes rendering issue with some browsers, e.g. firefox rendering the line blurry instead of crisp, change this to solid to see what I mean.
+   
+    }
+    .bottom-angle {
+        position: relative;
+        top: 160px;
+        left: 0;
+            border-right: 0 solid red;
+        border-bottom: 0 dotted transparent;
+        // Hot tip: Using dotted instead of solid for transparent border fixes rendering issue with some browsers, e.g. firefox rendering the line blurry instead of crisp, change this to solid to see what I mean.
+   
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* About us section
 ===================================*/
@@ -131,92 +176,58 @@ footer {
 
 .about-section {
     width: 100%;
-    // padding-top: 150px;
-    // padding-bottom: 150px;
-    // -webkit-transform: skewY(-2deg);
-    // -moz-transform: skewY(-2deg);
-    // -o-transform: skewY(-2deg);
     background-color: #373235;
+    padding-bottom:100px;
+      padding-top:200px;
+      h2{
+    
+        padding-bottom:30px;
+      }
+
+
 }
 
-.spring-back {
-    // -webkit-transform: skewY(2deg);
-    // -moz-transform: skewY(5deg);
-    // -o-transform: skewY(5deg);
+#about-top-angle {
+    border-bottom: 0 solid #373235;
 }
 
-.border-top{
-        border-width: 60px 0 0 2880px;
-    border-style: solid solid solid dashed;
-    border-style: solid solid solid solid;
-    border-left-width: 999px;
-    background:red;
+#about-bottom-angle {
+    border-right: 0 solid #373235;
 }
 
-
-
-
-.angle-container{
- 
-
-
-
-
-  position: relative;
-  width: 100%;
-  
-
-  
- .top-angle {
-   position:relative;
-   top: -60px;
-   left: 0;
-   border-left: 0 dotted transparent; // Hot tip: Using dotted instead of solid for transparent border fixes rendering issue with some browsers, e.g. firefox rendering the line blurry instead of crisp, change this to solid to see what I mean.
-   border-bottom: 0 solid #373235;
- }
- .bottom-angle {
-   
-   top: 60px;
-   left: 0;
-   border-right: 0 solid #373235;
-   border-bottom: 0 dotted transparent; // Hot tip: Using dotted instead of solid for transparent border fixes rendering issue with some browsers, e.g. firefox rendering the line blurry instead of crisp, change this to solid to see what I mean.
- }
+.read-btn{
+    padding-bottom:160px;
 }
 /* About us section ends
 ===================================*/
 
 
 
-
-.rotate{
-
-  top: 60px;
-   left: 0;
-   border-right: 0 solid #373235;
-   border-bottom: 0 dotted transparent;
-   margin-top:-60px;
-}
-
-
-
 /* Prices section 
 ===================================*/
-.prices-section{
-    background:#334d69;
-    padding:100px 0 100px 0;
+
+#prices-bottom-angle{
+      border-right: 0 solid #334d69;
+      transform:rotate(180deg);
+      top:-60px;
+
 }
+.prices-section {
+    margin-top: -80px;
+    background: #334d69;
 
+    h2{
+  
+          padding:100px 0 80px 0;
+    }
 
+}
 
 .prices-container {
-  
- 
-
     .prices-bar, .rental-bar {
-    background: $mainblue;
-    height: 50px;
-}
-   
+        background: $mainblue;
+        height: 50px;
+    }
     .prices-circle {
         margin: 0 auto;
         position: relative;
@@ -229,9 +240,7 @@ footer {
         background-position: 14px 14px;
         border-radius: 50px;
     }
-    ul {
-        
-    }
+    ul {}
     li {
         text-align: center;
         background: #ebebeb;
@@ -245,8 +254,6 @@ footer {
 /* Prices section ends
 ===================================*/
 
-
-
 /* rentals section
 ===================================*/
 
@@ -258,9 +265,14 @@ footer {
     font-size: 40px;
 }
 
+
+.rental-section{
+    background:blue;
+}
 .main-rental-contain {
     margin-left: 15px;
     margin-right: 15px;
+   
     h2 {
         text-align: center;
         margin-bottom: 75px;
@@ -289,11 +301,6 @@ footer {
 // /* Rental section ends
 // ===================================*/
 
-
-
-
-
-
 /* map
 ===================================*
 */
@@ -304,6 +311,7 @@ footer {
 .map-contain {
     width: 100%;
 }
+
 /* map ends
 ===================================*
 */
@@ -349,8 +357,6 @@ section:before {
     visibility: hidden;
 }
 
-
-
 /* jQuery Styles
 ===================================*/
 .navbar-scroll {
@@ -360,16 +366,10 @@ section:before {
     transition-duration: 0.6s;
 }
 
-
-
-
-
-
-
-
 @media (min-width: 480px) {
     body {
         font-size: 18px;
     }
 }
+
 @import "mediaqueries";

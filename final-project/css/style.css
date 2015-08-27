@@ -26,9 +26,6 @@ li {
   list-style-type: none; }
 
 @media (min-width: 768px) {
-  .item {
-    height: 500px; }
-
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
 
@@ -583,6 +580,30 @@ footer {
 
 /* Nav / Navbar Styles end
 ===================================*/
+.all-container {
+  margin-top: -160px; }
+
+.section-img {
+  width: 100%; }
+
+/* Angles
+===================================*/
+.angle-container {
+  position: relative;
+  width: 100%; }
+  .angle-container .top-angle {
+    position: relative;
+    top: 100px;
+    left: 0;
+    border-bottom: 0 solid red;
+    border-left: 0 dotted transparent; }
+  .angle-container .bottom-angle {
+    position: relative;
+    top: 160px;
+    left: 0;
+    border-right: 0 solid red;
+    border-bottom: 0 dotted transparent; }
+
 /* About us section
 ===================================*/
 .img-fix {
@@ -590,44 +611,35 @@ footer {
 
 .about-section {
   width: 100%;
-  background-color: #373235; }
+  background-color: #373235;
+  padding-bottom: 100px;
+  padding-top: 200px; }
+  .about-section h2 {
+    padding-bottom: 30px; }
 
-.border-top {
-  border-width: 60px 0 0 2880px;
-  border-style: solid solid solid dashed;
-  border-style: solid solid solid solid;
-  border-left-width: 999px;
-  background: red; }
+#about-top-angle {
+  border-bottom: 0 solid #373235; }
 
-.angle-container {
-  position: relative;
-  width: 100%; }
-  .angle-container .top-angle {
-    position: relative;
-    top: -60px;
-    left: 0;
-    border-left: 0 dotted transparent;
-    border-bottom: 0 solid #373235; }
-  .angle-container .bottom-angle {
-    top: 60px;
-    left: 0;
-    border-right: 0 solid #373235;
-    border-bottom: 0 dotted transparent; }
+#about-bottom-angle {
+  border-right: 0 solid #373235; }
+
+.read-btn {
+  padding-bottom: 160px; }
 
 /* About us section ends
 ===================================*/
-.rotate {
-  top: 60px;
-  left: 0;
-  border-right: 0 solid #373235;
-  border-bottom: 0 dotted transparent;
-  margin-top: -60px; }
-
 /* Prices section 
 ===================================*/
+#prices-bottom-angle {
+  border-right: 0 solid #334d69;
+  transform: rotate(180deg);
+  top: -60px; }
+
 .prices-section {
-  background: #334d69;
-  padding: 100px 0 100px 0; }
+  margin-top: -80px;
+  background: #334d69; }
+  .prices-section h2 {
+    padding: 100px 0 80px 0; }
 
 .prices-container .prices-bar, .prices-container .rental-bar {
   background: #34495e;
@@ -659,6 +671,9 @@ footer {
 
 .big-ul {
   font-size: 40px; }
+
+.rental-section {
+  background: blue; }
 
 .main-rental-contain {
   margin-left: 15px;
