@@ -584,7 +584,8 @@ footer {
   margin-top: -160px; }
 
 .section-img {
-  width: 100%; }
+  width: 100%;
+  min-height: 300px; }
 
 /* Angles
 ===================================*/
@@ -635,37 +636,48 @@ footer {
   transform: rotate(180deg);
   top: -60px; }
 
+#prices-top-angle {
+  border-bottom: 0 solid #334d69;
+  transform: rotate(180deg);
+  top: 0px; }
+
 .prices-section {
   margin-top: -80px;
   background: #334d69; }
   .prices-section h2 {
     padding: 100px 0 80px 0; }
 
-.prices-container .prices-bar, .prices-container .rental-bar {
-  background: #34495e;
-  height: 50px; }
-.prices-container .prices-circle {
-  margin: 0 auto;
-  position: relative;
-  bottom: 50px;
-  width: 90px;
-  height: 90px;
-  background-color: #fd4950;
-  background-image: url("../images/ticket1.png");
-  background-repeat: no-repeat;
-  background-position: 14px 14px;
-  border-radius: 50px; }
-.prices-container li {
-  text-align: center;
-  background: #ebebeb;
-  margin-top: 4px; }
-.prices-container .cable-color {
-  background: #9fa9b2; }
+.prices-container {
+  margin-bottom: 120px; }
+  .prices-container .prices-bar, .prices-container .rental-bar {
+    background: #1e2e41;
+    height: 50px; }
+  .prices-container .prices-circle {
+    margin: 0 auto;
+    position: relative;
+    bottom: 50px;
+    width: 90px;
+    height: 90px;
+    background-color: #faba56;
+    background-image: url("../images/ticket1.png");
+    background-repeat: no-repeat;
+    background-position: 14px 14px;
+    border-radius: 50px; }
+  .prices-container li {
+    text-align: center;
+    background: #ebebeb;
+    margin-top: 4px; }
+  .prices-container .cable-color {
+    background: #9fa9b2; }
 
 /* Prices section ends
 ===================================*/
 /* rentals section
 ===================================*/
+#rental-top-angle {
+  border-bottom: 0 solid #3fa6ad;
+  top: -60px; }
+
 .small-ul {
   font-size: 20px; }
 
@@ -673,7 +685,9 @@ footer {
   font-size: 40px; }
 
 .rental-section {
-  background: blue; }
+  background: #3fa6ad;
+  padding-top: 90px;
+  margin-top: -60px; }
 
 .main-rental-contain {
   margin-left: 15px;

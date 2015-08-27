@@ -124,6 +124,7 @@ footer {
 
 .section-img{
     width:100%;
+    min-height:300px;
 
 
 
@@ -212,9 +213,17 @@ footer {
       top:-60px;
 
 }
+
+#prices-top-angle{
+       border-bottom: 0 solid #334d69;
+    transform:rotate(180deg);
+     top:0px;
+
+}
 .prices-section {
     margin-top: -80px;
     background: #334d69;
+  
 
     h2{
   
@@ -224,8 +233,9 @@ footer {
 }
 
 .prices-container {
+    margin-bottom:120px;
     .prices-bar, .rental-bar {
-        background: $mainblue;
+        background: #1e2e41;
         height: 50px;
     }
     .prices-circle {
@@ -234,7 +244,7 @@ footer {
         bottom: 50px;
         width: 90px;
         height: 90px;
-        background-color: $iconred;
+        background-color: #faba56;
         background-image: url("../images/ticket1.png");
         background-repeat: no-repeat;
         background-position: 14px 14px;
@@ -256,6 +266,11 @@ footer {
 
 /* rentals section
 ===================================*/
+#rental-top-angle{
+         border-bottom: 0 solid #3fa6ad;
+         top:-60px;
+
+}
 
 .small-ul {
     font-size: 20px;
@@ -267,7 +282,9 @@ footer {
 
 
 .rental-section{
-    background:blue;
+    background:#3fa6ad;
+    padding-top:90px;
+    margin-top:-60px;
 }
 .main-rental-contain {
     margin-left: 15px;
