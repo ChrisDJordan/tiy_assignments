@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic);
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 h2,
 .h2 {
   margin-top: 0px;
@@ -498,6 +498,9 @@ li {
 
   .col-lg-offset-0 {
     margin-left: 0; } }
+* {
+  font-family: 'Open Sans', sans-serif; }
+
 h2 {
   font-family: 'Pacifico', cursive;
   text-align: center;
@@ -507,20 +510,15 @@ h2 {
 h3, p {
   color: white; }
 
+h3 {
+  font-weight: 800;
+  font-size: 26px; }
+
 .carousel-control.left, .carousel-control.right {
   background: none; }
 
 .navbar-default .navbar-toggle {
   border-color: white; }
-
-.carousel-caption1 {
-  text-align: left;
-  font-size: 25px;
-  color: white;
-  margin-left: 12%;
-  font-family: "proxima-nova",sans-serif;
-  font-style: normal;
-  font-weight: 700; }
 
 /* colors
 ===================================*/
@@ -601,13 +599,13 @@ footer {
     position: relative;
     top: -60px;
     left: 0;
-    border-bottom: 0 solid red;
-    border-left: 0 solid transparent; }
+    border-bottom: 0 dotted red;
+    border-left: 0 dotted transparent; }
   .angle-container .bottom-angle {
     position: relative;
     left: 0;
-    border-right: 0 solid red;
-    border-bottom: 0 solid transparent; }
+    border-right: 0 dotted red;
+    border-bottom: 0 dotted transparent; }
 
 /* About us section
 ===================================*/
@@ -617,8 +615,8 @@ footer {
 .about-section {
   width: 100%;
   background-color: #373235;
-  padding-bottom: 100px;
-  padding-top: 200px; }
+  padding-bottom: 60px;
+  padding-top: 220px; }
   .about-section h2 {
     padding-bottom: 30px; }
 
@@ -628,10 +626,21 @@ footer {
 
 #about-bottom-angle {
   border-right: 0 solid #373235;
-  top: 160px; }
+  top: 120px; }
+
+.read-btn, .learn-btn {
+  margin-top: 30px;
+  background: #96d59e;
+  font-weight: 800;
+  font-size: 22px;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  border-radius: 0.3em;
+  color: black; }
 
 .read-btn {
-  padding-bottom: 160px; }
+  margin-bottom: 180px; }
 
 /* About us section ends
 ===================================*/
@@ -644,7 +653,7 @@ footer {
   border-right: 0 solid #334d69; }
 
 .prices-section {
-  margin-top: -80px;
+  margin-top: -60px;
   background: #334d69; }
   .prices-section h2 {
     padding: 100px 0 80px 0; }
@@ -674,6 +683,16 @@ footer {
 
 /* Prices section ends
 ===================================*/
+.camp-btn {
+  background: #96d59e;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -80px;
+  margin-bottom: 120px;
+  border-radius: 5px; }
+
 /* rentals section
 ===================================*/
 #rental-top-angle {
@@ -690,7 +709,6 @@ footer {
 
 .rental-section {
   background: #3fa6ad;
-  padding-top: 90px;
   margin-top: -60px;
   padding-bottom: 120px; }
 
@@ -699,7 +717,7 @@ footer {
   margin-right: 15px; }
   .main-rental-contain h2 {
     text-align: center;
-    padding-bottom: 60px; }
+    padding: 175px 0 80px 0; }
   .main-rental-contain .rental-bar {
     background: #1e2e41;
     height: 30px; }
@@ -730,9 +748,6 @@ footer {
     text-align: center;
     display: block;
     text-decoration: underline; }
-  .map-section h3 {
-    font-weight: bold;
-    font-size: 26px; }
 
 #contact-top-angle {
   border-bottom: 0 solid #4c4c4c; }
