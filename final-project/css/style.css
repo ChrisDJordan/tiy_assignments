@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+#spytop:before, section:before {
+  height: 0px;
+  margin-top: 0px; }
+
 h2,
 .h2 {
   margin-top: 0px;
@@ -584,28 +588,22 @@ footer {
 /* Nav / Navbar Styles end
 ===================================*/
 .all-container {
-  margin-top: -160px; }
+  margin-top: 60px; }
 
 .section-img {
   width: 100%;
-  min-height: 300px; }
+  margin-top: -18px;
+  margin-bottom: 82px; }
 
-/* Angles
-===================================*/
-.angle-container {
-  position: relative;
-  width: 100%; }
-  .angle-container .top-angle {
-    position: relative;
-    top: -60px;
-    left: 0;
-    border-bottom: 0 dotted red;
-    border-left: 0 dotted transparent; }
-  .angle-container .bottom-angle {
-    position: relative;
-    left: 0;
-    border-right: 0 dotted red;
-    border-bottom: 0 dotted transparent; }
+.skew {
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg); }
+
+.skew-fix {
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -o-transform: skewY(5deg); }
 
 /* About us section
 ===================================*/
@@ -613,20 +611,10 @@ footer {
   width: 100%; }
 
 .about-section {
-  width: 100%;
   background-color: #373235;
-  padding-bottom: 60px;
-  padding-top: 220px; }
+  padding-bottom: 180px; }
   .about-section h2 {
     padding-bottom: 30px; }
-
-#about-top-angle {
-  border-bottom: 0 solid #373235;
-  top: 100px; }
-
-#about-bottom-angle {
-  border-right: 0 solid #373235;
-  top: 120px; }
 
 .read-btn, .learn-btn {
   margin-top: 30px;
@@ -646,17 +634,11 @@ footer {
 ===================================*/
 /* Prices section 
 ===================================*/
-#prices-top-angle {
-  border-bottom: 0 solid #334d69; }
-
-#prices-bottom-angle {
-  border-right: 0 solid #334d69; }
-
 .prices-section {
-  margin-top: -60px;
+  margin-top: -18px;
   background: #334d69; }
   .prices-section h2 {
-    padding: 100px 0 80px 0; }
+    padding-bottom: 80px; }
 
 .prices-container {
   margin-bottom: 120px; }
@@ -690,17 +672,11 @@ footer {
   font-size: 20px;
   font-weight: bold;
   margin-top: -80px;
-  margin-bottom: 120px;
+  margin-bottom: 180px;
   border-radius: 5px; }
 
 /* rentals section
 ===================================*/
-#rental-top-angle {
-  border-bottom: 0 solid #3fa6ad; }
-
-#rental-bottom-angle {
-  border-right: 0 solid #3fa6ad; }
-
 .small-ul {
   font-size: 20px; }
 
@@ -709,15 +685,15 @@ footer {
 
 .rental-section {
   background: #3fa6ad;
-  margin-top: -60px;
-  padding-bottom: 120px; }
+  margin-top: 120px; }
 
 .main-rental-contain {
   margin-left: 15px;
-  margin-right: 15px; }
+  margin-right: 15px;
+  padding-bottom: 180px; }
   .main-rental-contain h2 {
     text-align: center;
-    padding: 175px 0 80px 0; }
+    padding-bottom: 80px; }
   .main-rental-contain .rental-bar {
     background: #1e2e41;
     height: 30px; }
@@ -741,7 +717,9 @@ footer {
   width: 100%; }
 
 .map-section {
-  background: #4c4c4c; }
+  background: #4c4c4c;
+  margin-top: -18px;
+  padding-bottom: 180px; }
   .map-section a {
     color: white;
     font-size: 20px;
@@ -749,11 +727,28 @@ footer {
     display: block;
     text-decoration: underline; }
 
-#contact-top-angle {
-  border-bottom: 0 solid #4c4c4c; }
-
-#contact-bottom-angle {
-  border-right: 0 solid #4c4c4c; }
+.hours-section {
+  background: #96d59e;
+  margin-top: 120px;
+  padding-bottom: 180px; }
+  .hours-section h2 {
+    text-align: center;
+    padding-bottom: 80px; }
+  .hours-section .hours-bar {
+    background: #1e2e41;
+    height: 30px; }
+    .hours-section .hours-bar .hours-circle {
+      width: 80px;
+      height: 80px;
+      background: #faba56;
+      border-radius: 50px;
+      position: relative;
+      bottom: 55px;
+      margin: 0 auto; }
+  .hours-section .hours-prices {
+    background: #F1F1F1;
+    text-align: center;
+    margin-bottom: 4px; }
 
 .top {
   display: none;
@@ -783,12 +778,13 @@ footer {
 /* Helpers for top position on internal page links
 ====================================================*/
 #spytop:before,
-section:before {
+.all-padding:before {
   display: block;
   content: " ";
   margin-top: -100px;
-  height: 100px;
-  visibility: hidden; }
+  min-height: 100px;
+  visibility: hidden;
+  padding-top: 140px; }
 
 /* jQuery Styles
 ===================================*/
