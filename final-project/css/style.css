@@ -1,9 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-#spytop:before, section:before {
-  height: 0px;
-  margin-top: 0px; }
-
 h2,
 .h2 {
   margin-top: 0px;
