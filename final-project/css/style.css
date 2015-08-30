@@ -605,7 +605,11 @@ footer {
   -moz-transform: skewY(-5deg);
   -o-transform: skewY(-5deg);
   -ms-transform: skewY(-5deg);
-  transform: skewY(-5deg); }
+  transform: skewY(-5deg);
+  /* IE8+ */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand')";
+  /* IE6 and 7 */
+  filter: progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand'); }
 
 .skew-fix {
   -webkit-backface-visibility: hidden;
@@ -615,7 +619,13 @@ footer {
   outline: 1px solid transparent;
   -webkit-transform: skewY(5deg);
   -moz-transform: skewY(5deg);
-  -o-transform: skewY(5deg); }
+  -o-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  transform: skewY(5deg);
+  /* IE8+ */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand')";
+  /* IE6 and 7 */
+  filter: progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand'); }
 
 /* About us section
 ===================================*/
