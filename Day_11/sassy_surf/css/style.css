@@ -55,63 +55,42 @@ p {
   color: #5e686f; }
 
 .container {
-  max-width: 1300px;
   margin: 0 auto;
   overflow: hidden; }
 
 /*banner content--------------------------------------*/
 header {
-  max-width: 1300px;
-  height: 528px;
   margin-bottom: 76px;
-  background: url("../images/surf.jpg");
-  position: relative;
-  overflow: hidden; }
-  header .company_name {
-    font-size: 110px;
+  background: url("../images/food-hero.jpg");
+  background-size: cover;
+  overflow: hidden;
+  min-height: 600px; }
+  header h1 {
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
-    margin-top: 200px;
-    color: white; }
-  header .project_name {
+    margin-top: 230px;
+    color: white;
+    text-shadow: 2px 2px black; }
+  header p {
     text-align: center;
     color: white; }
 
-.left-nav {
-  float: left;
-  width: 300px;
-  clear: left;
-  margin-left: 105px;
-  margin-top: 10px;
-  font-size: 18px;
-  text-decoration: none; }
-  .left-nav img {
-    float: left;
-    margin-right: 10px; }
-  .left-nav p {
-    margin-top: 15px;
-    color: #083452; }
-
 .right-nav {
-  margin-right: 150px;
+  margin-right: 10%;
   margin-top: 25px;
   float: right; }
   .right-nav li {
-    float: left; }
+    float: left;
+    margin-left: 30px; }
+    .right-nav li:last-child {
+      margin-left: 10px;
+      position: relative;
+      bottom: 5px; }
   .right-nav a {
     text-decoration: none;
-    color: #083452;
+    color: white;
     font-size: 18px; }
-
-.left-margins {
-  margin-left: 25px; }
-
-.icon-margin {
-  margin-left: 14px; }
-
-#icon-align {
-  position: relative;
-  bottom: 5px; }
 
 /*article_part1----------------------------------------------*/
 section {
@@ -127,7 +106,7 @@ article {
   margin-left: 162px;
   text-align: left;
   float: left; }
-  article h1 {
+  article h2 {
     font-size: 50px;
     line-height: 58px;
     color: #083452;
@@ -247,43 +226,43 @@ hr {
   position: relative;
   top: 68px; }
 
-div h2 {
+.posts h2 {
   width: 1300px;
   font-size: 80px;
   margin-top: 110px;
   margin-bottom: 40px;
   text-align: center; }
-div .post_photos {
+.posts .post_photos {
   width: 325px;
   height: 330px;
   float: left; }
-  div .post_photos p {
+  .posts .post_photos p {
     display: inline-block;
     position: relative;
     top: 285px;
     left: 8px;
     font-size: 30px;
     color: #083452; }
-div span {
+.posts span {
   font-size: 30px;
   font-family: helvetica;
   color: white;
   position: relative;
   display: inline-block; }
-div #brew_text {
+.posts #brew_text {
   top: 285px;
   left: 8px; }
-div #zack_text {
+.posts #zack_text {
   top: 250px;
   left: 8px;
   color: #083452; }
-div .surfer_photo {
+.posts .surfer_photo {
   background: url("../images/surfer.jpg"); }
-div .beer_photo {
+.posts .beer_photo {
   background: url("../images/beer.jpg"); }
-div .zack_photo {
+.posts .zack_photo {
   background: url("../images/zack.jpg"); }
-div .booze_photo {
+.posts .booze_photo {
   background: url("../images/booze.jpg"); }
 
 /*footer-------------------------------------------------------------------*/

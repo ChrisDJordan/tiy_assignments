@@ -13,75 +13,49 @@ p {
 }
 
 .container {
-    max-width: 1300px;
     margin: 0 auto;
     overflow: hidden;
 }
 
 /*banner content--------------------------------------*/
 header {
-    max-width: 1300px;
-    height: 528px;
     margin-bottom: 76px;
-    background: url("../images/surf.jpg");
-    position: relative;
+    background: url("../images/food-hero.jpg");
+    background-size: cover;
     overflow: hidden;
-    .company_name {
-        font-size: 110px;
+    min-height: 600px;
+    h1 {
+        font-size: 50px;
         font-weight: bold;
         text-align: center;
-        margin-top: 200px;
+        margin-top: 230px;
         color: white;
-    }
-    .project_name {
-        text-align: center;
-        color: white;
-    }
-}
-
-.left-nav {
-    float: left;
-    width: 300px;
-    clear: left;
-    margin-left: 105px;
-    margin-top: 10px;
-    font-size: 18px;
-    text-decoration: none;
-    img {
-        float: left;
-        margin-right: 10px;
+        text-shadow: 2px 2px black;
     }
     p {
-        margin-top: 15px;
-        color: #083452;
+        text-align: center;
+        color: white;
     }
 }
 
 .right-nav {
-    margin-right: 150px;
+    margin-right: 10%;
     margin-top: 25px;
     float: right;
     li {
         float: left;
+        margin-left: 30px;
+        &:last-child {
+            margin-left: 10px;
+           position:relative;
+           bottom:5px;
+        }
     }
     a {
         text-decoration: none;
-        color: #083452;
+        color: white;
         font-size: 18px;
     }
-}
-
-.left-margins {
-    margin-left: 25px;
-}
-
-.icon-margin {
-    margin-left: 14px;
-}
-
-#icon-align {
-    position: relative;
-    bottom: 5px;
 }
 
 /*article_part1----------------------------------------------*/
@@ -102,7 +76,7 @@ article {
     margin-left: 162px;
     text-align: left;
     float: left;
-    h1 {
+    h2 {
         font-size: 50px;
         line-height: 58px;
         color: #083452;
@@ -252,7 +226,7 @@ hr {
     top: 68px;
 }
 
-div {
+.posts {
     h2 {
         width: 1300px;
         font-size: 80px;
