@@ -1,7 +1,17 @@
 @import "reset";
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-p, a, h1, h2, h3 {
-    font-family: helvetica;
+p,  {
+font-family: 'Open Sans', sans-serif;
+
+ 
+}
+
+h2,h3,a{
+font-family: 'Archivo Narrow', sans-serif;
+font-weight:700;
 }
 
 a {
@@ -12,25 +22,25 @@ p {
     color: #5e686f;
 }
 
-.container {
-    margin: 0 auto;
-    overflow: hidden;
-}
+
 
 /*banner content--------------------------------------*/
 header {
-    margin-bottom: 76px;
-    background: url("../images/food-hero.jpg");
+    margin-bottom: 60px;
+    background: url("https://static.pexels.com/photos/6966/abstract-music-rock-bw-large.jpg");
     background-size: cover;
     overflow: hidden;
     min-height: 600px;
+    background-position:center bottom;
+
     h1 {
-        font-size: 50px;
+        font-size: 90px;
         font-weight: bold;
         text-align: center;
         margin-top: 230px;
         color: white;
-        text-shadow: 2px 2px black;
+        text-shadow: 2px 2px grey;
+   font-family: 'Fjalla One', sans-serif;
     }
     p {
         text-align: center;
@@ -58,11 +68,21 @@ header {
     }
 }
 
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+    width:90%;
+    
+
+}
 /*article_part1----------------------------------------------*/
 
 section {
-    max-width: 780px;
-    float: left;
+    // max-width: 780px;
+
+
+    margin:0 auto;
+    overflow:hidden;
     p {
         line-height: 25px;
     }
@@ -71,9 +91,20 @@ section {
     }
 }
 
+h4{
+    float:left;
+    clear:left;
+      font-size: 30px;
+    color: #106db3;
+    border-left: 2px solid #a3b3bf;
+    padding: 18px 0 6px 16px;
+    margin-bottom: 20px;
+}
+
 article {
     max-width: 621px;
-    margin-left: 162px;
+    clear:both;
+   
     text-align: left;
     float: left;
     h2 {
@@ -104,17 +135,17 @@ article {
 
 /*WOAH--------------------------------------------------------------------------*/
 
-#padding_left {
-    display: inline;
-    position: relative;
-    left: 168px;
-    top: 42px;
-    font-size: 30px;
-    color: #106db3;
-    border-left: 2px solid #a3b3bf;
-    padding: 18px 0 6px 16px;
-    margin-bottom: 20px;
-}
+// #padding_left {
+//     display: inline;
+//     position: relative;
+//     left: 168px;
+//     top: 42px;
+//     font-size: 30px;
+//     color: #106db3;
+//     border-left: 2px solid #a3b3bf;
+//     padding: 18px 0 6px 16px;
+//     margin-bottom: 20px;
+// }
 
 // article two--------------------------------------------------------------------
 .article-two a {
