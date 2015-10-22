@@ -4,7 +4,7 @@
 */
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,29 +51,43 @@ table {
 h1 {
   font-size: 3.125rem;
   font-size: 50px;
+  font-family: 'Fjalla One', sans-serif;
   font-weight: bold; }
 
 h1, h2 {
   line-height: 1.2;
   letter-spacing: .7; }
 
+h2 {
+  font-size: 2.5rem;
+  font-size: 40px; }
+
 h2, h3, h4 {
   font-family: 'Archivo Narrow', sans-serif;
   font-weight: 700; }
 
+h3 {
+  font-size: 25px; }
+
 h4 {
+  font-size: 1.875rem;
   font-size: 30px; }
 
 a, span {
   display: inline-block; }
 
-a {
-  color: grey;
-  font-weight: bold; }
-
 span {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px; }
+  font-size: 0.875rem;
+  font-size: 14px;
+  color: #5e686f; }
+
+a {
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; }
+  a:hover {
+    color: red; }
 
 p {
   color: #5e686f;
@@ -81,6 +95,9 @@ p {
   line-height: 1.6;
   font-size: 1rem;
   font-size: 16px; }
+
+strong {
+  font-weight: 700; }
 
 /*banner content--------------------------------------*/
 header {
@@ -92,10 +109,9 @@ header {
   background-position: center bottom; }
   header h1 {
     text-align: center;
-    margin-top: 230px;
+    margin-top: 220px;
     color: white;
-    text-shadow: 2px 2px grey;
-    font-family: 'Fjalla One', sans-serif; }
+    text-shadow: 2px 2px grey; }
   header p {
     text-align: center;
     color: white;
@@ -116,7 +132,9 @@ header {
     text-decoration: none;
     color: white;
     font-size: 1.125rem;
-    font-size: 18px; }
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; }
 
 .container {
   margin: 0 auto;
@@ -124,21 +142,18 @@ header {
   width: 90%; }
 
 /*article_part1----------------------------------------------*/
-section {
-  margin: 0 auto;
-  overflow: hidden; }
-  section p:nth-child(1) {
-    margin-top: 76px; }
-
 article {
-  max-width: 621px;
   clear: both;
   text-align: left;
-  float: left; }
+  float: left;
+  margin-bottom: 60px; }
   article h2 {
-    font-size: 40px;
     color: #083452;
-    margin-bottom: 18px; }
+    margin-bottom: 18px;
+    max-width: 450px; }
+  article h3 {
+    margin-bottom: 10px;
+    color: #083452; }
   article img {
     max-width: 40px;
     margin-right: 20px;
@@ -151,7 +166,10 @@ article {
       margin-left: 5px;
       font-size: 16px; }
   article p {
-    color: #5e686f; }
+    color: #5e686f;
+    max-width: 550px; }
+  article .marg {
+    margin-top: 30px; }
 
 h4 {
   float: left;
@@ -162,9 +180,6 @@ h4 {
   margin-bottom: 20px; }
 
 /*WOAH--------------------------------------------------------------------------*/
-.article-two a {
-  color: #106db3; }
-
 /* article nav---------------------------------------------------------------------*/
 .article-nav .nav {
   width: 162px;
@@ -314,5 +329,9 @@ footer {
     float: left;
     text-decoration: none;
     font-size: 14px; }
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 80%; } }
 
 /*# sourceMappingURL=style.css.map */
