@@ -1,55 +1,78 @@
 @import "reset";
+
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
 @import url(https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700);
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-p,  {
-font-family: 'Open Sans', sans-serif;
-
- 
+h1 {
+    font-size: 3.125rem;
+    font-size: 50px;
+    font-weight: bold;
 }
 
-h2,h3,a{
-font-family: 'Archivo Narrow', sans-serif;
-font-weight:700;
+h1, h2 {
+    line-height: 1.2;
+    letter-spacing: .7;
+}
+
+h2, h3, h4 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+a, span {
+    display: inline-block;
 }
 
 a {
-    color: #a3b3bf;
+    color: grey;
+    font-weight: bold;
+}
+
+span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 p {
     color: #5e686f;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    font-size: 1rem;
+    font-size: 16px;
 }
-
-
 
 /*banner content--------------------------------------*/
 header {
     margin-bottom: 60px;
-    background: url("https://static.pexels.com/photos/6966/abstract-music-rock-bw-large.jpg");
+    background: url("../images/musicians-hero.jpg");
     background-size: cover;
     overflow: hidden;
     min-height: 600px;
-    background-position:center bottom;
-
+    background-position: center bottom;
     h1 {
-        font-size: 90px;
-        font-weight: bold;
+        // font-size: 90px;
         text-align: center;
         margin-top: 230px;
         color: white;
         text-shadow: 2px 2px grey;
-   font-family: 'Fjalla One', sans-serif;
+        font-family: 'Fjalla One', sans-serif;
     }
     p {
         text-align: center;
         color: white;
+        font-weight: 200;
     }
 }
 
 .right-nav {
-    margin-right: 10%;
+    margin-right: 5%;
     margin-top: 25px;
     float: right;
     li {
@@ -57,13 +80,14 @@ header {
         margin-left: 30px;
         &:last-child {
             margin-left: 10px;
-           position:relative;
-           bottom:5px;
+            position: relative;
+            bottom: 5px;
         }
     }
     a {
         text-decoration: none;
         color: white;
+        font-size: 1.125rem;
         font-size: 18px;
     }
 }
@@ -71,66 +95,56 @@ header {
 .container {
     margin: 0 auto;
     overflow: hidden;
-    width:90%;
-    
-
+    width: 90%;
 }
+
 /*article_part1----------------------------------------------*/
 
 section {
     // max-width: 780px;
-
-
-    margin:0 auto;
-    overflow:hidden;
-    p {
-        line-height: 25px;
-    }
+    margin: 0 auto;
+    overflow: hidden;
     p:nth-child(1) {
         margin-top: 76px;
     }
 }
 
-h4{
-    float:left;
-    clear:left;
-      font-size: 30px;
+article {
+    max-width: 621px;
+    clear: both;
+    text-align: left;
+    float: left;
+    h2 {
+        font-size: 40px;
+        color: #083452;
+        margin-bottom: 18px;
+    }
+    img {
+        max-width: 40px;
+        margin-right: 20px;
+        float: left;
+        clear: right;
+    }
+    span {
+        padding-bottom: 30px;
+        padding-top: 10px;
+        a {
+            margin-left: 5px;
+            font-size: 16px;
+        }
+    }
+    p {
+        color: #5e686f;
+    }
+}
+
+h4 {
+    float: left;
+    clear: left;
     color: #106db3;
     border-left: 2px solid #a3b3bf;
     padding: 18px 0 6px 16px;
     margin-bottom: 20px;
-}
-
-article {
-    max-width: 621px;
-    clear:both;
-   
-    text-align: left;
-    float: left;
-    h2 {
-        font-size: 50px;
-        line-height: 58px;
-        color: #083452;
-        margin-bottom: 14px;
-    }
-    div {
-        img {
-            max-width: 23px;
-            margin-left: 4px;
-            margin-bottom: 26px;
-        }
-        p {
-            display: inline;
-            position: relative;
-            left: 085px;
-            bottom: 30px;
-            color: #5e686f;
-            span {
-                color: #a3b3bf;
-                font-size: 13px;
-            }
-        }
-    }
 }
 
 /*WOAH--------------------------------------------------------------------------*/

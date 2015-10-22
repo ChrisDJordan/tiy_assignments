@@ -48,30 +48,49 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-p {
-  font-family: 'Open Sans', sans-serif; }
+h1 {
+  font-size: 3.125rem;
+  font-size: 50px;
+  font-weight: bold; }
 
-h2, h3, a {
+h1, h2 {
+  line-height: 1.2;
+  letter-spacing: .7; }
+
+h2, h3, h4 {
   font-family: 'Archivo Narrow', sans-serif;
   font-weight: 700; }
 
+h4 {
+  font-size: 30px; }
+
+a, span {
+  display: inline-block; }
+
 a {
-  color: #a3b3bf; }
+  color: grey;
+  font-weight: bold; }
+
+span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; }
 
 p {
-  color: #5e686f; }
+  color: #5e686f;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-size: 16px; }
 
 /*banner content--------------------------------------*/
 header {
   margin-bottom: 60px;
-  background: url("https://static.pexels.com/photos/6966/abstract-music-rock-bw-large.jpg");
+  background: url("../images/musicians-hero.jpg");
   background-size: cover;
   overflow: hidden;
   min-height: 600px;
   background-position: center bottom; }
   header h1 {
-    font-size: 90px;
-    font-weight: bold;
     text-align: center;
     margin-top: 230px;
     color: white;
@@ -79,10 +98,11 @@ header {
     font-family: 'Fjalla One', sans-serif; }
   header p {
     text-align: center;
-    color: white; }
+    color: white;
+    font-weight: 200; }
 
 .right-nav {
-  margin-right: 10%;
+  margin-right: 5%;
   margin-top: 25px;
   float: right; }
   .right-nav li {
@@ -95,6 +115,7 @@ header {
   .right-nav a {
     text-decoration: none;
     color: white;
+    font-size: 1.125rem;
     font-size: 18px; }
 
 .container {
@@ -106,19 +127,8 @@ header {
 section {
   margin: 0 auto;
   overflow: hidden; }
-  section p {
-    line-height: 25px; }
   section p:nth-child(1) {
     margin-top: 76px; }
-
-h4 {
-  float: left;
-  clear: left;
-  font-size: 30px;
-  color: #106db3;
-  border-left: 2px solid #a3b3bf;
-  padding: 18px 0 6px 16px;
-  margin-bottom: 20px; }
 
 article {
   max-width: 621px;
@@ -126,23 +136,30 @@ article {
   text-align: left;
   float: left; }
   article h2 {
-    font-size: 50px;
-    line-height: 58px;
+    font-size: 40px;
     color: #083452;
-    margin-bottom: 14px; }
-  article div img {
-    max-width: 23px;
-    margin-left: 4px;
-    margin-bottom: 26px; }
-  article div p {
-    display: inline;
-    position: relative;
-    left: 085px;
-    bottom: 30px;
+    margin-bottom: 18px; }
+  article img {
+    max-width: 40px;
+    margin-right: 20px;
+    float: left;
+    clear: right; }
+  article span {
+    padding-bottom: 30px;
+    padding-top: 10px; }
+    article span a {
+      margin-left: 5px;
+      font-size: 16px; }
+  article p {
     color: #5e686f; }
-    article div p span {
-      color: #a3b3bf;
-      font-size: 13px; }
+
+h4 {
+  float: left;
+  clear: left;
+  color: #106db3;
+  border-left: 2px solid #a3b3bf;
+  padding: 18px 0 6px 16px;
+  margin-bottom: 20px; }
 
 /*WOAH--------------------------------------------------------------------------*/
 .article-two a {
