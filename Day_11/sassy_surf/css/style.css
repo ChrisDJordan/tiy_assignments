@@ -54,7 +54,7 @@ h1 {
   font-family: 'Fjalla One', sans-serif;
   font-weight: bold; }
 
-h1, h2 {
+h1, h2, h3 {
   line-height: 1.2;
   letter-spacing: .7; }
 
@@ -147,12 +147,14 @@ article {
   text-align: left;
   float: left;
   margin-bottom: 60px; }
+  article:last-of-type {
+    margin-bottom: 30px; }
   article h2 {
     color: #083452;
     margin-bottom: 18px;
     max-width: 450px; }
   article h3 {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     color: #083452; }
   article img {
     max-width: 40px;
@@ -181,35 +183,33 @@ h4 {
 
 /*WOAH--------------------------------------------------------------------------*/
 /* article nav---------------------------------------------------------------------*/
-.article-nav .nav {
-  width: 162px;
-  height: 30px;
+.article-nav {
+  overflow: hidden;
   float: left;
-  margin-top: 22px;
-  margin-right: 10px;
-  position: relative;
-  left: 165px; }
-.article-nav .baby_nav {
-  max-width: 32px;
-  height: 30px;
-  background: #5e686f; }
-.article-nav .big_nav {
-  max-width: 124px;
-  height: 30px;
-  background: #a3b3bf;
-  position: relative;
-  left: 32px;
-  bottom: 30px;
-  color: white;
-  text-align: center;
-  line-height: 30px;
-  font-family: helvetica;
-  font-size: 14px; }
-.article-nav .baby_change {
-  background: #083452; }
-.article-nav .big_change {
-  background: #106db3;
-  text-decoration: none; }
+  clear: left;
+  width: 100%; }
+  .article-nav .nav {
+    margin-bottom: 15px;
+    margin-right: 15px;
+    float: left; }
+    .article-nav .nav:hover .big_nav {
+      background: #106db3; }
+    .article-nav .nav:hover .baby_nav {
+      background: #083452; }
+  .article-nav .baby_nav {
+    float: left;
+    background: #5e686f; }
+  .article-nav .big_nav {
+    float: left;
+    background: #a3b3bf;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    font-family: helvetica;
+    font-size: 14px;
+    padding: 0 10px 0 10px; }
+  .article-nav .baby_nav, .article-nav .big_nav {
+    color: #fff; }
 
 /*aside----------------------------------------------*/
 aside {

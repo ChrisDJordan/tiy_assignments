@@ -13,7 +13,7 @@ h1 {
     font-weight: bold;
 }
 
-h1, h2 {
+h1, h2,h3 {
     line-height: 1.2;
     letter-spacing: .7;
 }
@@ -131,6 +131,10 @@ article {
     text-align: left;
     float: left;
     margin-bottom: 60px;
+    &:last-of-type{
+ 
+        margin-bottom:30px;
+    }
     
     h2 {
         color: #083452;
@@ -138,7 +142,7 @@ article {
         max-width: 450px;
     }
     h3 {
-        margin-bottom: 10px;
+        margin-bottom:8px;
         color: #083452;
     }
     img {
@@ -197,39 +201,60 @@ h4 {
 /* article nav---------------------------------------------------------------------*/
 
 .article-nav {
+    
+    overflow:hidden;
+    float:left;
+    clear:left;
+    width:100%;
+
+
+
     .nav {
-        width: 162px;
-        height: 30px;
-        float: left;
-        margin-top: 22px;
-        margin-right: 10px;
-        position: relative;
-        left: 165px;
+        margin-bottom:15px;
+        margin-right:15px;
+        float:left;
+        &:hover{
+         .big_nav{
+              background: #106db3;
+
+         }
+         .baby_nav{
+            background: #083452;
+
+         }
+        }
+
+        
+       
+    
+          
+           
+
+       
+       
     }
     .baby_nav {
-        max-width: 32px;
-        height: 30px;
+        float:left;
+       
+        
         background: #5e686f;
     }
     .big_nav {
-        max-width: 124px;
-        height: 30px;
+       float:left;
+       
         background: #a3b3bf;
-        position: relative;
-        left: 32px;
-        bottom: 30px;
-        color: white;
+       
+        color: black;
         text-align: center;
         line-height: 30px;
         font-family: helvetica;
         font-size: 14px;
+        padding:0 10px 0 10px;
     }
-    .baby_change {
-        background: #083452;
-    }
-    .big_change {
-        background: #106db3;
-        text-decoration: none;
+ 
+
+    .baby_nav, .big_nav{
+        color:#fff;
     }
 }
 
