@@ -60,7 +60,8 @@ h1, h2, h3 {
 
 h2 {
   font-size: 2.5rem;
-  font-size: 40px; }
+  font-size: 40px;
+  color: #083452; }
 
 h2, h3, h4 {
   font-family: 'Archivo Narrow', sans-serif;
@@ -73,7 +74,8 @@ h3 {
 
 h4 {
   font-size: 1.875rem;
-  font-size: 30px; }
+  font-size: 30px;
+  colo: red; }
 
 a, span {
   display: inline-block; }
@@ -154,7 +156,6 @@ article {
   article:last-of-type {
     margin-bottom: 30px; }
   article h2 {
-    color: #083452;
     margin-bottom: 18px; }
   article h2, article h3 {
     max-width: 450px; }
@@ -174,14 +175,13 @@ article {
     max-width: 550px; }
   article .marg {
     margin-top: 30px; }
-
-h4 {
-  float: left;
-  clear: left;
-  color: #106db3;
-  border-left: 2px solid #a3b3bf;
-  padding: 18px 0 6px 16px;
-  margin-bottom: 20px; }
+  article h4 {
+    float: left;
+    clear: left;
+    color: #106db3;
+    border-left: 2px solid #a3b3bf;
+    padding: 18px 0 6px 16px;
+    margin-bottom: 20px; }
 
 /*WOAH--------------------------------------------------------------------------*/
 /* article nav---------------------------------------------------------------------*/
@@ -216,7 +216,8 @@ h4 {
 
 /*aside----------------------------------------------*/
 aside {
-  margin: 0 auto; }
+  margin: 0 auto 120px 0;
+  overflow: hidden; }
   aside img {
     display: block;
     margin: 0 auto 10px auto; }
@@ -246,7 +247,7 @@ aside {
     display: block;
     margin: 0 auto;
     width: 100%; }
-  aside h3 {
+  aside h4 {
     font-weight: bold;
     color: #083452;
     clear: right;
@@ -254,49 +255,43 @@ aside {
     font-size: 18; }
 
 /*posts------------------------------------------------------------*/
-hr {
-  clear: both;
-  position: relative;
-  top: 68px; }
-
-.posts h2 {
-  width: 1300px;
-  font-size: 80px;
-  margin-top: 110px;
+.posts a {
+  display: block; }
+.posts h3 {
+  font-size: 30px;
+  margin-top: 60px;
   margin-bottom: 40px;
   text-align: center; }
-.posts .post_photos {
-  width: 325px;
-  height: 330px;
-  float: left; }
-  .posts .post_photos p {
-    display: inline-block;
-    position: relative;
-    top: 285px;
-    left: 8px;
-    font-size: 30px;
-    color: #083452; }
-.posts span {
-  font-size: 30px;
-  font-family: helvetica;
-  color: white;
-  position: relative;
-  display: inline-block; }
-.posts #brew_text {
-  top: 285px;
-  left: 8px; }
-.posts #zack_text {
-  top: 250px;
-  left: 8px;
-  color: #083452; }
 .posts .surfer_photo {
-  background: url("../images/surfer.jpg"); }
+  background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/6TP8752YLH.jpg); }
+  .posts .surfer_photo:hover {
+    background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/6TP8752YLH.jpg); }
+  .posts .surfer_photo .beer_photo {
+    background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://static.pexels.com/photos/8988/pexels-photo-large.jpeg); }
 .posts .beer_photo {
-  background: url("../images/beer.jpg"); }
+  background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://static.pexels.com/photos/8988/pexels-photo-large.jpeg); }
+  .posts .beer_photo:hover {
+    background-image: url(https://static.pexels.com/photos/8988/pexels-photo-large.jpeg); }
 .posts .zack_photo {
-  background: url("../images/zack.jpg"); }
+  background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/Q4PMYILN33.jpg); }
+  .posts .zack_photo:hover {
+    background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/Q4PMYILN33.jpg); }
 .posts .booze_photo {
-  background: url("../images/booze.jpg"); }
+  background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/13J0B5G5PY.jpg); }
+  .posts .booze_photo:hover {
+    background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/13J0B5G5PY.jpg); }
+.posts .post_photos {
+  width: 100%;
+  height: 200px;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .posts .post_photos p {
+    max-width: 320px;
+    font-size: 22px;
+    color: #fff;
+    text-shadow: 1px 1px black;
+    margin: 10px 0 0 5%; }
 
 /*footer-------------------------------------------------------------------*/
 footer {
@@ -321,7 +316,9 @@ footer {
   footer a {
     float: left;
     text-decoration: none;
-    font-size: 14px; }
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; }
 
 @media screen and (min-width: 768px) {
   .container {
@@ -334,7 +331,7 @@ footer {
   header h1 {
     color: red; }
 
-  aside h3 {
+  aside h4 {
     margin: -4px 0 0 15px; }
   aside p:last-child {
     margin-left: 15px; } }
@@ -363,7 +360,7 @@ footer {
   aside {
     width: 30%;
     float: left; }
-    aside h3 {
+    aside h4 {
       margin-left: 0;
       margin-top: 60px; }
     aside p:last-child {

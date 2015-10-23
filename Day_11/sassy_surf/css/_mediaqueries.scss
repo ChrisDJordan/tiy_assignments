@@ -7,8 +7,6 @@
     .col6 {
         float: left;
         width: 50%;
-        // background:red;
-   
     }
     header {
         h1 {
@@ -16,7 +14,7 @@
         }
     }
     aside {
-        h3 {
+        h4 {
             margin: -4px 0 0 15px;
         }
         p {
@@ -30,17 +28,14 @@
 @media screen and (min-width: 992px) {
     .container {
         width: 85%;
-        max-width:900px;
-        margin:0 auto;
-     
+        max-width: 900px;
+        margin: 0 auto;
     }
     header {
         h1 {
             color: white;
             font-size: 100px;
             margin-top: 180px;
-            // color:green;
-       
         }
     }
     .col6 {
@@ -52,14 +47,12 @@
         width: 60%;
         float: left;
         margin: 0 auto;
-        // background:red;
         margin-right: 10%;
     }
     aside {
         width: 30%;
         float: left;
-        // background:blue;
-        h3 {
+        h4 {
             margin-left: 0;
             margin-top: 60px;
         }
@@ -68,19 +61,15 @@
                 margin-left: 0;
             }
         }
-           img {
-            margin-bottom:10px;
+        img {
+            margin-bottom: 10px;
         }
     }
-
-     
-    
 }
 
 @media screen and (min-width: 1400px) {
     .container {
         width: 80%;
-        // background:green;
         max-width: 1400px;
         margin: 0 auto;
     }
@@ -88,13 +77,10 @@
         width: 60%;
         float: left;
         margin: 0 auto;
-        // background:red;
         margin-left: 5%;
     }
     aside {
         width: 30%;
         float: left;
-        // background:blue;
-   
     }
 }

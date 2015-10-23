@@ -21,6 +21,7 @@ h1, h2, h3 {
 h2 {
     font-size: 2.5rem;
     font-size: 40px;
+    color: #083452;
 }
 
 h2, h3, h4 {
@@ -37,6 +38,7 @@ h3 {
 h4 {
     font-size: 1.875rem;
     font-size: 30px;
+    colo:red;
 }
 
 a, span {
@@ -136,7 +138,7 @@ article {
         margin-bottom: 30px;
     }
     h2 {
-        color: #083452;
+        
         margin-bottom: 18px;
     }
     h2, h3 {
@@ -163,7 +165,7 @@ article {
     .marg {
         margin-top: 30px;
     }
-}
+
 
 h4 {
     float: left;
@@ -172,6 +174,7 @@ h4 {
     border-left: 2px solid #a3b3bf;
     padding: 18px 0 6px 16px;
     margin-bottom: 20px;
+}
 }
 
 /*WOAH--------------------------------------------------------------------------*/
@@ -236,7 +239,8 @@ h4 {
 /*aside----------------------------------------------*/
 
 aside {
-    margin: 0 auto;
+    margin: 0 auto 120px 0;
+    overflow: hidden;
     img {
         display: block;
         margin: 0 auto 10px auto;
@@ -248,7 +252,6 @@ aside {
             text-align: center;
         }
         ul {
-            
             overflow: hidden;
             display: block;
             li {
@@ -256,7 +259,6 @@ aside {
                 margin-right: 10px;
                 &:last-child {
                     margin-right: 0;
-
                 }
                 a {
                     font-size: 14px;
@@ -272,7 +274,6 @@ aside {
             float: right;
             margin-top: 10px;
             font-size: 15px;
-       
         }
     }
     .ad-img {
@@ -280,7 +281,7 @@ aside {
         margin: 0 auto;
         width: 100%;
     }
-    h3 {
+    h4 {
         font-weight: bold;
         color: #083452;
         clear: right;
@@ -291,60 +292,62 @@ aside {
 
 /*posts------------------------------------------------------------*/
 
-hr {
-    clear: both;
-    position: relative;
-    top: 68px;
-}
-
 .posts {
-    h2 {
-        width: 1300px;
-        font-size: 80px;
-        margin-top: 110px;
+    a{
+        display:block;
+    }
+    h3 {
+        font-size: 30px;
+        ;
+        margin-top: 60px;
         margin-bottom: 40px;
         text-align: center;
     }
-    .post_photos {
-        width: 325px;
-        height: 330px;
-        float: left;
-        p {
-            display: inline-block;
-            position: relative;
-            top: 285px;
-            left: 8px;
-            font-size: 30px;
-            color: #083452;
+    .surfer_photo {
+        background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/6TP8752YLH.jpg);
+        &:hover {
+            background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/6TP8752YLH.jpg);
+        }
+        .beer_photo {
+            background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://static.pexels.com/photos/8988/pexels-photo-large.jpeg);
         }
     }
-    span {
-        font-size: 30px;
-        font-family: helvetica;
-        color: white;
-        position: relative;
-        display: inline-block;
-    }
-    #brew_text {
-        top: 285px;
-        left: 8px;
-    }
-    #zack_text {
-        top: 250px;
-        left: 8px;
-        color: #083452;
-    }
-    .surfer_photo {
-        background: url("../images/surfer.jpg");
-    }
     .beer_photo {
-        background: url("../images/beer.jpg");
+        background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://static.pexels.com/photos/8988/pexels-photo-large.jpeg);
+        &:hover {
+            background-image: url(https://static.pexels.com/photos/8988/pexels-photo-large.jpeg);
+        }
     }
     .zack_photo {
-        background: url("../images/zack.jpg");
+           background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)),  url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/Q4PMYILN33.jpg);
+            &:hover {
+            background-image:  url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/Q4PMYILN33.jpg);
+        }
+
     }
     .booze_photo {
-        background: url("../images/booze.jpg");
+        background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)),  url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/13J0B5G5PY.jpg);
+         &:hover {
+            background-image:  url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/13J0B5G5PY.jpg);
+        }
+    }
+    .post_photos {
+        width: 100%;
+        height: 200px;
+        float: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+        p {
+            max-width: 320px;
+            
+            font-size: 22px;
+            color: #fff;
+            text-shadow: 1px 1px black;
+            margin:10px 0 0 5%;
+        }
+
     }
 }
 
@@ -376,6 +379,8 @@ footer {
         float: left;
         text-decoration: none;
         font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
     }
 }
 
