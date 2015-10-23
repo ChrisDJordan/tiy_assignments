@@ -225,17 +225,23 @@ aside {
     margin: 0 auto; }
     aside nav p {
       text-align: center; }
-    aside nav a {
-      font-size: 14px;
-      text-decoration: none;
-      margin: 10px 10px 30px 0; }
-      aside nav a:last-child {
-        margin-right: 0; }
-    aside nav a:nth-child(6) {
-      float: right;
-      margin-top: 10px;
-      font-size: 15px;
-      color: red; }
+    aside nav ul {
+      overflow: hidden;
+      display: block; }
+      aside nav ul li {
+        display: inline-block;
+        margin-right: 10px; }
+        aside nav ul li:last-child {
+          margin-right: 0; }
+        aside nav ul li a {
+          font-size: 14px;
+          text-decoration: none;
+          margin: 10px 0 30px 0;
+          text-align: center; }
+  aside a:nth-child(2) {
+    float: right;
+    margin-top: 10px;
+    font-size: 15px; }
   aside .ad-img {
     display: block;
     margin: 0 auto;
@@ -244,7 +250,7 @@ aside {
     font-weight: bold;
     color: #083452;
     clear: right;
-    margin-top: 60px;
+    margin-top: 40px;
     font-size: 18; }
 
 /*posts------------------------------------------------------------*/
@@ -333,23 +339,33 @@ footer {
   aside p:last-child {
     margin-left: 15px; } }
 @media screen and (min-width: 992px) {
+  .container {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto; }
+
   header h1 {
-    color: green; }
+    color: white;
+    font-size: 100px;
+    margin-top: 180px; }
 
   .col6 {
     float: none;
     margin: 0 auto;
-    width: 80%; }
+    width: 100%; }
 
   section {
     width: 60%;
-    float: left; }
+    float: left;
+    margin: 0 auto;
+    margin-left: 5%; }
 
   aside {
-    width: 40%;
+    width: 30%;
     float: left; }
     aside h3 {
-      margin-left: 0; }
+      margin-left: 0;
+      margin-top: 60px; }
     aside p:last-child {
       margin-left: 0; }
 

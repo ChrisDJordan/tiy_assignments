@@ -13,6 +13,7 @@
     header {
         h1 {
             color: red;
+
         }
     }
 
@@ -29,26 +30,43 @@
 }
 
 @media screen and (min-width: 992px) {
+     .container {
+        width: 80%;
+        // background:green;
+      
+        max-width:1400px;
+        margin:0 auto;
+    }
     header {
         h1 {
-            color: green;
+            color: white;
+            font-size:100px;
+               margin-top:180px;
+               // color:green;
         }
     }
     .col6 {
         float: none;
         margin: 0 auto;
-        width:80%;
+        width:100%;
+
     }
     section {
         width: 60%;
         float: left;
+        margin:0 auto;
+        // background:red;
+        margin-left:5%;
     }
     aside {
-        width: 40%;
+        width: 30%;
         float: left;
+        // background:blue;
+
 
         h3{
             margin-left: 0;
+                margin-top: 60px;
         }
 
         p{
