@@ -1,11 +1,66 @@
 @media screen and (min-width: 480px) {}
 
-@media screen and (min-width: 768px) {}
-
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .container {
         width: 80%;
-        
+    }
+    .col6 {
+        float: left;
+        width: 50%;
+        // background:red;
+   
+    }
+    header {
+        h1 {
+            color: red;
+        }
+    }
+
+    aside {
+        h3 {
+            margin: -4px 0 0 15px;
+        }
+        p {
+            &:last-child {
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        h1 {
+            color: green;
+        }
+    }
+    .col6 {
+        float: none;
+        margin: 0 auto;
+        width:80%;
+    }
+    section {
+        width: 60%;
+        float: left;
+    }
+    aside {
+        width: 40%;
+        float: left;
+
+        h3{
+            margin-left: 0;
+        }
+
+        p{
+            &:last-child {
+                margin-left: 0;
+            }
+        }
+    }
+    aside {
+        img {
+            margin: 0 auto;
+        }
     }
 }
 

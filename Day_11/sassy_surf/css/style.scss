@@ -122,6 +122,10 @@ header {
     width: 90%;
 }
 
+section {
+    overflow: hidden;
+}
+
 /*article_part1----------------------------------------------*/
 
 article {
@@ -232,48 +236,56 @@ h4 {
 /*aside----------------------------------------------*/
 
 aside {
-    width: 80%;
     margin: 0 auto;
-}
 
-aside img {
-    display: block;
-    margin: 0 auto;
-}
+    img {
+        display: block;
+        margin: 0 auto 10px auto;
 
-aside nav {
-    text-align: center;
-    margin-top: 35px;
-    margin-bottom: 50px;
-}
-
-aside nav a {
-    font-size: 14px;
-    text-decoration: none;
-    margin-right: 10px;
-    &:last-child {
-        margin-right: 0;
     }
-}
-
-aside {
-    a {
-        &:nth-child(4) {
+    nav {
+        text-align: center;
+      
+        margin:0 auto;
+       p{
+        text-align:center;
+       }
+        a {
+            font-size: 14px;
+            text-decoration: none;
+          
+            margin: 10px 10px 30px 0;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+           a {
+        &:nth-child(6) {
             float: right;
-            margin: 10px 5px 0 0;
+            margin-top: 10px;
+            font-size:15px;
+            color:red;
+        
         }
     }
-}
+    }
+ 
+    .ad-img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
 
-aside p {}
-
-aside h3 {
+ h3 {
     font-weight: bold;
     color: #083452;
     clear: right;
     margin-top: 60px;
     font-size: 18;
 }
+
+}
+
 
 /*posts------------------------------------------------------------*/
 
