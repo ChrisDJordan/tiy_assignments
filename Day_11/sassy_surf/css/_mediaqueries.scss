@@ -13,10 +13,8 @@
     header {
         h1 {
             color: red;
-
         }
     }
-
     aside {
         h3 {
             margin: -4px 0 0 15px;
@@ -30,56 +28,73 @@
 }
 
 @media screen and (min-width: 992px) {
-     .container {
-        width: 80%;
-        // background:green;
-      
-        max-width:1400px;
+    .container {
+        width: 85%;
+        max-width:900px;
         margin:0 auto;
+     
     }
     header {
         h1 {
             color: white;
-            font-size:100px;
-               margin-top:180px;
-               // color:green;
+            font-size: 100px;
+            margin-top: 180px;
+            // color:green;
+       
         }
     }
     .col6 {
         float: none;
         margin: 0 auto;
-        width:100%;
-
+        width: 100%;
     }
     section {
         width: 60%;
         float: left;
-        margin:0 auto;
+        margin: 0 auto;
         // background:red;
-        margin-left:5%;
+        margin-right: 10%;
     }
     aside {
         width: 30%;
         float: left;
         // background:blue;
-
-
-        h3{
+        h3 {
             margin-left: 0;
-                margin-top: 60px;
+            margin-top: 60px;
         }
-
-        p{
+        p {
             &:last-child {
                 margin-left: 0;
             }
         }
-    }
-    aside {
-        img {
-            margin: 0 auto;
+           img {
+            margin-bottom:10px;
         }
     }
+
+     
+    
 }
 
-@media screen and (min-width: 1400px) {}
+@media screen and (min-width: 1400px) {
+    .container {
+        width: 80%;
+        // background:green;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    section {
+        width: 60%;
+        float: left;
+        margin: 0 auto;
+        // background:red;
+        margin-left: 5%;
+    }
+    aside {
+        width: 30%;
+        float: left;
+        // background:blue;
+   
+    }
+}

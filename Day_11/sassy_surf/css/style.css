@@ -340,8 +340,8 @@ footer {
     margin-left: 15px; } }
 @media screen and (min-width: 992px) {
   .container {
-    width: 80%;
-    max-width: 1400px;
+    width: 85%;
+    max-width: 900px;
     margin: 0 auto; }
 
   header h1 {
@@ -358,7 +358,7 @@ footer {
     width: 60%;
     float: left;
     margin: 0 auto;
-    margin-left: 5%; }
+    margin-right: 10%; }
 
   aside {
     width: 30%;
@@ -368,8 +368,22 @@ footer {
       margin-top: 60px; }
     aside p:last-child {
       margin-left: 0; }
+    aside img {
+      margin-bottom: 10px; } }
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto; }
 
-  aside img {
-    margin: 0 auto; } }
+  section {
+    width: 60%;
+    float: left;
+    margin: 0 auto;
+    margin-left: 5%; }
+
+  aside {
+    width: 30%;
+    float: left; } }
 
 /*# sourceMappingURL=style.css.map */
