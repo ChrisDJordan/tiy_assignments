@@ -314,31 +314,29 @@ aside {
         margin: 60px 0 40px 0;
         text-align: center;
     }
-    .surfer_photo {
-        background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/6TP8752YLH.jpg);
+    .guitar-guy {
+        background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(../images/guitar-guy.jpg);
         &:hover {
-            background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/6TP8752YLH.jpg);
+            background-image: url(../images/guitar-guy.jpg);
         }
-        .beer_photo {
-            background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://static.pexels.com/photos/8988/pexels-photo-large.jpeg);
+       
+    }
+    .guitar-girl {
+        background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(../images/guitar-girl.jpg);
+        &:hover {
+            background-image: url(../images/guitar-girl.jpg);
         }
     }
-    .beer_photo {
-        background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://static.pexels.com/photos/8988/pexels-photo-large.jpeg);
+    .keyboard-player {
+        background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(../images/keyboard-player.jpg);
         &:hover {
-            background-image: url(https://static.pexels.com/photos/8988/pexels-photo-large.jpeg);
+            background-image: url(../images/keyboard-player.jpg);
         }
     }
-    .zack_photo {
-        background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/Q4PMYILN33.jpg);
+    .crowd {
+        background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(../images/crowd.jpg);
         &:hover {
-            background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/Q4PMYILN33.jpg);
-        }
-    }
-    .booze_photo {
-        background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/13J0B5G5PY.jpg);
-        &:hover {
-            background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/13J0B5G5PY.jpg);
+            background-image: url(../images/crowd.jpg);
         }
     }
     .post_photos {

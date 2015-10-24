@@ -287,24 +287,22 @@ aside {
   font-size: 35px;
   margin: 60px 0 40px 0;
   text-align: center; }
-.posts .surfer_photo {
-  background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/6TP8752YLH.jpg); }
-  .posts .surfer_photo:hover {
-    background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/6TP8752YLH.jpg); }
-  .posts .surfer_photo .beer_photo {
-    background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://static.pexels.com/photos/8988/pexels-photo-large.jpeg); }
-.posts .beer_photo {
-  background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://static.pexels.com/photos/8988/pexels-photo-large.jpeg); }
-  .posts .beer_photo:hover {
-    background-image: url(https://static.pexels.com/photos/8988/pexels-photo-large.jpeg); }
-.posts .zack_photo {
-  background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/Q4PMYILN33.jpg); }
-  .posts .zack_photo:hover {
-    background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/Q4PMYILN33.jpg); }
-.posts .booze_photo {
-  background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/13J0B5G5PY.jpg); }
-  .posts .booze_photo:hover {
-    background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/13J0B5G5PY.jpg); }
+.posts .guitar-guy {
+  background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(../images/guitar-guy.jpg); }
+  .posts .guitar-guy:hover {
+    background-image: url(../images/guitar-guy.jpg); }
+.posts .guitar-girl {
+  background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(../images/guitar-girl.jpg); }
+  .posts .guitar-girl:hover {
+    background-image: url(../images/guitar-girl.jpg); }
+.posts .keyboard-player {
+  background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(../images/keyboard-player.jpg); }
+  .posts .keyboard-player:hover {
+    background-image: url(../images/keyboard-player.jpg); }
+.posts .crowd {
+  background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(../images/crowd.jpg); }
+  .posts .crowd:hover {
+    background-image: url(../images/crowd.jpg); }
 .posts .post_photos {
   width: 100%;
   height: 200px;
