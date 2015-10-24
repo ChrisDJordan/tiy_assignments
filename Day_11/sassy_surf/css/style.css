@@ -114,7 +114,7 @@ header {
   background-position: center bottom; }
   header h1 {
     text-align: center;
-    margin-top: 220px;
+    margin-top: 160px;
     color: white;
     text-shadow: 2px 2px grey; }
   header p {
@@ -122,25 +122,32 @@ header {
     color: white;
     font-weight: 200;
     text-shadow: 1px 1px grey; }
-
-.right-nav {
-  margin-right: 5%;
-  margin-top: 25px;
-  float: right; }
-  .right-nav li {
-    float: left;
-    margin-left: 30px; }
-    .right-nav li:last-child {
-      margin-left: 10px;
-      position: relative;
-      bottom: 5px; }
-  .right-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.125rem;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700; }
+  header nav .left-nav {
+    margin-left: 5%;
+    display: inline-block;
+    margin-top: 25px; }
+    header nav .left-nav a {
+      font-size: 1rem;
+      font-size: 16px;
+      text-decoration: none;
+      color: #fff; }
+  header nav .right-nav {
+    margin-right: 5%;
+    margin-top: 25px;
+    display: inline-block;
+    float: right; }
+    header nav .right-nav li {
+      float: left;
+      margin-left: 30px; }
+      header nav .right-nav li:last-child {
+        margin-left: 10px;
+        position: relative;
+        bottom: 5px; }
+    header nav .right-nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 1rem;
+      font-size: 16px; }
 
 .container {
   margin: 0 auto;
@@ -348,7 +355,7 @@ footer {
 @media screen and (min-width: 480px) {
   header h1 {
     max-width: 500px;
-    margin: 190px auto 0 auto;
+    margin: 150px auto 0 auto;
     font-size: 60px; } }
 @media screen and (min-width: 768px) {
   .container {
@@ -359,7 +366,7 @@ footer {
     width: 50%; }
 
   header h1 {
-    margin: 140px auto 0 auto;
+    margin: 110px auto 0 auto;
     font-size: 80px;
     max-width: 600px; }
 
@@ -384,6 +391,9 @@ footer {
     margin-top: 140px;
     max-width: 100%; }
   header p {
+    font-size: 18px; }
+  header nav .left-nav a, header nav .right-nav a {
+    font-size: 1.125rem;
     font-size: 18px; }
 
   .col6 {
@@ -435,7 +445,7 @@ footer {
 @media screen and (min-width: 1400px) {
   .container {
     width: 80%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto; }
 
   section {

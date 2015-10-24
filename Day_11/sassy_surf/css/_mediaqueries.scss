@@ -2,7 +2,7 @@
     header {
         h1 {
             max-width: 500px;
-            margin: 190px auto 0 auto;
+            margin: 150px auto 0 auto;
             font-size: 60px;
         }
     }
@@ -18,7 +18,7 @@
     }
     header {
         h1 {
-            margin: 140px auto 0 auto;
+            margin: 110px auto 0 auto;
             font-size: 80px;
             max-width: 600px;
         }
@@ -60,6 +60,22 @@
         p {
             font-size: 18px;
         }
+
+nav{
+    .left-nav, .right-nav{
+        a{
+            font-size:1.125rem;
+            font-size:18px;
+        }
+    }
+}
+
+
+
+
+
+
+
     }
     .col6 {
         float: none;
@@ -134,7 +150,7 @@
 @media screen and (min-width: 1400px) {
     .container {
         width: 80%;
-        max-width: 1400px;
+        max-width: 1200px;
         margin: 0 auto;
     }
     section {
