@@ -68,6 +68,7 @@ h2, h3, h4 {
   font-weight: 700; }
 
 h3 {
+  font-size: 1.563rem;
   font-size: 25px;
   margin-bottom: 8px;
   color: #083452; }
@@ -119,7 +120,8 @@ header {
   header p {
     text-align: center;
     color: white;
-    font-weight: 200; }
+    font-weight: 200;
+    text-shadow: 1px 1px grey; }
 
 .right-nav {
   margin-right: 5%;
@@ -163,12 +165,16 @@ article {
     max-width: 40px;
     margin-right: 20px;
     float: left;
-    clear: right; }
+    clear: right;
+    border-radius: 20px; }
+  article a {
+    margin-bottom: -14px; }
   article span {
     padding-bottom: 30px;
     padding-top: 10px; }
     article span a {
       margin-left: 5px;
+      font-size: 1rem;
       font-size: 16px; }
   article p {
     color: #5e686f;
@@ -183,8 +189,7 @@ article {
     padding: 18px 0 6px 16px;
     margin-bottom: 20px; }
 
-/*WOAH--------------------------------------------------------------------------*/
-/* article nav---------------------------------------------------------------------*/
+/*article_nav----------------------------------------------*/
 .article-nav {
   overflow: hidden;
   float: left;
@@ -209,6 +214,7 @@ article {
     text-align: center;
     line-height: 30px;
     font-family: helvetica;
+    font-size: 0.875em;
     font-size: 14px;
     padding: 0 10px 0 10px; }
   .article-nav .baby_nav, .article-nav .big_nav {
@@ -221,6 +227,9 @@ aside {
   aside img {
     display: block;
     margin: 0 auto 10px auto; }
+  aside .img-fix {
+    width: 80px;
+    border-radius: 40px; }
   aside nav {
     text-align: center;
     margin: 0 auto; }
@@ -235,14 +244,18 @@ aside {
         aside nav ul li:last-child {
           margin-right: 0; }
         aside nav ul li a {
+          font-size: 0.875em;
           font-size: 14px;
           text-decoration: none;
           margin: 10px 0 30px 0;
           text-align: center; }
-  aside a:nth-child(2) {
-    float: right;
-    margin-top: 10px;
-    font-size: 15px; }
+  aside a {
+    display: block; }
+    aside a:nth-child(2) {
+      float: right;
+      margin-top: 10px;
+      font-size: 0.938rem;
+      font-size: 15px; }
   aside .ad-img {
     display: block;
     margin: 0 auto;
@@ -252,15 +265,16 @@ aside {
     color: #083452;
     clear: right;
     margin-top: 40px;
+    font-size: 1.125rem;
     font-size: 18; }
 
 /*posts------------------------------------------------------------*/
 .posts a {
   display: block; }
 .posts h3 {
-  font-size: 30px;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  font-size: 2.188rem;
+  font-size: 35px;
+  margin: 60px 0 40px 0;
   text-align: center; }
 .posts .surfer_photo {
   background-image: linear-gradient(rgba(135, 155, 160, 0.5), rgba(135, 155, 160, 0.5)), url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/6TP8752YLH.jpg); }
@@ -287,39 +301,55 @@ aside {
   background-size: cover;
   background-repeat: no-repeat; }
   .posts .post_photos p {
-    max-width: 320px;
+    font-size: 1.375rem;
     font-size: 22px;
     color: #fff;
     text-shadow: 1px 1px black;
-    margin: 10px 0 0 5%; }
+    text-align: center;
+    padding: 0 20px 0 20px;
+    max-width: 400px;
+    margin: 60px auto; }
 
 /*footer-------------------------------------------------------------------*/
 footer {
   background: #083452;
-  height: 96px;
-  width: 1300px;
-  clear: both; }
-  footer img {
-    position: relative;
-    left: 165px;
-    top: 30; }
-  footer p {
-    display: inline;
-    position: relative;
-    font-size: 14px;
-    left: 172px;
-    top: 18px;
-    color: #a3b3bf; }
-  footer nav {
-    float: right;
-    margin: 44px 130px 0 0; }
+  width: 100%;
+  float: left;
+  padding: 30px 0 30px 0; }
   footer a {
-    float: left;
+    margin: 0 auto;
     text-decoration: none;
+    font-size: 0.875rem;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700; }
+    color: #a3b3bf;
+    display: block; }
+  footer img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px; }
+  footer p {
+    font-size: 0.875rem;
+    font-size: 14px;
+    color: #a3b3bf;
+    text-align: center;
+    margin-bottom: 10px; }
+  footer nav {
+    text-align: center;
+    margin: 0 auto; }
+    footer nav ul {
+      overflow: hidden;
+      display: block; }
+      footer nav ul li {
+        display: inline-block;
+        margin-right: 10px; }
+        footer nav ul li:last-child {
+          margin-right: 0; }
 
+@media screen and (min-width: 480px) {
+  header h1 {
+    max-width: 500px;
+    margin: 190px auto 0 auto;
+    font-size: 60px; } }
 @media screen and (min-width: 768px) {
   .container {
     width: 80%; }
@@ -329,12 +359,19 @@ footer {
     width: 50%; }
 
   header h1 {
-    color: red; }
+    margin: 140px auto 0 auto;
+    font-size: 80px;
+    max-width: 600px; }
 
   aside h4 {
     margin: -4px 0 0 15px; }
   aside p:last-child {
-    margin-left: 15px; } }
+    margin-left: 15px; }
+
+  .posts h3 {
+    font-size: 40px; }
+  .posts .post_photos {
+    width: 50%; } }
 @media screen and (min-width: 992px) {
   .container {
     width: 85%;
@@ -343,8 +380,11 @@ footer {
 
   header h1 {
     color: white;
-    font-size: 100px;
-    margin-top: 180px; }
+    font-size: 84px;
+    margin-top: 140px;
+    max-width: 100%; }
+  header p {
+    font-size: 18px; }
 
   .col6 {
     float: none;
@@ -366,7 +406,32 @@ footer {
     aside p:last-child {
       margin-left: 0; }
     aside img {
-      margin-bottom: 10px; } }
+      margin-bottom: 10px; }
+
+  .posts h3 {
+    font-size: 50px; }
+  .posts .post_photos {
+    width: 25%;
+    height: 280px; }
+
+  footer img {
+    float: left;
+    margin: 0 20px 0 5%; }
+  footer p {
+    float: left;
+    margin-top: 10px; }
+  footer nav {
+    float: right;
+    margin-right: 5%;
+    margin-top: 10px; }
+    footer nav a:hover {
+      color: #fff; } }
+@media screen and (min-width: 1200px) {
+  header h1 {
+    color: white;
+    font-size: 90px;
+    margin-top: 180px;
+    max-width: 100%; } }
 @media screen and (min-width: 1400px) {
   .container {
     width: 80%;
