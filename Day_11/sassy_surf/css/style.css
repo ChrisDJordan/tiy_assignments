@@ -272,8 +272,12 @@ aside {
     color: #083452;
     clear: right;
     margin-top: 40px;
+    margin-bottom: 10px;
     font-size: 1.125rem;
     font-size: 18; }
+  aside .inline {
+    display: inline-block;
+    margin-left: 5px; }
 
 /*posts------------------------------------------------------------*/
 .posts a {
@@ -371,7 +375,7 @@ footer {
     max-width: 600px; }
 
   aside h4 {
-    margin: -4px 0 0 15px; }
+    margin: -4px 0 10 px15px; }
   aside p:last-child {
     margin-left: 15px; }
 
