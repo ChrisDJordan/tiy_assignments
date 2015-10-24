@@ -3,6 +3,7 @@
         h1 {
             max-width: 500px;
             margin: 150px auto 0 auto;
+            font-size: 3.75rem;
             font-size: 60px;
         }
     }
@@ -19,6 +20,7 @@
     header {
         h1 {
             margin: 110px auto 0 auto;
+            font-size: 5rem;
             font-size: 80px;
             max-width: 600px;
         }
@@ -35,6 +37,7 @@
     }
     .posts {
         h3 {
+            font-size: 2.5rem;
             font-size: 40px;
         }
         .post_photos {
@@ -52,30 +55,23 @@
     header {
         h1 {
             color: white;
+            font-size: 5.25rem;
             font-size: 84px;
             margin-top: 140px;
             max-width: 100%;
-           
         }
         p {
+            font-size: 1.125rem;
             font-size: 18px;
         }
-
-nav{
-    .left-nav, .right-nav{
-        a{
-            font-size:1.125rem;
-            font-size:18px;
+        nav {
+            .left-nav, .right-nav {
+                a {
+                    font-size: 1.125rem;
+                    font-size: 18px;
+                }
+            }
         }
-    }
-}
-
-
-
-
-
-
-
     }
     .col6 {
         float: none;
@@ -106,6 +102,7 @@ nav{
     }
     .posts {
         h3 {
+            font-size: 3.125rem;
             font-size: 50px;
         }
         .post_photos {
@@ -140,6 +137,7 @@ nav{
     header {
         h1 {
             color: white;
+            font-size: 5.625rem;
             font-size: 90px;
             margin-top: 180px;
             max-width: 100%;
